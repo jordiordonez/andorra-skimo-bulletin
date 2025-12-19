@@ -1,0 +1,122 @@
+route_index_global;name;zone;difficulty;distance;elevation_gain;orientation;start_point;end_point;start_altitude;end_altitude
+0;Agulla de Baiau;Valls del Comapedrosa;COMPLEX;6.6km;1300m;N+SE;Edificis de Prats Sobirans, a 1.560 m;Agulla de Baiau;1560;2860
+1;Alt del Cubil;Cortals d'Encamp;COMPLEX;4.3km;746m;O+N;Carretera intermèdia del Funicamp, a 2.090 m (Carretera dels Cortals d’Encamp);Alt del Cubil, a 2834 m;2090;2834
+2;Alt del Griu;Cortals d'Encamp;CHALLENGING;7.7km;985m;O;Carretera dels Cortals d’Encamp (km 6, a 1.887 m). Estacionarem el vehicle al costat de la carretera, en un lloc que no molesti;Alt del Griu, a 2841m;1887;2841
+3;Avetar;El Tarter i Soldeu;COMPLEX;3.6km;744m;N;Pàrquing del Tarter, a 1.710 m o pàrquing del Nòrdic, a 1.720 m.;Tosa dels Espiolets, a 2.467 m;1720;2467
+4;Basses de les Salamandres;Entor;SIMPLE;2.9km;412m;S+SE;Borda del Marticella, a 1.940m;Basses de les Salamandres, a 2.343m;1940;2343
+5;Bony d'Envalira;Grau Roig;COMPLEX;3.8km;674m;NO+SO+O;Aparcament de Grau Roig, a 2.100 m;Bony d'Envalira, a 2.684 m;2100;2684
+6;Bony de la Pleta de Jan;Ransol;CHALLENGING;3.3km;638m;S+SE;Final carretera, a 1.953m;Bony de la Pleta de Jan, a 2.525m;1953;2525
+7;Bony de les Neres;Bony de les Neres;SIMPLE;3.1km;232m;N;Pàrquing de la carretera del Coll d’Ordino, a 1.981 m;Bony de les Neres, a 2.209 m;1981;2209
+8;Bosc de Soldeu;El Tarter i Soldeu;COMPLEX;3.2km;636m;N;Peu de l’estació de Soldeu, a 1.800 m;Tosa dels Espiolets, a 2.467 m;1800;2467
+9;Cabana de Siscaró;Vall d'Incles i Siscaró;CHALLENGING;4.8km;389m;N+NE;Pàrquing de la vall d'Incles, a 1.750m;Cabana de Siscaró, a 2.145m;1750;2145
+10;Camí­ de l'Obac;El Tarter i Soldeu;CHALLENGING;4.5km;828m;N+NE;Pàrquing del Tarter, a 1.710 m;Pic d'Encampadana, a 2.491 m;1710;2491
+11;Canals de la Rabassa;Sorteny;COMPLEX;5.3km;520m;S+E+O;Pàrquing de Sorteny, a 1780m;Pàrquing de Sorteny, a 1780m;1780;1780
+12;Cap de la Tosa d';Entor;SIMPLE;2.5km;559m;S;Borda del Marticella, a 1.940m;Cap de la Tosa d'Entor, a 2.506m;1940;2506
+13;Cap dels Agols;Cortals d'Encamp;CHALLENGING;5.6km;1048m;O+N+SO;Borda de les Pardines, a 1.618 m;Cap dels Agols, a 2.673 m;1618;2673
+14;Circ dels Colells;Grau Roig;SIMPLE;3.1km;361m;NO+N;Aparcament de Grau Roig, a 2.100 m;Circ dels Colells, a 2.470 m;2100;2470
+15;Circular al pas Alt de Ríbuls;Grau Roig;COMPLEX;10.5km;842m;N+S+NE+SO;Aparcament de Grau Roig, a 2.100 m;Pas Alt de Ríbuls, a 2.640 m;2100;2640
+16;Circular de Creussans i Tristaina;Arcalís;COMPLEX;8.2km;760m;S+SE+E;Aparcament d'Arcalís, a 1.940 m;Punta de Peyreguils, a 2.702 m;1940;2702
+17;Circular del Baser Negre i el Port del Rat;Arcalís;COMPLEX;6.2km;595m;NE+E;Final carretera d'Arcalís, a 2.090 m;Port del Rat, a 2.594 m;2090;2594
+18;Circular dels Colells i la portella de Joan Antoni;Grau Roig;COMPLEX;6.6km;743m;NO+S+SE;Aparcament de Grau Roig, a 2.100 m;Portella de Joan Antoni, 2.671 m;2100;2671
+19;Circular dels Pessons;Grau Roig;SIMPLE;6.1km;467m;N+E;Aparcament de Grau Roig, a 2.100 m;Circ dels Pessons, a 2.570 m;2100;2570
+20;Circular dels Pessons i Montmalús;Grau Roig;COMPLEX;7.7km;716m;N+S+E;Aparcament de Grau Roig, a 2.100 m;Collada de Montmalús, a 2.704 m;2100;2704
+21;Circular refugi de Fontverd - refugi de Perafita;Valls de Madriu, Perafita i Claror;CHALLENGING;12.7km;1197m;S+O+N+E;Encreuament de la carretera CS200 Amb la carretera CS101, a 1.232 m;Encreuament de la carretera CS200 Amb la carretera CS101, a 1.232 m;1232;1232
+22;Coll d’Arenes;Montaup i Vall del Riu;COMPLEX;3.0km;634m;S+E+O;Pàrquing de la carretera de Montaup, situat a l’encreuament de la carretera que baixa a les bordes de Mereig, a 1.920 m (a 150 m del km 8).;Coll d’Arenes, a 2539 m;1920;2539
+23;Collada d’Entinyola;Cortals d'Encamp;COMPLEX;8.4km;777m;N+O;Carretera dels Cortals d’Encamp (km 6, a 1.887 m). Estacionarem el vehicle al costat de la carretera, en un lloc que no molesti;Collada d’Entinyola, a 2663 m;1887;2663
+24;Collada de Ferreroles;Sorteny;CHALLENGING;5.3km;755m;N+NE;Pàrquing de Sorteny, a 1780m;Collada de Ferreroles, a 2533m;1780;2533
+25;Collada de la Coma;Montaup i Vall del Riu;COMPLEX;7.8km;809m;SE+S;Els Plans, a 1.825 m (Ransol). Combinació de dos vehicles.;Collada de la Coma, a 2640 m;1825;2640
+26;Collada de Muntaner i Pic del Cubil;Cortals de Sispony;CHALLENGING;6.8km;1011m;SE;Començament de la carretera dels Cortals de Sispony (zona eixamplada), a 1.340 m;Pic del Cubil, a 2.358 m;1340;2358
+27;Collart;El Tarter i Soldeu;SIMPLE;2.8km;521m;N;Pàrquing del Tarter, a 1.710 m o pàrquing del Nòrdic, a 1.720 m.;Pla dels Espiolets, a 2.250 m;1720;2250
+28;Coma dels Llops;Cortals d'Encamp;CHALLENGING;4.9km;542m;N+O;Carretera dels Cortals d’Encamp (km 6, a 1.887 m). Estacionarem el vehicle al costat de la carretera, en un lloc que no molesti;Coma dels Llops, a 2400 m;1887;2400
+29;Estany de l'Estanyó;Sorteny;SIMPLE;4.2km;558m;SO+O;Pàrquing de Sorteny, a 1780m;Estany de l'Estanyó, a 2339m;1780;2339
+30;Estany de l'Isla;Vall d'Incles i Siscaró;CHALLENGING;5.3km;613m;SE;Pàrquing de la vall d'Incles, a 1.750m;Estany de l'Isla, a 2.368m;1750;2368
+31;Estany del Meligar;Cortals d'Encamp;CHALLENGING;3.1km;386m;O+N;Carretera intermèdia del Funicamp, a 2.090 m (Carretera dels Cortals d’Encamp);Estany del Meligar, a 2470m;2090;2470
+32;Estanys Forcats;Valls del Comapedrosa;COMPLEX;5.8km;1065m;E+S;Edificis de Prats Sobirans, a 1.560 m;Estanys Forcats, a 2631 m;1560;2631
+33;La Serra;Pal i Coll de la Botella;SIMPLE;3.5km;466m;N;Aparcarem el vehicle al pàrquing del Pla de la Caubella, a l’embarcament del tapís, a 1.900 m.;Pic del Cubil, a 2.358 m;1900;2358
+34;Mònjol de Cabana Sorda;Vall d'Incles i Siscaró;COMPLEX;6.8km;835m;S;Pàrquing de la vall d'Incles, a 1.750m;Mònjol de Cabana Sorda, a 2.597m;1750;2597
+35;Pic d'Anrodat;Vall d'Incles i Siscaró;COMPLEX;7.5km;959m;SE;Pàrquing de la vall d'Incles, a 1.750m;Pic d'Anrodat, a 2.731m;1750;2731
+36;Pic d'Enclar;Cortals de Sispony;CHALLENGING;6.2km;1032m;NO;Començament de la carretera dels Cortals de Sispony (zona eixamplada), a 1.340 m;Pic d'Enclar, a 2.383 m;1340;2383
+37;Pic d'Envalira i Pic Negre d'Envalira;Grau Roig;COMPLEX;3.4km;698m;NO+N+SE;Aparcament de les Abelletes (Pas de la Casa), a 2.138 m;Pic d'Envalira (2.815 m) i Pic Negre d'Envalira (2.822 m);2138;2822
+38;Pic de Baiau;Valls del Comapedrosa;COMPLEX;6.0km;1312m;E+NE+S;Edificis de Prats Sobirans, a 1.560 m;Pic de Baiau, a 2886 m;1560;2886
+39;Pic de Banyell per Rialb;Vall de Rialb;COMPLEX;9.0km;916m;O+NO+S;Pàrquing de Sorteny, a 1780m;Pic de Banyell, a 2702m;1780;2702
+40;Pic de Banyell per;Sorteny;CHALLENGING;8.9km;913m;S+O+NO;Pàrquing de Sorteny, a 1780m;Pic de Banyell, a 2702m;1780;2702
+41;Pic de Besalí;Vall de Rialb;COMPLEX;4.9km;853m;N;Pàrquing de Sorteny, a 1780m;Pic de Besalí, a 2.639m;1780;2639
+42;Pic de Besalí;El Castellar;CHALLENGING;4.9km;788m;NO;Pont del Castellar, a 1.854m;Pic de Besalí, a 2.639m;1854;2639
+43;Pic de Carroi;Cortals de Sispony;CHALLENGING;9.8km;984m;N;Començament de la carretera dels Cortals de Sispony (zona eixamplada), a 1.340 m;Pic de Carroi, a 2.332 m;1340;2332
+44;Pic de Cataperdís;Arcalís;COMPLEX;6.5km;754m;N;Final carretera d'Arcalís, a 2.090 m;Pic de Cataperdís, a 2.805 m;2090;2805
+45;Pic de Comapedrosa;Valls del Comapedrosa;COMPLEX;8.1km;1373m;E+NE+S;Edificis de Prats Sobirans, a 1.560 m;Pic de Comapedrosa, a 2942 m;1560;2942
+46;Pic de Creussans;Arcalís;COMPLEX;5.3km;606m;E+S;Final carretera d'Arcalís, a 2.090 m;Pic de Creussans, a 2.682 m;2090;2682
+47;Pic de l'Àliga;Grau Roig;COMPLEX;4.8km;709m;N+NE+SO;Aparcament de Grau Roig, a 2.100 m;Pic de l'Àliga, a 2.820 m;2100;2820
+48;Pic de l'Aspra;Cortals d'Encamp;CHALLENGING;7.0km;802m;O;Carretera dels Cortals d’Encamp (km 6, a 1.887 m). Estacionarem el vehicle al costat de la carretera, en un lloc que no molesti;Pic de l’Aspra , a 2697 m;1887;2697
+49;Pic de l'Estany Mort;Ransol;COMPLEX;3.7km;854m;S;Final carretera, a 1.953m;Pic de l'Estany Mort, a 2.716m;1953;2716
+50;Pic de l'Estanyó;Sorteny;CHALLENGING;8.8km;1132m;SO+O;Pàrquing de Sorteny, a 1780m;Pic de l'Estanyó, a 2915m;1780;2915
+51;Pic de l’Estanyó;Montaup i Vall del Riu;COMPLEX;11.9km;1084m;S+SO;Els Plans, a 1.825 m (Ransol). Combinació de dos vehicles.;Pic de l’Estanyó, a 2915 m;1825;2915
+52;Pic de l'Hortell;Arcalís;CHALLENGING;2.2km;615m;N;Aparcament d'Arcalís, a 1.940 m;Pic de l'Hortell, a 2.562 m;1940;2562
+53;Pic de la Cabaneta;Montaup i Vall del Riu;COMPLEX;11.4km;1052m;S+SO;Els Plans, a 1.825 m (Ransol). Combinació de dos vehicles.;Pic de la Cabaneta, a 2865 m;1825;2865
+54;Pic de la Cabaneta i Roc Melé;Vall d'Incles i Siscaró;COMPLEX;10.9km;1059m;N+O;Pàrquing de la vall d'Incles, a 1.750m;Pic de la Cabaneta, a 2.817m;1750;2817
+55;Pic de la Coma de Seignac;Ransol;COMPLEX;4.9km;966m;S+SE;Final carretera, a 1.953m;Pic de la Coma de Seignac, a 2.856m;1953;2856
+56;Pic de la Coma de Varilles;Vall d'Incles i Siscaró;COMPLEX;8.7km;1027m;S+SE;Pàrquing de la vall d'Incles, a 1.750m;Pic de la Coma de Varilles, a 2.760m;1750;2760
+57;Pic de la Coma de Varilles;Ransol;CHALLENGING;3.6km;869m;O+SO;Final carretera, a 1.953m;Pic de la Coma de Varilles, a 2.760m;1953;2760
+58;Pic de la Font Blanca;El Castellar;COMPLEX;10.4km;1051m;S+O;Pont del Castellar, a 1.854m;Pic de la Font Blanca, a 2.903m;1854;2903
+59;Pic de la Maiana;Valls de Madriu, Perafita i Claror;CHALLENGING;6.1km;1288m;NO+O+SO;Encreuament de la carretera CS200 Amb la carretera CS101, a 1.232 m;Pic de la Maiana, 2.522 m;1232;2522
+60;Pic de la Menera;Grau Roig;CHALLENGING;3.0km;661m;NO+SO;Aparcament de Grau Roig, a 2.100 m;Pic de la Menera, a 2.775 m;2100;2775
+61;Pic de la Pala Alta;Montaup i Vall del Riu;COMPLEX;9.2km;887m;S+SE+SO;Els Plans, a 1.825 m (Ransol). Combinació de dos vehicles.;Pic de la Pala Alta, a 2685 m;1825;2685
+62;Pic de la Pala de Jan;Ransol;COMPLEX;3.5km;883m;S;Final carretera, a 1.953m;Pic de la Pala de Jan, a 2.776m;1953;2776
+63;Pic de la Serrera;Ransol;COMPLEX;4.9km;1019m;S+SE;Final carretera, a 1.953m;Pic de la Serrera, a 2.912m;1953;2912
+64;Pic de la Serrera;Sorteny;COMPLEX;8.3km;1125m;O+S+SO;Pàrquing de Sorteny, a 1780m;Pic de la Serrera, a 2913m;1780;2913
+65;Pic de la Torradella;Montaup i Vall del Riu;COMPLEX;5.5km;716m;S+SO;Els Plans, a 1.825 m (Ransol). Combinació de dos vehicles.;Pic de la Torradella, a 2546 m;1825;2546
+66;Pic de la Tosa de d'Incles;Vall d'Incles i Siscaró;CHALLENGING;6.6km;810m;NO;Pàrquing de la vall d'Incles, a 1.750m;Pic de la Tosa de d'Incles, a 2.568m;1750;2568
+67;Pic de la Tosa de Juclà;Vall d'Incles i Siscaró;COMPLEX;6.2km;946m;O;Pàrquing de la vall d'Incles, a 1.750m;Pic de la Tosa de Juclà, a 2.698m;1750;2698
+68;Pic de les Canals Roges;Vall d'Incles i Siscaró;CHALLENGING;7.6km;992m;N+NO;Pàrquing de la vall d'Incles, a 1.750m;Pic de les Canals Roges, a 2.747m;1750;2747
+69;Pic de les Fangasses;El Castellar;COMPLEX;3.2km;829m;O+S;Pont del Castellar, a 1.854m;Pic de les Fangasses, a 2.683m;1854;2683
+70;Pic de les Fonts;Valls del Comapedrosa;COMPLEX;6.5km;1175m;SO+S+O;Edificis de Prats Sobirans, a 1.560 m;Pic de les Fonts, a 2749 m;1560;2749
+71;Pic de les Pales de Cabana Sorda;Vall d'Incles i Siscaró;COMPLEX;8.0km;917m;S+SE;Pàrquing de la vall d'Incles, a 1.750m;Pic de les Pales de Cabana Sorda, a 2.681m;1750;2681
+72;Pic de Medacorba;Valls del Comapedrosa;COMPLEX;6.8km;1360m;E+S;Edificis de Prats Sobirans, a 1.560 m;Pic de Medacorba, a 2914 m;1560;2914
+73;Pic de Mil-Menut;Ransol;COMPLEX;4.3km;885m;S+SE;Final carretera, a 1.953m;Pic de Mil-Menut, a 2.778m;1953;2778
+74;Pic de Montmalús;Grau Roig;CHALLENGING;3.6km;670m;E+N;Aparcament de Grau Roig, a 2.100 m;Pic de Montmalús, a 2.781 m;2100;2781
+75;Pic de Monturull;Valls de Madriu, Perafita i Claror;CHALLENGING;9.5km;1521m;O+NO+N+NE;Encreuament de la carretera CS200 Amb la carretera CS101, a 1.232 m;Pic de Monturull, 2.754 m;1232;2754
+76;Pic de Noé;Vall d'Incles i Siscaró;COMPLEX;8.9km;976m;N+S;Pàrquing de la vall d'Incles, a 1.750m;Pic de Noé, a 2.737m;1750;2737
+77;Pic de Querol;Entor;CHALLENGING;3.9km;699m;S+SE;Borda del Marticella, a 1.940m;Pic de Querol, a 2.641m;1940;2641
+78;Pic de Racofred;Valls del Comapedrosa;COMPLEX;6.7km;1287m;E+SE+SO;Edificis de Prats Sobirans, a 1.560 m;Pic de Racofred, a 2838 m;1560;2838
+79;Pic de Roc Mélé i Pic de la Cabaneta;Solana d'Andorra;COMPLEX;10.3km;1105m;S+SE;Duana, a 1.945 m;Pic de la Cabaneta, a 2.817 m;1945;2817
+80;Pic de Ruf;Vall d'Incles i Siscaró;COMPLEX;8.5km;846m;N+S;Pàrquing de la vall d'Incles, a 1.750m;Pic de Ruf, a 2.621m;1750;2621
+81;Pic de Sanfons;Valls del Comapedrosa;COMPLEX;6.9km;1336m;N+S+SE;Edificis de Prats Sobirans, a 1.560 m;Pic de Sanfons, a 2889 m;1560;2889
+82;Pic de Serra Seca;Grau Roig;COMPLEX;3.1km;682m;N;Aparcament de Grau Roig, a 2.100 m;Pic de Serra Seca, a 2.776 m;2100;2776
+83;Pic de Siscaró;Vall d'Incles i Siscaró;COMPLEX;10.9km;869m;N+O;Pàrquing de la vall d'Incles, a 1.750m;Pic de Siscaró, a 2.637m;1750;2637
+84;Pic del Cap dels Llacs;Montaup i Vall del Riu;COMPLEX;7.4km;753m;S+SE+SO;Els Plans, a 1.825 m (Ransol). Combinació de dos vehicles.;Pic del Cap dels Llacs, a 2585 m;1825;2585
+85;Pic del Maià;Envalira;SIMPLE;1.8km;223m;SO;Port d’Envalira, a 2.408 m;Pic del Maià, a 2.617 m;2408;2617
+86;Pic del Pla de l’Estany;Valls del Comapedrosa;COMPLEX;6.8km;1281m;SO+S+SE;Edificis de Prats Sobirans, a 1.560 m;Pic del Pla de l’Estany, a 2860 m);1560;2860
+87;Pic del Port de Siguer;Vall de Rialb;COMPLEX;4.5km;889m;O;Pàrquing de Sorteny, a 1780m;Pic del Port de Siguer, a 2.638m;1780;2638
+88;Pic del Sal;Sorteny;CHALLENGING;5.8km;952m;N+O+SO;Pàrquing de Sorteny, a 1780m;Pic del Sal, a 2741m;1780;2741
+89;Pic dels Isards;Montaup i Vall del Riu;CHALLENGING;6.9km;561m;S+SO;Pàrquing de la carretera de Montaup, situat a l’encreuament de la carretera que baixa a les bordes de Mereig, a 1.920 m (a 150 m del km 8).;Pic dels Isards, a 2468 m;1920;2468
+90;Pic dels Llacs;Pal i Coll de la Botella;CHALLENGING;6.7km;832m;NO+NE;Pàrquing del Coll de la Botella, a 2.090 m (estació de Pal);Pic dels Llacs, a 2.692 m;2090;2692
+91;Pic dels Pessons;Grau Roig;COMPLEX;4.7km;751m;N+SE;Aparcament de Grau Roig, a 2.100 m;Pic dels Pessons, a 2.862 m;2100;2862
+92;Pic Negre;La Rabassa;SIMPLE;5.7km;653m;S;Aparcament de Naturlàndia, a 2040 m;Pic Negre, a 2.644 m;2040;2644
+93;Pics de Casamanya;Montaup i Vall del Riu;COMPLEX;16.6km;905m;E+S;Pàrquing de la carretera de Montaup, situat a l’encreuament de la carretera que baixa a les bordes de Mereig, a 1.920 m (a 150 m del km 8).;Pics de Casamanya, a 2750 m;1920;2750
+94;Pla de la Cot;Pal i Coll de la Botella;SIMPLE;1.4km;292m;N;Pàrquing de la Carbonera, a 1.780 m;Pla de la Cot, a 2.080 m;1780;2080
+95;Port d'Incles;Vall d'Incles i Siscaró;CHALLENGING;5.4km;506m;O+NO+S;Pàrquing de la vall d'Incles, a 1.750m;Port d'Incles, a 2.261m;1750;2261
+96;Port de l'Arbella;Arcalís;COMPLEX;6.5km;667m;SO+O;Aparcament d'Arcalís, a 1.940 m;Port de l'Arbella, a 2.600 m;1940;2600
+97;Port de l'Estany Esbalçat;El Castellar;COMPLEX;3.4km;702m;O+S;Pont del Castellar, a 1.854m;Port de l'Estany Esbalçat, a 2.510m;1854;2510
+98;Port de Siguer;Vall de Rialb;CHALLENGING;4.4km;702m;SE;Pàrquing de Sorteny, a 1780m;Port de Siguer, a 2.395m;1780;2395
+99;Port Negre;Valls del Comapedrosa;CHALLENGING;4.8km;350m;NE+SE;Pàrquing del Crest, embarcament del telecadira Josep Serra, a 1.550 m;Port Negre, a 2.454 m;1550;2454
+100;Portella de la Coma de Varilles;Ransol;COMPLEX;3.0km;683m;O+SO;Final carretera, a 1.953m;Portella de la Coma de Varilles, a 2.565m;1953;2565
+101;Portella de Sanfons;Valls del Comapedrosa;COMPLEX;10.9km;1010m;N+NE+E;Edificis de Prats Sobirans, a 1.560 m;Portella de Sanfons, a 2578 m;1560;2578
+102;Primer estany de Montmantell;Valls del Comapedrosa;COMPLEX;5.4km;1061m;SO+S;Edificis de Prats Sobirans, a 1.560 m;Primer estany de Montmantell, a 2630 m;1560;2630
+103;Refugi d'Ensagents;Cortals d'Encamp;SIMPLE;3.7km;535m;N+O;Carretera dels Cortals d’Encamp (km 6, a 1.887 m). Estacionarem el vehicle al costat de la carretera, en un lloc que no molesti;Refugi d’Ensagents, a 2425 m;1887;2425
+104;Refugi de Cabana Sorda;Vall d'Incles i Siscaró;CHALLENGING;3.6km;537m;S;Pàrquing de la vall d'Incles, a 1.750m;Refugi de Cabana Sorda, a 2.293m;1750;2293
+105;Refugi de Cabana Sorda;Entor;SIMPLE;4.8km;541m;S+SE;Borda del Marticella, a 1.940m;Refugi de Cabana Sorda, a 2.293m;1940;2293
+106;Refugi de Cóms de Jan;Ransol;CHALLENGING;2.1km;329m;S+SO;Final carretera, a 1.953m;Refugi de Cóms de Jan, a 2.116m;1953;2116
+107;Refugi de Fontverd;Valls de Madriu, Perafita i Claror;CHALLENGING;4.1km;650m;S+O;Encreuament de la carretera CS200 Amb la carretera CS101, a 1.232 m;Refugi de Fontverd, a 1.871 m;1232;1871
+108;Refugi de Juclà;Vall d'Incles i Siscaró;CHALLENGING;6.0km;556m;N+S;Pàrquing de la vall d'Incles, a 1.750m;Refugi de Juclà, a 2.310m;1750;2310
+109;Refugi de l'Illa pel Pas de Ríbuls;Grau Roig;COMPLEX;12.1km;855m;N+S+NE+O;Aparcament de Grau Roig, a 2.100 m;Refugi de l'Illa, a 2.488 m;2100;2488
+110;Refugi de la Vall del Riu;Montaup i Vall del Riu;COMPLEX;3.1km;332m;S+SO;Els Plans, a 1.825 m (Ransol). Combinació de dos vehicles.;Refugi de la Vall del Riu 2160 m;1825;2160
+111;Refugi de Montmalús;Grau Roig;CHALLENGING;4.6km;598m;N+S;Aparcament de Grau Roig, a 2.100 m;Refugi de Montmalús, a 2.445 m;2100;2445
+112;Refugi del Comapedrosa;Valls del Comapedrosa;COMPLEX;3.8km;697m;N+NE+E;Edificis de Prats Sobirans, a 1.560 m;Refugi del Comapedrosa, a 2265 m;1560;2265
+113;Refugi del Pla de l'Estany;Valls del Comapedrosa;CHALLENGING;3.4km;483m;S+SO+E;Edificis de Prats Sobirans, a 1.560 m;Refugi del Pla de l’Estany, a 2.049 m;1560;2049
+114;Refugi dels Agols;Cortals d'Encamp;SIMPLE;3.5km;606m;N;Borda de les Pardines, a 1.618 m;Refugi dels Agols, a 2.231 m;1618;2231
+115;Roca Entravessada;Valls del Comapedrosa;COMPLEX;8.0km;1352m;E+SE+NE;Edificis de Prats Sobirans, a 1.560 m;Roca Entravessada, a 2928 m;1560;2928
+116;Setúria;Pal i Coll de la Botella;SIMPLE;2.9km;484m;N;Aparcarem el vehicle al pàrquing del Coll de la Botella i baixarem esquiant fins a l’embarcament del telecadira de Setúria, a 1.900 m;Pic del Cubil, a 2.358 m;1900;2358
+117;Travessa de la Rabassa a Grau Roig;La Rabassa;COMPLEX;23.6km;1676m;S+N+O+E;Aparcament de Naturlàndia, a 2040 m;Aparcament de Grau Roig, a 2.108 m;2040;2108
+118;Travessa de Rialb al Castellar;Vall de Rialb;CHALLENGING;7.1km;731m;N+NE+O;Pàrquing de Sorteny, a 1780m;Pont del Castellar, a 1.854m;1780;1854
+119;Volta al Pic del Maià - Port Dret - Pas de les Vaques - Incles;Envalira;CHALLENGING;12.3km;316m;N+S;Port d'Envalira, a 2.408m;Pàrquing de la vall d'Incles, a 1.750m;2408;1750
+120;Volta Clots de Massat - Clots de l'Ós - Soldeu;Envalira;CHALLENGING;6.0km;579m;S+O;Bordes d’Envalira, a 2.010 m;Soldeu, a 1830 m;2010;1830

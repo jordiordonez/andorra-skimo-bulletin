@@ -1,29 +1,27 @@
 {
-  "timestamp_scraping": "2025-12-19T15:00:49.192911",
+  "timestamp_scraping": "2025-12-19T15:11:59.218928",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "18/12/2025 16:01",
-    "valid_fins": "19/12/2025",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1365.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_18122025160111.jpg"
+    "data_elaboracio": "19/12/2025 16:00",
+    "valid_fins": "20/12/2025",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1366.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_19122025160054.jpg"
   },
   "zones": {
     "zona_nord": {
       "problemes": [
-        "capes febles persistents",
-        "neu humida"
+        "neu ventada",
+        "capes febles persistents"
       ],
       "orientacions": [
-        "NE+E+SE",
-        "SE+S+SW"
+        "NW+N+NE",
+        "NE+E+SE"
       ],
       "mides_allaus": [
-        2,
-        1
+        2
       ],
       "tipus_sobrecarga": [
-        "Feble",
-        "Espontani"
+        "Feble"
       ],
       "nivells_perill": {
         "alt_altitud": 2,
@@ -35,38 +33,36 @@
     },
     "zona_centre": {
       "problemes": [
-        "capes febles persistents",
-        "neu humida"
+        "neu ventada",
+        "capes febles persistents"
       ],
       "orientacions": [
-        "NE+E+SE",
-        "SE+S+SW"
+        "NW+N+NE",
+        "NE+E+SE"
       ],
       "mides_allaus": [
         1
       ],
       "tipus_sobrecarga": [
-        "Feble",
-        "Espontani"
+        "Feble"
       ],
       "nivell_perill": 1,
       "tendencia": "igual"
     },
     "zona_sud": {
       "problemes": [
-        "capes febles persistents",
-        "neu humida"
+        "neu ventada",
+        "capes febles persistents"
       ],
       "orientacions": [
-        "NE+E+SE",
-        "SE+S+SW"
+        "NW+N+NE",
+        "NE+E+SE"
       ],
       "mides_allaus": [
         1
       ],
       "tipus_sobrecarga": [
-        "Feble",
-        "Espontani"
+        "Feble"
       ],
       "nivell_perill": 1,
       "tendencia": "igual"
@@ -192,18 +188,18 @@
   },
   "espais_protegits": {
     "Sorteny": {
-      "descripcio": "Per sota del refugi, les altes temperatures i la pluja de dilluns a la tarda van humidificar el mantell de neu i trobarem plaques de gel força extenses amagades a sota d´una fina capa de neu nova. A més, la neu no és gaire abundant i els torrents encara no estan tapats. Les excursions amb esquís són complicades per la poca neu que hi ha. Haurem de prestar una atenció especial als vessants sud-est per sobre dels 2.300 metres, on no es recomana circular-hi.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_18122025160112.jpg"
+      "descripcio": "Al refugi hi podrem arribar amb esquís, però per sobre encara no hi ha prou neu com per tapar els torrents. Tot i així, podem fer algunes excursions típiques d´hivern, vigilant molt amb les pedres i els abarsets per sota dels 2.300 metres. A les crestes dels vessants obacs trobarem congestes i acumulacions de neu ventada a les canals que haurem d´evitar tot i que siguin llamineres d´esquiar-se.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_19122025160054.jpg"
     },
     "Comapedrosa": {
-      "descripcio": "La situació és similar a totes les valls del nord d´Andorra, amb plaques de vent a prop de les carenes i als canvis de rasant del terreny. Sovint, aquests indrets seran els únics on hi haurà la neu suficient per fer activitats hivernals i haurem d´extremar precaucions, o evitar-los si el terreny és molt inclinat o exposat. Es recomana evitar els vessants sud-est.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_18122025160112.jpg"
+      "descripcio": "La situació és similar a totes les valls del nord d´Andorra, amb plaques de vent a prop de les carenes i als canvis de rasant del terreny. Sovint, aquests indrets seran els únics on hi haurà la neu suficient per fer activitats hivernals i haurem d´extremar precaucions, o evitar-los si el terreny és molt inclinat o exposat. Es recomana evitar les acumulacions dels vessants obacs i del quadrant est.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_19122025160054.jpg"
     },
     "Madriu-Perafita-Claror": {
-      "descripcio": "La neu encara no aïlla bé les pedres. Les parets rocoses sovint no estan completament tapades i haurem de desconfiar dels pocs indrets esquiables que siguin molt inclinats i obacs, ja que poden ser plaques d´acumulació. A les canals de Pessons i a prop de les carenes, com poden ser les de Serra Seca, Pics Negres d´Envalira o Abelletes poden haver-hi plaques de vent sensibles a sobrecàrregues. L´accés des de la Plana està sense neu, però podem trobar plaques de gel al camí. Es recomana tenir molta cura amb circular per vessants amb component est, i hauríem d´evitar els més inclinats orientats a sud-est.",
+      "descripcio": "La neu encara no aïlla bé totes les pedres. Les parets rocoses sovint no estan completament tapades i haurem de desconfiar dels pocs indrets esquiables que siguin molt inclinats i obacs, ja que poden ser plaques d´acumulació. A les canals de Pessons i a prop de les carenes, com poden ser les Montmalús, Serra Seca, Pics Negres d´Envalira o Abelletes poden haver-hi plaques de vent sensibles a sobrecàrregues. L´accés des de la Plana està sense neu, però podem trobar plaques de gel al camí. Es recomana tenir molta cura amb circular per vessants amb component est, i hauríem d´evitar els més inclinats orientats a sud-est.",
       "mapa_url": null
     }
   },
-  "estabilitat_text": "Les capes febles a la part inferior del mantell de neu representen la principal font de perill. Les allaus poden ser desencadenades fins i tot al pas d'un sol muntanyenc i assolir mida mitjana. Aquests indrets perillosos es troben en vessants inclinats orientats a nord-est, est i sud-est a cotes altes. A més del perill de ser enterrat per una allau, cal tenir en compte sobretot el perill de ser arrossegat cap a una trampa del terreny. Es recomana mantenir la distància entre els components. Les excursions de muntanya requereixen una elecció prudent de l'itinerari.",
-  "qualitat_neu_text": "El mantell de neu és tou, amb gebre de superfície. Això es dona per sobre dels 1800 m aproximadament. Sobretot en altitud els gruixos de neu varien molt per la influència del vent. De moment només hi ha poca neu."
+  "estabilitat_text": "Les plaques de vent a vegades de mida gran del dijous han de ser avaluades amb cautela en vessants obacs inclinats i en cotes altes. A més, les capes febles a la part inferior del mantell de neu representen la principal font de perill. Aquests indrets perillosos es troben en vessants inclinats orientats a nord-est, est i sud-est a cotes altes. Les allaus poden ser desencadenades fins i tot al pas d'un sol muntanyenc i assolir mida mitjana. A més del perill de ser enterrat per una allau, cal tenir en compte sobretot el perill de ser arrossegat cap a una trampa del terreny. Es recomana mantenir la distància entre els components. Les excursions de muntanya requereixen una elecció prudent de l'itinerari.",
+  "qualitat_neu_text": "El mantell de neu és tou, amb gebre de superfície. Això es dona per sobre dels 1800 m aproximadament. Sobretot en altitud els gruixos de neu varien molt per la influència del vent. De moment només hi ha poca neu. Les plaques de vent s'han d'evitar en vessants molt inclinats."
 }

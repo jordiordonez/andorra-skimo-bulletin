@@ -1,9 +1,9 @@
 name: Update Data and Deploy
 
 on:
-  # Run daily at 8 AM (Andorra time is UTC+1, so 7 AM UTC)
+  # Run daily at 4:05 PM Andorra time (UTC+1 in winter, so 15:05 UTC)
   schedule:
-    - cron: '0 7 * * *'
+    - cron: '5 15 * * *'
 
   # Allow manual trigger
   workflow_dispatch:

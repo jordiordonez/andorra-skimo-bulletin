@@ -40,6 +40,9 @@ jobs:
       run: |
         cd scripts
         python3 scrapper_meteo_allaus.py
+        # Move the generated JSON to the data directory
+        mkdir -p ../data
+        mv butlleti_allaus.json ../data/
 
     - name: Generate bulletin CSV
       run: |

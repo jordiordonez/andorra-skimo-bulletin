@@ -141,3 +141,4 @@ This tool provides informational data only. Always:
 ## 📄 License
 
 MIT License - See LICENSE file for details.
+# GitHub Pages Enabled

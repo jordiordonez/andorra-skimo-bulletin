@@ -22,9 +22,27 @@ export const loadVisorData = async () => {
 
 export const loadRoutesCSV = async () => {
   try {
-    const response = await fetch('/data/routes.csv');
-    const text = await response.text();
-    return parseCSV(text, ';'); // Semicolon separator
+    // Try GitHub Pages path first, then local development
+    const possiblePaths = [
+      '/andorra-skimo-bulletin/data/routes.csv',
+      '/data/routes.csv'
+    ];
+
+    for (const path of possiblePaths) {
+      try {
+        const response = await fetch(path);
+        if (response.ok) {
+          const text = await response.text();
+          console.log(`Successfully loaded routes from: ${path}`);
+          return parseCSV(text, ';'); // Semicolon separator
+        }
+      } catch (e) {
+        continue;
+      }
+    }
+
+    console.error('Routes CSV file not found');
+    return null;
   } catch (error) {
     console.error('Error loading routes CSV:', error);
     return null;
@@ -33,9 +51,32 @@ export const loadRoutesCSV = async () => {
 
 export const loadRatingsCSV = async () => {
   try {
-    const response = await fetch('/data/butlleti_2025_12_18.csv');
-    const text = await response.text();
-    return parseCSV(text, ','); // Comma separator
+    // Try to find the most recent bulletin CSV file
+    const possibleFiles = [
+      '/andorra-skimo-bulletin/data/butlleti_2025_12_19.csv',
+      '/andorra-skimo-bulletin/data/butlleti_2025_12_18.csv',
+      '/andorra-skimo-bulletin/data/butlleti_2025_12_17.csv',
+      // Fallback for local development
+      '/data/butlleti_2025_12_19.csv',
+      '/data/butlleti_2025_12_18.csv',
+      '/data/butlleti_2025_12_17.csv',
+    ];
+
+    for (const file of possibleFiles) {
+      try {
+        const response = await fetch(file);
+        if (response.ok) {
+          const text = await response.text();
+          console.log(`Successfully loaded bulletin from: ${file}`);
+          return parseCSV(text, ',');
+        }
+      } catch (e) {
+        continue; // Try next file
+      }
+    }
+
+    console.error('No bulletin CSV file found');
+    return null;
   } catch (error) {
     console.error('Error loading ratings CSV:', error);
     return null;

@@ -9,4 +9,9 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
   },
+  server: {
+    headers: {
+      'X-Frame-Options': 'SAMEORIGIN',
+    },
+  },
 })

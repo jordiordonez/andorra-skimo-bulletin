@@ -1,8 +1,40 @@
-// Data loading utilities for static JSON files
+// Data loading utilities for static JSON/CSV files with proxy-aware paths
+
+const buildPathCandidates = (relativePath, absoluteFallbacks = []) => {
+  const bases = [];
+  const path = typeof window !== 'undefined' ? window.location.pathname : '';
+
+  if (path.startsWith('/skimo')) bases.push('/skimo');
+  if (path.startsWith('/andorra-skimo-bulletin')) bases.push('/andorra-skimo-bulletin');
+  bases.push(''); // local dev or direct GH Pages
+
+  const candidates = new Set();
+  bases.forEach(base => {
+    const sep = relativePath.startsWith('/') ? '' : '/';
+    candidates.add(`${base}${sep}${relativePath}`);
+  });
+  absoluteFallbacks.forEach(url => candidates.add(url));
+  return [...candidates];
+};
+
+const fetchWithFallbacks = async (paths) => {
+  for (const path of paths) {
+    try {
+      const response = await fetch(path);
+      if (response.ok) return response;
+    } catch (error) {
+      console.warn(`Fetch failed for ${path}:`, error);
+    }
+  }
+  throw new Error(`All fetch attempts failed for: ${paths.join(', ')}`);
+};
 
 export const loadButlletiData = async () => {
   try {
-    const response = await fetch('/data/butlleti_allaus.json');
+    const paths = buildPathCandidates('/data/butlleti_allaus.json', [
+      'https://jordiordonez.github.io/andorra-skimo-bulletin/data/butlleti_allaus.json',
+    ]);
+    const response = await fetchWithFallbacks(paths);
     return await response.json();
   } catch (error) {
     console.error('Error loading butlleti data:', error);
@@ -12,7 +44,10 @@ export const loadButlletiData = async () => {
 
 export const loadVisorData = async () => {
   try {
-    const response = await fetch('/data/visor_allaus.json');
+    const paths = buildPathCandidates('/data/visor_allaus.json', [
+      'https://jordiordonez.github.io/andorra-skimo-bulletin/data/visor_allaus.json',
+    ]);
+    const response = await fetchWithFallbacks(paths);
     return await response.json();
   } catch (error) {
     console.error('Error loading visor data:', error);
@@ -22,33 +57,13 @@ export const loadVisorData = async () => {
 
 export const loadRoutesCSV = async () => {
   try {
-    // Try multiple path configurations for different deployment scenarios
-    const possiblePaths = [
-      // Direct proxy access (joasolucions.com/skimo)
-      '/skimo/data/routes.csv',
-      // GitHub Pages direct access
-      '/andorra-skimo-bulletin/data/routes.csv',
-      // Local development
-      '/data/routes.csv',
-      // Fallback absolute GitHub URL
-      'https://jordiordonez.github.io/andorra-skimo-bulletin/data/routes.csv'
-    ];
-
-    for (const path of possiblePaths) {
-      try {
-        const response = await fetch(path);
-        if (response.ok) {
-          const text = await response.text();
-          console.log(`Successfully loaded routes from: ${path}`);
-          return parseCSV(text, ';'); // Semicolon separator
-        }
-      } catch (e) {
-        continue;
-      }
-    }
-
-    console.error('Routes CSV file not found');
-    return null;
+    const paths = buildPathCandidates('/data/routes.csv', [
+      'https://jordiordonez.github.io/andorra-skimo-bulletin/data/routes.csv',
+    ]);
+    const response = await fetchWithFallbacks(paths);
+    const text = await response.text();
+    console.log(`Successfully loaded routes from: ${response.url || paths[0]}`);
+    return parseCSV(text, ';');
   } catch (error) {
     console.error('Error loading routes CSV:', error);
     return null;
@@ -57,27 +72,23 @@ export const loadRoutesCSV = async () => {
 
 export const loadRatingsCSV = async () => {
   try {
-    // Try to find the most recent bulletin CSV file
-    const possibleFiles = [
-      '/andorra-skimo-bulletin/data/butlleti_2025_12_19.csv',
-      '/andorra-skimo-bulletin/data/butlleti_2025_12_18.csv',
-      '/andorra-skimo-bulletin/data/butlleti_2025_12_17.csv',
-      // Fallback for local development
-      '/data/butlleti_2025_12_19.csv',
-      '/data/butlleti_2025_12_18.csv',
-      '/data/butlleti_2025_12_17.csv',
+    const fileNames = [
+      'butlleti_2025_12_19.csv',
+      'butlleti_2025_12_18.csv',
+      'butlleti_2025_12_17.csv',
     ];
 
-    for (const file of possibleFiles) {
+    for (const name of fileNames) {
+      const paths = buildPathCandidates(`/data/${name}`, [
+        `https://jordiordonez.github.io/andorra-skimo-bulletin/data/${name}`,
+      ]);
       try {
-        const response = await fetch(file);
-        if (response.ok) {
-          const text = await response.text();
-          console.log(`Successfully loaded bulletin from: ${file}`);
-          return parseCSV(text, ',');
-        }
+        const response = await fetchWithFallbacks(paths);
+        const text = await response.text();
+        console.log(`Successfully loaded bulletin from: ${response.url || paths[0]}`);
+        return parseCSV(text, ',');
       } catch (e) {
-        continue; // Try next file
+        continue;
       }
     }
 

@@ -42,6 +42,7 @@ function App() {
   const filteredRoutes = data.routes ? filterRoutes(data.routes, filters) : [];
   const sortedRoutes = filteredRoutes.length > 0 ? sortRoutes(filteredRoutes, sortBy) : [];
   const zones = data.routes ? getUniqueZones(data.routes) : [];
+  const bulletinMetadata = data.butlleti?.metadata;
 
   // Check if any filters are active
   const hasActiveFilters = filters.search || (filters.zone && filters.zone !== 'all') || filters.minRatingFinal || filters.minRatingPerill || filters.minRatingNeu;
@@ -109,9 +110,22 @@ function App() {
             </div>
 
             {/* Bulletin Info */}
-            {data.butlleti?.metadata && (
-              <div className="text-blue-200 text-lg font-medium mb-12">
-                📡 Last updated: {data.butlleti.metadata.data_elaboracio}
+            {bulletinMetadata && (
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
+                <div className="flex items-center gap-3 bg-white/10 backdrop-blur-md px-5 py-3 rounded-2xl text-white shadow-lg border border-white/10">
+                  <span className="text-2xl">📡</span>
+                  <div className="text-left leading-tight">
+                    <div className="text-sm uppercase tracking-wide text-blue-200">Updated</div>
+                    <div className="text-lg font-semibold">{bulletinMetadata.data_elaboracio || '—'}</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3 bg-white/10 backdrop-blur-md px-5 py-3 rounded-2xl text-white shadow-lg border border-white/10">
+                  <span className="text-2xl">⏭️</span>
+                  <div className="text-left leading-tight">
+                    <div className="text-sm uppercase tracking-wide text-blue-200">Next update</div>
+                    <div className="text-lg font-semibold">{bulletinMetadata.valid_fins || '—'}</div>
+                  </div>
+                </div>
               </div>
             )}
 

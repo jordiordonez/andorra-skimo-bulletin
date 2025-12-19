@@ -35,19 +35,37 @@ jobs:
     - name: Install Python dependencies
       run: |
         pip install -r requirements.txt
+        echo "=== Python packages installed ==="
+        pip list | grep -E "(requests|beautifulsoup4|lxml|pandas)"
 
     - name: Run avalanche data scraper
       run: |
+        echo "=== Running scraper ==="
         cd scripts
-        python3 scrapper_meteo_allaus.py
+        ls -la
+        echo "=== Attempting to run scraper ==="
+        python3 scrapper_meteo_allaus.py || { echo "Scraper failed with exit code $?"; exit 1; }
+        echo "=== Scraper completed, checking output ==="
+        ls -la
+        if [ -f "butlleti_allaus.json" ]; then
+          echo "✓ JSON file created"
+        else
+          echo "✗ JSON file NOT created"
+          exit 1
+        fi
         # Move the generated JSON to the data directory
         mkdir -p ../data
         mv butlleti_allaus.json ../data/
+        echo "✓ JSON moved to data directory"
 
     - name: Generate bulletin CSV
       run: |
+        echo "=== Generating CSV ==="
         cd scripts
+        ls -la ../data/
         python3 generate_butlleti_csv.py
+        echo "=== CSV generation completed ==="
+        ls -la ../data/butlleti_*.csv
 
     - name: Copy new data to public folder
       run: |

@@ -1,0 +1,94 @@
+name: Update Data and Deploy
+
+on:
+  # Run daily at 8 AM (Andorra time is UTC+1, so 7 AM UTC)
+  schedule:
+    - cron: '0 7 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+  # Run on push to main for testing
+  push:
+    branches: [ main ]
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install Python dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Run avalanche data scraper
+      run: |
+        cd scripts
+        python3 scrapper_meteo_allaus.py
+
+    - name: Generate bulletin CSV
+      run: |
+        cd scripts
+        python3 generate_butlleti_csv.py
+
+    - name: Copy new data to public folder
+      run: |
+        # Copy any new bulletin CSV files to public/data
+        find data -name "butlleti_*.csv" -newer public/data/butlleti_2025_12_18.csv -exec cp {} public/data/ \; 2>/dev/null || true
+
+        # Always ensure we have the latest bulletin
+        latest_bulletin=$(ls -t data/butlleti_*.csv 2>/dev/null | head -1)
+        if [ -n "$latest_bulletin" ]; then
+          cp "$latest_bulletin" public/data/
+        fi
+
+    - name: Commit updated data
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/ public/data/
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "🤖 Update avalanche data $(date +%Y-%m-%d)"
+          git push
+        fi
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '22'
+        cache: 'npm'
+
+    - name: Install Node dependencies
+      run: npm ci
+
+    - name: Build React app
+      run: npm run build
+
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+
+    - name: Upload to GitHub Pages
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: ./dist
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4

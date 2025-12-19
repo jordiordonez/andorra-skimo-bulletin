@@ -62,7 +62,7 @@ const Legend = ({ isOpen, onToggle }) => {
                 {showMethodologyImage && (
                   <div className="mb-3 w-full">
                     <img
-                      src="/assets/avaluator.jpg"
+                      src={`${import.meta.env.BASE_URL}assets/avaluator.jpg`}
                       alt="Avalanche Canada Methodology"
                       className="w-full h-auto rounded-lg border border-gray-200 shadow-sm"
                       onError={(e) => {

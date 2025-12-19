@@ -92,18 +92,18 @@ function App() {
             </p>
 
             {/* Stats Bar */}
-            <div className="inline-flex bg-white/10 backdrop-blur-md rounded-full px-12 py-6 space-x-12 text-white mb-8">
-              <div className="text-center">
+            <div className="flex flex-col sm:flex-row bg-white/10 backdrop-blur-md rounded-2xl px-6 sm:px-10 py-6 sm:space-x-10 text-white mb-8 w-full max-w-2xl mx-auto border border-white/15">
+              <div className="flex-1 text-center mb-4 sm:mb-0">
                 <div className="text-3xl font-bold">{data.routes?.length || 0}</div>
                 <div className="text-sm text-blue-200 font-medium">Routes</div>
               </div>
-              <div className="w-px bg-white/30 h-12"></div>
-              <div className="text-center">
+              <div className="hidden sm:block w-px bg-white/30 h-12"></div>
+              <div className="flex-1 text-center mb-4 sm:mb-0">
                 <div className="text-3xl font-bold">{zones.length}</div>
                 <div className="text-sm text-blue-200 font-medium">Zones</div>
               </div>
-              <div className="w-px bg-white/30 h-12"></div>
-              <div className="text-center">
+              <div className="hidden sm:block w-px bg-white/30 h-12"></div>
+              <div className="flex-1 text-center">
                 <div className="text-3xl font-bold text-green-400">LIVE</div>
                 <div className="text-sm text-blue-200 font-medium">Data</div>
               </div>

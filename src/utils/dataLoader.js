@@ -22,10 +22,16 @@ export const loadVisorData = async () => {
 
 export const loadRoutesCSV = async () => {
   try {
-    // Try GitHub Pages path first, then local development
+    // Try multiple path configurations for different deployment scenarios
     const possiblePaths = [
+      // Direct proxy access (joasolucions.com/skimo)
+      '/skimo/data/routes.csv',
+      // GitHub Pages direct access
       '/andorra-skimo-bulletin/data/routes.csv',
-      '/data/routes.csv'
+      // Local development
+      '/data/routes.csv',
+      // Fallback absolute GitHub URL
+      'https://jordiordonez.github.io/andorra-skimo-bulletin/data/routes.csv'
     ];
 
     for (const path of possiblePaths) {

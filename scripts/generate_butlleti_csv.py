@@ -106,8 +106,40 @@ def _resolve_path(rel_path: str) -> Path:
 
 
 def main():
-    butlleti_path = _resolve_path("data/butlleti_allaus.json")
-    routes_path = _resolve_path("data/routes_corretgides.xlsx")
+    # Handle both local execution and GitHub Actions
+    script_dir = Path(__file__).resolve().parent
+    repo_root = script_dir.parent
+
+    # Try multiple possible locations for the files
+    butlleti_candidates = [
+        script_dir / "butlleti_allaus.json",
+        repo_root / "data" / "butlleti_allaus.json",
+        Path("data/butlleti_allaus.json"),
+        Path("../data/butlleti_allaus.json")
+    ]
+
+    routes_candidates = [
+        repo_root / "data" / "routes_corretgides.xlsx",
+        Path("data/routes_corretgides.xlsx"),
+        Path("../data/routes_corretgides.xlsx")
+    ]
+
+    butlleti_path = None
+    for path in butlleti_candidates:
+        if path.exists():
+            butlleti_path = path
+            break
+
+    routes_path = None
+    for path in routes_candidates:
+        if path.exists():
+            routes_path = path
+            break
+
+    if not butlleti_path:
+        raise FileNotFoundError("No s'ha trobat butlleti_allaus.json")
+    if not routes_path:
+        raise FileNotFoundError("No s'ha trobat routes_corretgides.xlsx")
 
     data = json.loads(butlleti_path.read_text())
     gruixos = data["gruixos_mantell"]

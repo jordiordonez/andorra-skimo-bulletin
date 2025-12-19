@@ -1,0 +1,7 @@
+Avalanche Canada Methodology
+
+This file should be replaced with avaluator.jpg
+
+The avaluator.jpg image should show Avalanche Canada's methodology for terrain classification and avalanche risk assessment.
+
+Place your avaluator.jpg file in this same directory (public/assets/) to replace this placeholder.

@@ -1,70 +1,70 @@
 {
-  "timestamp_scraping": "2025-12-20T15:19:35.266346",
+  "timestamp_scraping": "2025-12-21T15:19:41.511695",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "20/12/2025 16:00",
-    "valid_fins": "21/12/2025",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1367.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_20122025160041.jpg"
+    "data_elaboracio": "21/12/2025 16:11",
+    "valid_fins": "22/12/2025",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1369.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_21122025161102.jpg"
   },
   "zones": {
     "zona_nord": {
       "problemes": [
-        "neu ventada",
+        "neu recent",
         "capes febles persistents"
       ],
       "orientacions": [
-        "NW+N+NE",
-        "NE+E+SE"
+        "W+NW+N+NE+E",
+        "NW+N+NE+E+SE"
       ],
       "mides_allaus": [
         2
       ],
       "tipus_sobrecarga": [
+        "Espontani",
         "Feble"
       ],
-      "nivells_perill": {
-        "alt_altitud": 2,
-        "baix_altitud": 1,
-        "altitud_critica": "2300m"
-      },
-      "nivell_perill": 2,
+      "nivell_perill": 3,
       "tendencia": "igual"
     },
     "zona_centre": {
       "problemes": [
-        "neu ventada",
+        "neu recent",
         "capes febles persistents"
       ],
       "orientacions": [
-        "NW+N+NE",
-        "NE+E+SE"
+        "W+NW+N+NE+E",
+        "NW+N+NE+E+SE"
       ],
       "mides_allaus": [
+        2,
         1
       ],
       "tipus_sobrecarga": [
+        "Espontani",
         "Feble"
       ],
-      "nivell_perill": 1,
+      "nivell_perill": 3,
       "tendencia": "igual"
     },
     "zona_sud": {
       "problemes": [
-        "neu ventada",
+        "neu recent",
         "capes febles persistents"
       ],
       "orientacions": [
-        "NW+N+NE",
-        "NE+E+SE"
+        "W+NW+N+NE+E",
+        "NW+N+NE+E+SE"
       ],
       "mides_allaus": [
+        2,
         1
       ],
       "tipus_sobrecarga": [
+        "Espontani",
         "Feble"
       ],
-      "nivell_perill": 1,
+      "nivell_perill": 3,
       "tendencia": "igual"
     }
   },
@@ -114,92 +114,92 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "16/12/2025": "0 cm",
       "17/12/2025": "0 cm",
       "18/12/2025": "0 cm",
-      "19/12/2025": "0 cm"
+      "19/12/2025": "0 cm",
+      "20/12/2025": "0 cm"
     },
     "Engolasters - FEDA": {
-      "16/12/2025": "0 cm",
       "17/12/2025": "0 cm",
       "18/12/2025": "0 cm",
-      "19/12/2025": "0 cm"
+      "19/12/2025": "0 cm",
+      "20/12/2025": "1 cm"
     },
     "Ransol - FEDA": {
-      "16/12/2025": "0 cm",
       "17/12/2025": "0 cm",
       "18/12/2025": "0 cm",
-      "19/12/2025": "0 cm"
+      "19/12/2025": "0 cm",
+      "20/12/2025": "0 cm"
     },
     "Bony de les Neres": {
-      "16/12/2025": "0 cm",
       "17/12/2025": "0 cm",
       "18/12/2025": "0 cm",
-      "19/12/2025": "0 cm"
+      "19/12/2025": "0 cm",
+      "20/12/2025": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "16/12/2025": "0 cm",
       "17/12/2025": "0 cm",
       "18/12/2025": "0 cm",
-      "19/12/2025": "1 cm"
+      "19/12/2025": "1 cm",
+      "20/12/2025": "0 cm"
     },
     "Sorteny": {
-      "16/12/2025": "0 cm",
       "17/12/2025": "0 cm",
       "18/12/2025": "0 cm",
-      "19/12/2025": "0 cm"
+      "19/12/2025": "0 cm",
+      "20/12/2025": "4 cm"
     },
     "Perafita": {
-      "16/12/2025": "0 cm",
       "17/12/2025": "0 cm",
       "18/12/2025": "0 cm",
-      "19/12/2025": "0 cm"
+      "19/12/2025": "0 cm",
+      "20/12/2025": "3 cm"
     },
     "Tossa Espiolets": {
-      "16/12/2025": "0 cm",
       "17/12/2025": "0 cm",
       "18/12/2025": "0 cm",
-      "19/12/2025": "1 cm"
+      "19/12/2025": "1 cm",
+      "20/12/2025": "0 cm"
     },
     "La Solana": {
-      "16/12/2025": "0 cm",
       "17/12/2025": "0 cm",
       "18/12/2025": "0 cm",
-      "19/12/2025": "0 cm"
+      "19/12/2025": "0 cm",
+      "20/12/2025": "0 cm"
     },
     "Vall del Riu FEDA": {
-      "16/12/2025": "1 cm",
       "17/12/2025": "0 cm",
       "18/12/2025": "0 cm",
-      "19/12/2025": "0 cm"
+      "19/12/2025": "0 cm",
+      "20/12/2025": "0 cm"
     },
     "Envalira Antenes": {
-      "16/12/2025": "0 cm",
       "17/12/2025": "0 cm",
       "18/12/2025": "0 cm",
-      "19/12/2025": "0 cm"
+      "19/12/2025": "0 cm",
+      "20/12/2025": "0 cm"
     },
     "Les Fonts d'Arinsal": {
-      "16/12/2025": "13 cm",
       "17/12/2025": "0 cm",
       "18/12/2025": "0 cm",
-      "19/12/2025": "0 cm"
+      "19/12/2025": "0 cm",
+      "20/12/2025": "0 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
       "descripcio": "Al refugi hi podrem arribar amb esquís, però per sobre encara no hi ha prou neu com per tapar els torrents. Tot i així, podem fer algunes excursions típiques d´hivern, vigilant molt amb les pedres i els abarsets per sota dels 2.300 metres. A les crestes dels vessants obacs trobarem congestes i acumulacions de neu ventada a les canals que haurem d´evitar tot i que siguin llamineres d´esquiar-se.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_20122025160042.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_21122025161102.jpg"
     },
     "Comapedrosa": {
       "descripcio": "La situació és similar a totes les valls del nord d´Andorra, amb plaques de vent a prop de les carenes i als canvis de rasant del terreny. Sovint, aquests indrets seran els únics on hi haurà la neu suficient per fer activitats hivernals i haurem d´extremar precaucions, o evitar-los si el terreny és molt inclinat o exposat. Es recomana evitar les acumulacions dels vessants obacs i del quadrant est.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_20122025160042.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_21122025161102.jpg"
     },
     "Madriu-Perafita-Claror": {
       "descripcio": "La neu encara no aïlla bé totes les pedres. Les parets rocoses sovint no estan completament tapades i haurem de desconfiar dels pocs indrets esquiables que siguin molt inclinats i obacs, ja que poden ser plaques d´acumulació. A les canals de Pessons i a prop de les carenes, com poden ser les Montmalús, Serra Seca, Pics Negres d´Envalira o Abelletes poden haver-hi plaques de vent sensibles a sobrecàrregues. L´accés des de la Plana està sense neu, però podem trobar plaques de gel al camí. Es recomana tenir molta cura amb circular per vessants amb component est, i hauríem d´evitar els més inclinats orientats a sud-est.",
       "mapa_url": null
     }
   },
-  "estabilitat_text": "Les plaques de vent a vegades de mida gran del dijous han de ser avaluades amb cautela en vessants obacs inclinats i en cotes altes. A més, les capes febles a la part inferior del mantell de neu representen la principal font de perill. Aquests indrets perillosos es troben en vessants inclinats orientats a nord-est, est i sud-est a cotes altes. Les allaus poden ser desencadenades fins i tot al pas d'un sol muntanyenc i assolir mida mitjana. A més del perill de ser enterrat per una allau, cal tenir en compte sobretot el perill de ser arrossegat cap a una trampa del terreny. Es recomana mantenir la distància entre els components. Les excursions de muntanya requereixen una elecció prudent de l'itinerari.",
-  "qualitat_neu_text": "El mantell de neu és tou, amb gebre de superfície. Això es dona per sobre dels 1800 m aproximadament. Sobretot en altitud els gruixos de neu varien molt per la influència del vent. De moment només hi ha poca neu. Les plaques de vent s'han d'evitar en vessants molt inclinats. Els indrets perillosos són difícils de reconèixer amb mala visibilitat."
+  "estabilitat_text": "Els indrets perillosos són coberts amb neu recent i difícils de reconèixer. Les capes febles a la part inferior del mantell de neu representen la principal font de perill. Aquests indrets perillosos es troben en vessants inclinats orientats a nord-est, est i sud-est a cotes altes. Les allaus poden en alguns casos ser desencadenades molt fàcilment i, de manera aïllada, assolir grans dimensions. A més del perill de ser enterrat per una allau, cal tenir en compte sobretot el perill de ser arrossegat cap a una trampa del terreny. Es recomana mantenir la distància entre els components. Les excursions de muntanya requereixen una elecció prudent de l'itinerari. Una treva de les condicions meteorològiques el dilluns a la tarda pot ser aprofitada per avaluar les zones de sortida.",
+  "qualitat_neu_text": "Cauran en una zona àmplia 30 cm de neu. Sobretot en altitud els gruixos de neu varien molt per la influència del vent. Les plaques de vent s'han d'evitar en vessants molt inclinats. Els indrets perillosos són difícils de reconèixer amb mala visibilitat."
 }

@@ -72,11 +72,17 @@ export const loadRoutesCSV = async () => {
 
 export const loadRatingsCSV = async () => {
   try {
-    const fileNames = [
-      'butlleti_2025_12_19.csv',
-      'butlleti_2025_12_18.csv',
-      'butlleti_2025_12_17.csv',
-    ];
+    // Generate potential filenames for the last 7 days, starting from today
+    const fileNames = [];
+    const today = new Date();
+    for (let i = 0; i < 7; i++) {
+      const date = new Date(today);
+      date.setDate(date.getDate() - i);
+      const year = date.getFullYear();
+      const month = String(date.getMonth() + 1).padStart(2, '0');
+      const day = String(date.getDate()).padStart(2, '0');
+      fileNames.push(`butlleti_${year}_${month}_${day}.csv`);
+    }
 
     for (const name of fileNames) {
       const paths = buildPathCandidates(`/data/${name}`, [

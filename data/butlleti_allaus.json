@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2025-12-22T10:08:32.936678",
+  "timestamp_scraping": "2025-12-22T15:23:17.382349",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "21/12/2025 16:11",
+    "data_elaboracio": "22/12/2025 16:00",
     "valid_fins": "22/12/2025",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1369.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_21122025161102.jpg"
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1370.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_22122025160043.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -188,18 +188,18 @@
   },
   "espais_protegits": {
     "Sorteny": {
-      "descripcio": "Al refugi hi podrem arribar amb esquís, però per sobre encara no hi ha prou neu com per tapar els torrents. Tot i així, podem fer algunes excursions típiques d´hivern, vigilant molt amb les pedres i els abarsets per sota dels 2.300 metres. A les crestes dels vessants obacs trobarem congestes i acumulacions de neu ventada a les canals que haurem d´evitar tot i que siguin llamineres d´esquiar-se.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_21122025161102.jpg"
+      "descripcio": "Al refugi hi podrem arribar amb esquís, però per sobre encara no hi ha prou neu com per tapar els torrents. La neu nova és molt lleugera i encara no aïlla bé les pedres i arbustos que hi havia a la vista.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_22122025160043.jpg"
     },
     "Comapedrosa": {
-      "descripcio": "La situació és similar a totes les valls del nord d´Andorra, amb plaques de vent a prop de les carenes i als canvis de rasant del terreny. Sovint, aquests indrets seran els únics on hi haurà la neu suficient per fer activitats hivernals i haurem d´extremar precaucions, o evitar-los si el terreny és molt inclinat o exposat. Es recomana evitar les acumulacions dels vessants obacs i del quadrant est.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_21122025161102.jpg"
+      "descripcio": "La situació és similar a totes les valls del nord d´Andorra, amb plaques de vent amagades sota la neu nova. Haurem d´evitar els vessants molt inclinats i exposats que estiguin orientats a nord-oest fins a l´est passant pel nord.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_22122025160043.jpg"
     },
     "Madriu-Perafita-Claror": {
-      "descripcio": "La neu encara no aïlla bé totes les pedres. Les parets rocoses sovint no estan completament tapades i haurem de desconfiar dels pocs indrets esquiables que siguin molt inclinats i obacs, ja que poden ser plaques d´acumulació. A les canals de Pessons i a prop de les carenes, com poden ser les Montmalús, Serra Seca, Pics Negres d´Envalira o Abelletes poden haver-hi plaques de vent sensibles a sobrecàrregues. L´accés des de la Plana està sense neu, però podem trobar plaques de gel al camí. Es recomana tenir molta cura amb circular per vessants amb component est, i hauríem d´evitar els més inclinats orientats a sud-est.",
+      "descripcio": "La neu encara no aïlla bé totes les pedres. Les parets rocoses sovint no estan completament tapades i haurem de desconfiar dels pocs indrets esquiables que siguin molt inclinats i obacs, ja que poden ser plaques d´acumulació. A les canals de Pessons i a prop de les carenes, com poden ser les Montmalús, Serra Seca, Pics Negres d´Envalira o Abelletes poden haver-hi plaques de vent sensibles a sobrecàrregues a les orientacions nord i est. L´accés des de la Plana també està nevat.",
       "mapa_url": null
     }
   },
-  "estabilitat_text": "Els indrets perillosos són coberts amb neu recent i difícils de reconèixer. Les capes febles a la part inferior del mantell de neu representen la principal font de perill. Aquests indrets perillosos es troben en vessants inclinats orientats a nord-est, est i sud-est a cotes altes. Les allaus poden en alguns casos ser desencadenades molt fàcilment i, de manera aïllada, assolir grans dimensions. A més del perill de ser enterrat per una allau, cal tenir en compte sobretot el perill de ser arrossegat cap a una trampa del terreny. Es recomana mantenir la distància entre els components. Les excursions de muntanya requereixen una elecció prudent de l'itinerari. Una treva de les condicions meteorològiques el dilluns a la tarda pot ser aprofitada per avaluar les zones de sortida.",
-  "qualitat_neu_text": "Cauran en una zona àmplia 30 cm de neu. Sobretot en altitud els gruixos de neu varien molt per la influència del vent. Les plaques de vent s'han d'evitar en vessants molt inclinats. Els indrets perillosos són difícils de reconèixer amb mala visibilitat."
+  "estabilitat_text": "Els indrets perillosos són coberts amb neu recent i difícils de reconèixer. Les capes febles a la part inferior del mantell de neu representen la principal font de perill. Aquests indrets perillosos es troben en vessants orientats a nord-oest pel nord fins a l'est a cotes altes. Les allaus poden en alguns casos ser desencadenades molt fàcilment i, de manera aïllada, assolir grans dimensions. A més del perill de ser enterrat per una allau, cal tenir en compte sobretot el perill de ser arrossegat cap a una trampa del terreny. Es recomana mantenir la distància entre els components. Les excursions de muntanya requereixen una elecció prudent de l'itinerari. Una treva de les condicions meteorològiques el dilluns a la tarda pot ser aprofitada per avaluar les zones de sortida.",
+  "qualitat_neu_text": "Han caigut en una zona àmplia 30 cm de neu. Sobretot en altitud els gruixos de neu varien molt per la influència del vent. Les plaques de vent s'han d'evitar en vessants molt inclinats. Els indrets perillosos són difícils de reconèixer amb mala visibilitat."
 }

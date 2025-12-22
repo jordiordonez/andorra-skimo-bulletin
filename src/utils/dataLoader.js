@@ -17,10 +17,12 @@ const buildPathCandidates = (relativePath, absoluteFallbacks = []) => {
   return [...candidates];
 };
 
+const withCacheBust = (url) => `${url}${url.includes('?') ? '&' : '?'}_=${Date.now()}`;
+
 const fetchWithFallbacks = async (paths) => {
   for (const path of paths) {
     try {
-      const response = await fetch(path);
+      const response = await fetch(withCacheBust(path), { cache: 'no-store' });
       if (response.ok) return response;
     } catch (error) {
       console.warn(`Fetch failed for ${path}:`, error);
@@ -31,7 +33,7 @@ const fetchWithFallbacks = async (paths) => {
 
 export const loadButlletiData = async () => {
   try {
-    const response = await fetch('https://jordiordonez.github.io/andorra-skimo-bulletin/data/butlleti_allaus.json');
+    const response = await fetch(withCacheBust('https://jordiordonez.github.io/andorra-skimo-bulletin/data/butlleti_allaus.json'), { cache: 'no-store' });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return await response.json();
   } catch (error) {
@@ -42,7 +44,7 @@ export const loadButlletiData = async () => {
 
 export const loadVisorData = async () => {
   try {
-    const response = await fetch('https://jordiordonez.github.io/andorra-skimo-bulletin/data/visor_allaus.json');
+    const response = await fetch(withCacheBust('https://jordiordonez.github.io/andorra-skimo-bulletin/data/visor_allaus.json'), { cache: 'no-store' });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return await response.json();
   } catch (error) {
@@ -53,7 +55,7 @@ export const loadVisorData = async () => {
 
 export const loadRoutesCSV = async () => {
   try {
-    const response = await fetch('https://jordiordonez.github.io/andorra-skimo-bulletin/data/routes.csv');
+    const response = await fetch(withCacheBust('https://jordiordonez.github.io/andorra-skimo-bulletin/data/routes.csv'), { cache: 'no-store' });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const text = await response.text();
     console.log(`Successfully loaded routes from: ${response.url}`);
@@ -80,7 +82,7 @@ export const loadRatingsCSV = async () => {
 
     for (const name of fileNames) {
       try {
-        const response = await fetch(`https://jordiordonez.github.io/andorra-skimo-bulletin/data/${name}`);
+        const response = await fetch(withCacheBust(`https://jordiordonez.github.io/andorra-skimo-bulletin/data/${name}`), { cache: 'no-store' });
         if (!response.ok) continue;
         const text = await response.text();
         console.log(`Successfully loaded bulletin from: ${response.url}`);

@@ -49,6 +49,7 @@ npm run preview
 
 1. **meteo.ad/estatneu** - Official Andorra avalanche bulletins (daily updates)
 2. **visor.allaus.ad** - ATES terrain classification and route catalog
+3. **Live GitHub data** - The app fetches JSON/CSV assets directly from the repo's `data/` folder on GitHub to avoid bundled `public/data` copies that can go stale; local `public` files are used only during localhost development.
 
 ### Technology Stack
 

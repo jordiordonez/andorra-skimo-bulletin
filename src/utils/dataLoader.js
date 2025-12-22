@@ -1,26 +1,41 @@
 // Data loading utilities for static JSON/CSV files with proxy-aware paths
 
 const buildPathCandidates = (relativePath, absoluteFallbacks = []) => {
-  const bases = [];
-  const path = typeof window !== 'undefined' ? window.location.pathname : '';
-
-  if (path.startsWith('/skimo')) bases.push('/skimo');
-  if (path.startsWith('/andorra-skimo-bulletin')) bases.push('/andorra-skimo-bulletin');
-  bases.push(''); // local dev or direct GH Pages
-
   const candidates = new Set();
-  bases.forEach(base => {
-    const sep = relativePath.startsWith('/') ? '' : '/';
-    candidates.add(`${base}${sep}${relativePath}`);
-  });
+  const isLocalhost = typeof window !== 'undefined' && (
+    window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+  );
+
+  // Always try live GitHub sources first (raw → GitHub Pages), which update when the repo data updates.
   absoluteFallbacks.forEach(url => candidates.add(url));
+
+  // Only fall back to bundled /public data when developing locally; production skips baked assets to avoid staleness.
+  if (isLocalhost) {
+    const bases = [];
+    const path = typeof window !== 'undefined' ? window.location.pathname : '';
+
+    if (path.startsWith('/skimo')) bases.push('/skimo');
+    if (path.startsWith('/andorra-skimo-bulletin')) bases.push('/andorra-skimo-bulletin');
+    bases.push(''); // direct relative path in dev server
+
+    bases.forEach(base => {
+      const sep = relativePath.startsWith('/') ? '' : '/';
+      candidates.add(`${base}${sep}${relativePath}`);
+    });
+  }
+
   return [...candidates];
 };
+
+const withCacheBust = (url) => `${url}${url.includes('?') ? '&' : '?'}_=${Date.now()}`;
+
+const GH_RAW_BASE = 'https://raw.githubusercontent.com/jordiordonez/andorra-skimo-bulletin/main';
+const GH_PAGES_BASE = 'https://jordiordonez.github.io/andorra-skimo-bulletin';
 
 const fetchWithFallbacks = async (paths) => {
   for (const path of paths) {
     try {
-      const response = await fetch(path);
+      const response = await fetch(withCacheBust(path), { cache: 'no-store' });
       if (response.ok) return response;
     } catch (error) {
       console.warn(`Fetch failed for ${path}:`, error);
@@ -31,8 +46,10 @@ const fetchWithFallbacks = async (paths) => {
 
 export const loadButlletiData = async () => {
   try {
-    const response = await fetch('https://jordiordonez.github.io/andorra-skimo-bulletin/data/butlleti_allaus.json');
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const response = await fetchWithFallbacks(buildPathCandidates('data/butlleti_allaus.json', [
+      `${GH_RAW_BASE}/data/butlleti_allaus.json`,
+      `${GH_PAGES_BASE}/data/butlleti_allaus.json`
+    ]));
     return await response.json();
   } catch (error) {
     console.error('Error loading butlleti data:', error);
@@ -42,8 +59,10 @@ export const loadButlletiData = async () => {
 
 export const loadVisorData = async () => {
   try {
-    const response = await fetch('https://jordiordonez.github.io/andorra-skimo-bulletin/data/visor_allaus.json');
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const response = await fetchWithFallbacks(buildPathCandidates('data/visor_allaus.json', [
+      `${GH_RAW_BASE}/data/visor_allaus.json`,
+      `${GH_PAGES_BASE}/data/visor_allaus.json`
+    ]));
     return await response.json();
   } catch (error) {
     console.error('Error loading visor data:', error);
@@ -53,8 +72,10 @@ export const loadVisorData = async () => {
 
 export const loadRoutesCSV = async () => {
   try {
-    const response = await fetch('https://jordiordonez.github.io/andorra-skimo-bulletin/data/routes.csv');
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const response = await fetchWithFallbacks(buildPathCandidates('data/routes.csv', [
+      `${GH_RAW_BASE}/data/routes.csv`,
+      `${GH_PAGES_BASE}/data/routes.csv`
+    ]));
     const text = await response.text();
     console.log(`Successfully loaded routes from: ${response.url}`);
     return parseCSV(text, ';');
@@ -80,8 +101,10 @@ export const loadRatingsCSV = async () => {
 
     for (const name of fileNames) {
       try {
-        const response = await fetch(`https://jordiordonez.github.io/andorra-skimo-bulletin/data/${name}`);
-        if (!response.ok) continue;
+        const response = await fetchWithFallbacks(buildPathCandidates(`data/${name}`, [
+          `${GH_RAW_BASE}/data/${name}`,
+          `${GH_PAGES_BASE}/data/${name}`
+        ]));
         const text = await response.text();
         console.log(`Successfully loaded bulletin from: ${response.url}`);
         return parseCSV(text, ',');

@@ -1,16 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 const FilterPanel = ({ filters, onFiltersChange, zones, isOpen, onToggle, allRoutes }) => {
   const [showRouteDropdown, setShowRouteDropdown] = useState(false);
   const [showAllRoutes, setShowAllRoutes] = useState(false);
-  const [searchValue, setSearchValue] = useState(filters.search || '');
-
-  // Update search value when filters are cleared externally
-  useEffect(() => {
-    if (!filters.search) {
-      setSearchValue('');
-    }
-  }, [filters.search]);
+  const searchValue = filters.search || '';
 
   const handleFilterChange = (key, value) => {
     onFiltersChange({
@@ -20,13 +13,11 @@ const FilterPanel = ({ filters, onFiltersChange, zones, isOpen, onToggle, allRou
   };
 
   const handleSearchChange = (value) => {
-    setSearchValue(value);
     handleFilterChange('search', value);
     setShowRouteDropdown(value.length > 0 && !showAllRoutes);
   };
 
   const handleRouteSelect = (routeName) => {
-    setSearchValue(routeName);
     handleFilterChange('search', routeName);
     setShowRouteDropdown(false);
     setShowAllRoutes(false);

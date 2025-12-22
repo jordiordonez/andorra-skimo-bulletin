@@ -44,6 +44,27 @@ function App() {
   const zones = data.routes ? getUniqueZones(data.routes) : [];
   const bulletinMetadata = data.butlleti?.metadata;
 
+  // Format bulletin metadata with updated timing
+  const formatBulletinTiming = (metadata) => {
+    if (!metadata) return { updatedTime: '—', nextUpdateTime: '—' };
+
+    let updatedTime = metadata.data_elaboracio || '—';
+    // Replace 16:00 with 16h10 in the updated time
+    if (updatedTime.includes('16:00')) {
+      updatedTime = updatedTime.replace('16:00', '16h10');
+    }
+
+    // Format next update time with 16h10 announcement
+    let nextUpdateTime = metadata.valid_fins || '—';
+    if (nextUpdateTime !== '—') {
+      nextUpdateTime = `${nextUpdateTime} (16h10)`;
+    }
+
+    return { updatedTime, nextUpdateTime };
+  };
+
+  const { updatedTime, nextUpdateTime } = formatBulletinTiming(bulletinMetadata);
+
   // Check if any filters are active
   const hasActiveFilters = filters.search || (filters.zone && filters.zone !== 'all') || filters.minRatingFinal || filters.minRatingPerill || filters.minRatingNeu;
 
@@ -116,14 +137,14 @@ function App() {
                   <span className="text-2xl">📡</span>
                   <div className="text-left leading-tight">
                     <div className="text-sm uppercase tracking-wide text-blue-200">Updated</div>
-                    <div className="text-lg font-semibold">{bulletinMetadata.data_elaboracio || '—'}</div>
+                    <div className="text-lg font-semibold">{updatedTime}</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-3 bg-white/10 backdrop-blur-md px-5 py-3 rounded-2xl text-white shadow-lg border border-white/10">
                   <span className="text-2xl">⏭️</span>
                   <div className="text-left leading-tight">
                     <div className="text-sm uppercase tracking-wide text-blue-200">Next update</div>
-                    <div className="text-lg font-semibold">{bulletinMetadata.valid_fins || '—'}</div>
+                    <div className="text-lg font-semibold">{nextUpdateTime}</div>
                   </div>
                 </div>
               </div>

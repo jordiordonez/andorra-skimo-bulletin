@@ -31,10 +31,8 @@ const fetchWithFallbacks = async (paths) => {
 
 export const loadButlletiData = async () => {
   try {
-    const paths = buildPathCandidates('/data/butlleti_allaus.json', [
-      'https://jordiordonez.github.io/andorra-skimo-bulletin/data/butlleti_allaus.json',
-    ]);
-    const response = await fetchWithFallbacks(paths);
+    const response = await fetch('https://jordiordonez.github.io/andorra-skimo-bulletin/data/butlleti_allaus.json');
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return await response.json();
   } catch (error) {
     console.error('Error loading butlleti data:', error);
@@ -44,10 +42,8 @@ export const loadButlletiData = async () => {
 
 export const loadVisorData = async () => {
   try {
-    const paths = buildPathCandidates('/data/visor_allaus.json', [
-      'https://jordiordonez.github.io/andorra-skimo-bulletin/data/visor_allaus.json',
-    ]);
-    const response = await fetchWithFallbacks(paths);
+    const response = await fetch('https://jordiordonez.github.io/andorra-skimo-bulletin/data/visor_allaus.json');
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return await response.json();
   } catch (error) {
     console.error('Error loading visor data:', error);
@@ -57,12 +53,10 @@ export const loadVisorData = async () => {
 
 export const loadRoutesCSV = async () => {
   try {
-    const paths = buildPathCandidates('/data/routes.csv', [
-      'https://jordiordonez.github.io/andorra-skimo-bulletin/data/routes.csv',
-    ]);
-    const response = await fetchWithFallbacks(paths);
+    const response = await fetch('https://jordiordonez.github.io/andorra-skimo-bulletin/data/routes.csv');
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const text = await response.text();
-    console.log(`Successfully loaded routes from: ${response.url || paths[0]}`);
+    console.log(`Successfully loaded routes from: ${response.url}`);
     return parseCSV(text, ';');
   } catch (error) {
     console.error('Error loading routes CSV:', error);
@@ -85,13 +79,11 @@ export const loadRatingsCSV = async () => {
     }
 
     for (const name of fileNames) {
-      const paths = buildPathCandidates(`/data/${name}`, [
-        `https://jordiordonez.github.io/andorra-skimo-bulletin/data/${name}`,
-      ]);
       try {
-        const response = await fetchWithFallbacks(paths);
+        const response = await fetch(`https://jordiordonez.github.io/andorra-skimo-bulletin/data/${name}`);
+        if (!response.ok) continue;
         const text = await response.text();
-        console.log(`Successfully loaded bulletin from: ${response.url || paths[0]}`);
+        console.log(`Successfully loaded bulletin from: ${response.url}`);
         return parseCSV(text, ',');
       } catch (e) {
         continue;

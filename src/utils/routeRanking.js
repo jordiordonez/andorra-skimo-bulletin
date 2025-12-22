@@ -115,13 +115,14 @@ export const sortRoutes = (routes, sortBy) => {
         if (bSnow !== aSnow) return bSnow - aSnow; // Best snow first
         return bFinal - aFinal; // Then by final rating
 
-      case 'wind':
+      case 'wind': {
         const aHasWind = !!a.rating_vent;
         const bHasWind = !!b.rating_vent;
         if (aHasWind !== bHasWind) {
           return aHasWind ? 1 : -1; // No wind first
         }
         return bFinal - aFinal; // Then by final rating
+      }
 
       default:
         return bFinal - aFinal;

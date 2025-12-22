@@ -294,7 +294,6 @@ function App() {
               {/* Routes */}
               <RouteList
                 routes={sortedRoutes}
-                visorData={data.visor}
                 showTopOnly={viewMode === 'top3'}
               />
             </div>

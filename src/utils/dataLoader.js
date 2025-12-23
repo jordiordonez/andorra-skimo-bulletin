@@ -37,32 +37,56 @@ export const loadRoutesCSV = async () => {
 
 export const loadRatingsCSV = async () => {
   try {
-    // Generate potential filenames for the last 7 days, starting from today
+    // Generate potential filenames for a range of dates (30 days back from today)
     const fileNames = [];
     const today = new Date();
-    for (let i = 0; i < 7; i++) {
+    for (let i = 0; i < 30; i++) {
       const date = new Date(today);
       date.setDate(date.getDate() - i);
       const year = date.getFullYear();
       const month = String(date.getMonth() + 1).padStart(2, '0');
       const day = String(date.getDate()).padStart(2, '0');
-      fileNames.push(`butlleti_${year}_${month}_${day}.csv`);
+      fileNames.push({
+        name: `butlleti_${year}_${month}_${day}.csv`,
+        date: new Date(year, date.getMonth(), date.getDate()),
+        dateString: `${day}/${month}/${year}`
+      });
     }
 
-    for (const name of fileNames) {
+    // Try to find the most recent available bulletin file
+    let mostRecentData = null;
+    let mostRecentDate = null;
+    let sourceDate = null;
+
+    for (const fileInfo of fileNames) {
       try {
-        const response = await fetch(withCacheBust(`https://jordiordonez.github.io/andorra-skimo-bulletin/data/${name}`), { cache: 'no-store' });
+        const response = await fetch(withCacheBust(`https://jordiordonez.github.io/andorra-skimo-bulletin/data/${fileInfo.name}`), { cache: 'no-store' });
         if (!response.ok) continue;
+
         const text = await response.text();
-        console.log(`Successfully loaded bulletin from: ${response.url}`);
-        return parseCSV(text, ',');
+        console.log(`Found bulletin file: ${fileInfo.name}`);
+
+        // If this is the first file found, or if it's more recent than our current most recent
+        if (!mostRecentDate || fileInfo.date > mostRecentDate) {
+          mostRecentData = parseCSV(text, ',');
+          mostRecentDate = fileInfo.date;
+          sourceDate = fileInfo.dateString;
+          console.log(`Using most recent bulletin from: ${fileInfo.name} (${sourceDate})`);
+        }
       } catch {
         continue;
       }
     }
 
-    console.error('No bulletin CSV file found');
-    return null;
+    if (!mostRecentData) {
+      console.error('No bulletin CSV file found');
+      return null;
+    }
+
+    return {
+      data: mostRecentData,
+      sourceDate: sourceDate
+    };
   } catch (error) {
     console.error('Error loading ratings CSV:', error);
     return null;
@@ -92,7 +116,8 @@ export const getAllData = async () => {
     loadRatingsCSV()
   ]);
 
-  const ratings = ratingResult ?? null;
+  const ratings = ratingResult?.data ?? null;
+  const ratingSourceDate = ratingResult?.sourceDate ?? null;
 
   // Merge routes with ratings based on route_index_global
   const mergedRoutes = routes ? routes.map(route => {
@@ -109,6 +134,6 @@ export const getAllData = async () => {
     butlleti,
     visor,
     routes: mergedRoutes,
-    ratingSourceDate: null // CSV doesn't provide source date info
+    ratingSourceDate: ratingSourceDate
   };
 };

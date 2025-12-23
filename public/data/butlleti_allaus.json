@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2025-12-23T09:21:28.251906",
+  "timestamp_scraping": "2025-12-23T10:45:32.205034",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "22/12/2025 16:00",
+    "data_elaboracio": "23/12/2025 10:39",
     "valid_fins": "22/12/2025",
     "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1370.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_22122025160043.jpg"
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_23122025103916.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -71,43 +71,43 @@
   "gruixos_mantell": {
     "nord": {
       "N": {
-        "altitud_mantell": "1400 m",
-        "gruix_1500m": "5 cm",
-        "gruix_2000m": "20 cm",
-        "gruix_2500m": "60 cm"
+        "altitud_mantell": "1300 m",
+        "gruix_1500m": "10 cm",
+        "gruix_2000m": "70 cm",
+        "gruix_2500m": "90 cm"
       },
       "S": {
-        "altitud_mantell": "1500 m",
-        "gruix_1500m": "0 cm",
-        "gruix_2000m": "10 cm",
-        "gruix_2500m": "30 cm"
+        "altitud_mantell": "1300 m",
+        "gruix_1500m": "10 cm",
+        "gruix_2000m": "40 cm",
+        "gruix_2500m": "40 cm"
       }
     },
     "centre": {
       "N": {
-        "altitud_mantell": "1500 m",
-        "gruix_1500m": "0 cm",
-        "gruix_2000m": "10 cm",
-        "gruix_2500m": "40 cm"
+        "altitud_mantell": "1200 m",
+        "gruix_1500m": "10 cm",
+        "gruix_2000m": "50 cm",
+        "gruix_2500m": "70 cm"
       },
       "S": {
-        "altitud_mantell": "1800 m",
-        "gruix_1500m": "0 cm",
-        "gruix_2000m": "5 cm",
-        "gruix_2500m": "30 cm"
+        "altitud_mantell": "1200 m",
+        "gruix_1500m": "10 cm",
+        "gruix_2000m": "40 cm",
+        "gruix_2500m": "40 cm"
       }
     },
     "sud": {
       "N": {
-        "altitud_mantell": "1500 m",
-        "gruix_1500m": "0 cm",
-        "gruix_2000m": "10 cm",
-        "gruix_2500m": "20 cm"
+        "altitud_mantell": "1200 m",
+        "gruix_1500m": "10 cm",
+        "gruix_2000m": "30 cm",
+        "gruix_2500m": "30 cm"
       },
       "S": {
-        "altitud_mantell": "1800 m",
-        "gruix_1500m": "0 cm",
-        "gruix_2000m": "5 cm",
+        "altitud_mantell": "1200 m",
+        "gruix_1500m": "10 cm",
+        "gruix_2000m": "30 cm",
         "gruix_2500m": "30 cm"
       }
     }
@@ -125,12 +125,6 @@
       "21/12/2025": "8 cm",
       "22/12/2025": "5 cm"
     },
-    "Ransol - FEDA": {
-      "19/12/2025": "0 cm",
-      "20/12/2025": "0 cm",
-      "21/12/2025": "0 cm",
-      "22/12/2025": "0 cm"
-    },
     "Bony de les Neres": {
       "19/12/2025": "0 cm",
       "20/12/2025": "0 cm",
@@ -146,8 +140,8 @@
     "Sorteny": {
       "19/12/2025": "0 cm",
       "20/12/2025": "4 cm",
-      "21/12/2025": "0 cm",
-      "22/12/2025": "70 cm"
+      "21/12/2025": "10 cm",
+      "22/12/2025": "10 cm"
     },
     "Perafita": {
       "19/12/2025": "0 cm",
@@ -189,11 +183,11 @@
   "espais_protegits": {
     "Sorteny": {
       "descripcio": "Al refugi hi podrem arribar amb esquís, però per sobre encara no hi ha prou neu com per tapar els torrents. La neu nova és molt lleugera i encara no aïlla bé les pedres i arbustos que hi havia a la vista.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_22122025160043.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_23122025103916.jpg"
     },
     "Comapedrosa": {
       "descripcio": "La situació és similar a totes les valls del nord d´Andorra, amb plaques de vent amagades sota la neu nova. Haurem d´evitar els vessants molt inclinats i exposats que estiguin orientats a nord-oest fins a l´est passant pel nord.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_22122025160043.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_23122025103916.jpg"
     },
     "Madriu-Perafita-Claror": {
       "descripcio": "La neu encara no aïlla bé totes les pedres. Les parets rocoses sovint no estan completament tapades i haurem de desconfiar dels pocs indrets esquiables que siguin molt inclinats i obacs, ja que poden ser plaques d´acumulació. A les canals de Pessons i a prop de les carenes, com poden ser les Montmalús, Serra Seca, Pics Negres d´Envalira o Abelletes poden haver-hi plaques de vent sensibles a sobrecàrregues a les orientacions nord i est. L´accés des de la Plana també està nevat.",

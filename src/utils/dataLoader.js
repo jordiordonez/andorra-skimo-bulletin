@@ -92,7 +92,7 @@ export const getAllData = async () => {
     loadRatingsCSV()
   ]);
 
-  const ratings = ratingResult?.rows ?? null;
+  const ratings = ratingResult ?? null;
 
   // Merge routes with ratings based on route_index_global
   const mergedRoutes = routes ? routes.map(route => {
@@ -109,6 +109,6 @@ export const getAllData = async () => {
     butlleti,
     visor,
     routes: mergedRoutes,
-    ratingSourceDate: ratingResult?.sourceDate ?? null
+    ratingSourceDate: null // CSV doesn't provide source date info
   };
 };

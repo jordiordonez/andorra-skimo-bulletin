@@ -43,12 +43,32 @@ function App() {
   const sortedRoutes = filteredRoutes.length > 0 ? sortRoutes(filteredRoutes, sortBy) : [];
   const zones = data.routes ? getUniqueZones(data.routes) : [];
   const bulletinMetadata = data.butlleti?.metadata;
+  const ratingSourceDate = data.ratingSourceDate;
 
   // Format bulletin metadata with updated timing
-  const formatBulletinTiming = (metadata) => {
-    if (!metadata) return { updatedTime: '—', nextUpdateTime: '—' };
+  const parseDate = (value) => {
+    if (!value) return null;
+    const [datePart] = value.split(' ');
+    const [day, month, year] = datePart.split('/');
+    if (!year || !month || !day) return null;
+    return new Date(`${year}-${month}-${day}T00:00:00Z`);
+  };
 
-    let updatedTime = metadata.data_elaboracio || '—';
+  const formatBulletinTiming = (metadata, fallbackDate) => {
+    if (!metadata && !fallbackDate) return { updatedTime: '—', nextUpdateTime: '—' };
+
+    const metadataDate = metadata?.data_elaboracio ? parseDate(metadata.data_elaboracio) : null;
+    const fallbackDateObj = parseDate(fallbackDate);
+
+    let updatedTime = metadata?.data_elaboracio || fallbackDate || '—';
+
+    if (metadataDate && fallbackDateObj && fallbackDateObj > metadataDate) {
+      updatedTime = fallbackDate;
+    }
+    if (!metadataDate && fallbackDateObj) {
+      updatedTime = fallbackDate;
+    }
+
     // Replace 16:00 with 16h10 in the updated time
     if (updatedTime.includes('16:00')) {
       updatedTime = updatedTime.replace('16:00', '16h10');
@@ -63,7 +83,7 @@ function App() {
     return { updatedTime, nextUpdateTime };
   };
 
-  const { updatedTime, nextUpdateTime } = formatBulletinTiming(bulletinMetadata);
+  const { updatedTime, nextUpdateTime } = formatBulletinTiming(bulletinMetadata, ratingSourceDate);
 
   // Check if any filters are active
   const hasActiveFilters = filters.search || (filters.zone && filters.zone !== 'all') || filters.minRatingFinal || filters.minRatingPerill || filters.minRatingNeu;
@@ -294,7 +314,6 @@ function App() {
               {/* Routes */}
               <RouteList
                 routes={sortedRoutes}
-                visorData={data.visor}
                 showTopOnly={viewMode === 'top3'}
               />
             </div>

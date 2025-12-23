@@ -1,13 +1,8 @@
 import { getDangerLevel, getSnowRating } from '../utils/routeRanking';
 
-const RouteCard = ({ route, visorData, rank }) => {
+const RouteCard = ({ route, rank }) => {
   const danger = getDangerLevel(route.rating_perill);
   const snow = getSnowRating(route.rating_neu);
-
-  // Find corresponding route in visor data for additional info
-  const visorRoute = visorData?.features?.find(
-    feature => feature.properties?.name === route.route_name
-  );
 
   const handleRouteClick = async () => {
     // First, copy route name to clipboard and wait for user permission

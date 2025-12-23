@@ -1,7 +1,7 @@
 import RouteCard from './RouteCard';
 import { getTopRoutes } from '../utils/routeRanking';
 
-const RouteList = ({ routes, visorData, showTopOnly = false }) => {
+const RouteList = ({ routes, showTopOnly = false }) => {
   if (!routes || routes.length === 0) {
     return (
       <div className="text-center py-8">
@@ -27,7 +27,6 @@ const RouteList = ({ routes, visorData, showTopOnly = false }) => {
           <RouteCard
             key={route.route_index_global || index}
             route={route}
-            visorData={visorData}
             rank={showTopOnly ? index + 1 : null}
           />
         ))}

@@ -1,35 +1,4 @@
-// Data loading utilities for static JSON/CSV files with proxy-aware paths
-
-const buildPathCandidates = (relativePath, absoluteFallbacks = []) => {
-  const bases = [];
-  const path = typeof window !== 'undefined' ? window.location.pathname : '';
-
-  if (path.startsWith('/skimo')) bases.push('/skimo');
-  if (path.startsWith('/andorra-skimo-bulletin')) bases.push('/andorra-skimo-bulletin');
-  bases.push(''); // local dev or direct GH Pages
-
-  const candidates = new Set();
-  bases.forEach(base => {
-    const sep = relativePath.startsWith('/') ? '' : '/';
-    candidates.add(`${base}${sep}${relativePath}`);
-  });
-  absoluteFallbacks.forEach(url => candidates.add(url));
-  return [...candidates];
-};
-
 const withCacheBust = (url) => `${url}${url.includes('?') ? '&' : '?'}_=${Date.now()}`;
-
-const fetchWithFallbacks = async (paths) => {
-  for (const path of paths) {
-    try {
-      const response = await fetch(withCacheBust(path), { cache: 'no-store' });
-      if (response.ok) return response;
-    } catch (error) {
-      console.warn(`Fetch failed for ${path}:`, error);
-    }
-  }
-  throw new Error(`All fetch attempts failed for: ${paths.join(', ')}`);
-};
 
 export const loadButlletiData = async () => {
   try {
@@ -86,8 +55,10 @@ export const loadRatingsCSV = async () => {
         if (!response.ok) continue;
         const text = await response.text();
         console.log(`Successfully loaded bulletin from: ${response.url}`);
-        return parseCSV(text, ',');
-      } catch (e) {
+        const dateMatch = name.match(/butlleti_(\d{4})_(\d{2})_(\d{2})/);
+        const sourceDate = dateMatch ? `${dateMatch[3]}/${dateMatch[2]}/${dateMatch[1]}` : null;
+        return { rows: parseCSV(text, ','), sourceDate };
+      } catch {
         continue;
       }
     }
@@ -116,12 +87,14 @@ const parseCSV = (text, separator = ',') => {
 };
 
 export const getAllData = async () => {
-  const [butlleti, visor, routes, ratings] = await Promise.all([
+  const [butlleti, visor, routes, ratingResult] = await Promise.all([
     loadButlletiData(),
     loadVisorData(),
     loadRoutesCSV(),
     loadRatingsCSV()
   ]);
+
+  const ratings = ratingResult?.rows ?? null;
 
   // Merge routes with ratings based on route_index_global
   const mergedRoutes = routes ? routes.map(route => {
@@ -137,6 +110,7 @@ export const getAllData = async () => {
   return {
     butlleti,
     visor,
-    routes: mergedRoutes
+    routes: mergedRoutes,
+    ratingSourceDate: ratingResult?.sourceDate ?? null
   };
 };

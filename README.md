@@ -183,5 +183,25 @@ This application uses data from:
 
 ## 📄 License
 
-MIT License - See LICENSE file for details.
+**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**
+
+This project is licensed under CC BY-NC-SA 4.0, which means:
+
+✅ **You CAN:**
+- Use for personal, educational, and research purposes
+- Share and redistribute the application
+- Modify and build upon the work
+- Use for avalanche safety education and training
+
+❌ **You CANNOT:**
+- Use for commercial purposes without explicit permission
+- Sell or monetize the application or derivatives
+- Remove attribution to original author and data sources
+
+🔄 **ShareAlike Requirement:**
+- Any modifications must be shared under the same CC BY-NC-SA 4.0 license
+- Ensures safety tools remain freely available for public benefit
+
+See LICENSE file for complete terms. For commercial licensing inquiries, please contact the author.
+
 # GitHub Pages Enabled

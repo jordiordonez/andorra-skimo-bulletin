@@ -57,11 +57,12 @@ npm run preview
    - Avalanche danger levels by zone and orientation
    - Copyright: Servei Meteorològic d'Andorra
 
-2. **visor.allaus.ad** - Avalanche Research Institute (ARI)
+2. **visor.allaus.ad** - Andorra Recerca + Innovació (ARI)
    - ATES (Avalanche Terrain Exposure Scale) route classifications
    - Comprehensive route catalog with terrain complexity ratings
    - Route difficulty, altitude, and orientation data
-   - Copyright: Institut de Recerca en Allaus d'Andorra
+   - Original ATES cartographic work: Centre d'Estudis de la Neu i la Muntanya d'Andorra (CENMA) & OBSA Observatori de la Sostenibilitat d'Andorra
+   - Copyright: Andorra Recerca + Innovació
 
 3. **GitHub Actions Workflow** - Automated data processing and deployment
 
@@ -171,7 +172,8 @@ This application uses data from:
 - All avalanche danger assessments and snow data are sourced from official Andorran meteorological services
 
 **Route & Terrain Data:**
-- **Institut de Recerca en Allaus d'Andorra (ARI)** via visor.allaus.ad - ATES route classifications and terrain complexity ratings
+- **Andorra Recerca + Innovació (ARI)** via visor.allaus.ad - ATES route classifications and terrain complexity ratings
+- Original ATES cartographic development by Centre d'Estudis de la Neu i la Muntanya d'Andorra (CENMA) and OBSA Observatori de la Sostenibilitat d'Andorra
 - Route catalog includes difficulty ratings, altitude profiles, and orientation data
 
 **Usage Compliance:**

@@ -221,23 +221,23 @@ function App() {
             <div className="lg:col-span-3">
               {/* View Mode Toggle */}
               <div id="route-explorer" className="mb-8 bg-white/90 backdrop-blur-md rounded-2xl shadow-xl border border-white/20 p-6">
-                <div className="flex items-center justify-between mb-4">
-                  <div className="flex items-center space-x-4">
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4 gap-4">
+                  <div className="flex items-center flex-wrap gap-2 sm:gap-4">
                     <h2 className="text-2xl font-bold text-gray-800">Route Explorer</h2>
                     {/* Clear Filters Button - only show when filters are active */}
                     {hasActiveFilters && (
                       <button
                         onClick={() => setFilters({})}
-                        className="px-4 py-2 text-sm font-medium text-white bg-red-500 hover:bg-red-600 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                        className="px-3 py-1.5 text-xs sm:px-4 sm:py-2 sm:text-sm font-medium text-white bg-red-500 hover:bg-red-600 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                       >
                         🔄 Clear Filters
                       </button>
                     )}
                   </div>
-                  <div className="flex bg-gray-100 rounded-full p-1">
+                  <div className="flex bg-gray-100 rounded-full p-1 self-start sm:self-auto">
                     <button
                       onClick={() => setViewMode('top3')}
-                      className={`px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 ${
+                      className={`px-3 py-2 sm:px-6 sm:py-3 rounded-full text-xs sm:text-sm font-medium transition-all duration-300 ${
                         viewMode === 'top3'
                           ? 'bg-blue-600 text-white shadow-lg transform scale-105'
                           : 'text-gray-700 hover:bg-white hover:shadow-md'
@@ -247,7 +247,7 @@ function App() {
                     </button>
                     <button
                       onClick={() => setViewMode('all')}
-                      className={`px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 ${
+                      className={`px-3 py-2 sm:px-6 sm:py-3 rounded-full text-xs sm:text-sm font-medium transition-all duration-300 ${
                         viewMode === 'all'
                           ? 'bg-blue-600 text-white shadow-lg transform scale-105'
                           : 'text-gray-700 hover:bg-white hover:shadow-md'

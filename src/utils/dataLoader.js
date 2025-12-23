@@ -55,9 +55,7 @@ export const loadRatingsCSV = async () => {
         if (!response.ok) continue;
         const text = await response.text();
         console.log(`Successfully loaded bulletin from: ${response.url}`);
-        const dateMatch = name.match(/butlleti_(\d{4})_(\d{2})_(\d{2})/);
-        const sourceDate = dateMatch ? `${dateMatch[3]}/${dateMatch[2]}/${dateMatch[1]}` : null;
-        return { rows: parseCSV(text, ','), sourceDate };
+        return parseCSV(text, ',');
       } catch {
         continue;
       }

@@ -69,6 +69,9 @@ jobs:
 
     - name: Copy new data to public folder
       run: |
+        # Copy the main JSON file
+        cp data/butlleti_allaus.json public/data/
+
         # Copy any new bulletin CSV files to public/data
         find data -name "butlleti_*.csv" -newer public/data/butlleti_2025_12_18.csv -exec cp {} public/data/ \; 2>/dev/null || true
 

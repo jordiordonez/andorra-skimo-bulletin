@@ -11,12 +11,19 @@ The Andorra Skimo Bulletin uses a sophisticated multi-criteria rating system to 
 ### 1. **Rating Neu (Snow Quality Rating)** ❄️
 **Scale:** 0-5 (5 = Excellent snow conditions)
 
-#### Algorithm Details
+#### Algorithm Details (ENHANCED WITH MANTELL LOGIC)
 ```python
 def _rating_neu(gruixos, zona_meteo, orientation, start_alt, end_alt):
+    # NEW: Check mantell threshold first
+    mantell_altitude = parse_altitude(gruixos[zone][orient]["altitud_mantell"])
+
+    # If route starts below mantell level, no skiable snow
+    if start_alt < mantell_altitude:
+        return 0
+
     # Get snow depths at route start and end altitudes
-    start_snow = interpolate_snow_depth(zone, orientation, start_altitude)
-    end_snow = interpolate_snow_depth(zone, orientation, end_altitude)
+    start_snow = interpolate_snow_depth_with_mantell(zone, orientation, start_altitude, mantell_altitude)
+    end_snow = interpolate_snow_depth_with_mantell(zone, orientation, end_altitude, mantell_altitude)
 
     # If no snow at either end, route is impossible
     if start_snow == 0 or end_snow == 0:
@@ -26,17 +33,28 @@ def _rating_neu(gruixos, zona_meteo, orientation, start_alt, end_alt):
     return min(5, ceil(start_snow / 5))
 ```
 
-#### Snow Depth Interpolation
-The system interpolates snow depth based on three official measurement points:
-- **1500m elevation:** Base valley measurements
-- **2000m elevation:** Mid-altitude measurements
-- **2500m elevation:** High altitude measurements
+#### ENHANCED Snow Depth Interpolation (NEW MANTELL LOGIC)
+The system now uses **mantell altitude threshold** from official bulletins for accurate snow line calculation:
 
-**Linear interpolation formula:**
-- Below 1500m: Use 1500m value
-- 1500m-2000m: `depth = depth_1500 + (altitude-1500)/500 * (depth_2000-depth_1500)`
-- 2000m-2500m: `depth = depth_2000 + (altitude-2000)/500 * (depth_2500-depth_2000)`
-- Above 2500m: Use 2500m value
+**Three-tier interpolation system:**
+1. **Below Mantell Altitude:** `snow_depth = 0cm` (no snow)
+2. **Mantell to 1500m:** Linear interpolation from 0cm to actual 1500m measurement
+3. **Above 1500m:** Standard altitude-based interpolation (1500m-2500m)
+
+**Enhanced interpolation formulas:**
+- **Below mantell:** `depth = 0cm`
+- **Mantell-1500m:** `depth = (altitude-mantell)/(1500-mantell) * depth_1500`
+- **1500m-2000m:** `depth = depth_1500 + (altitude-1500)/500 * (depth_2000-depth_1500)`
+- **2000m-2500m:** `depth = depth_2000 + (altitude-2000)/500 * (depth_2500-depth_2000)`
+- **Above 2500m:** Use 2500m value
+
+#### Real Mantell Altitudes (Dynamic per bulletin)
+Current typical values:
+- **Nord zones:** 1300m (both N & S aspects)
+- **Centre zones:** 1200m (both N & S aspects)
+- **Sud zones:** 1200m (both N & S aspects)
+
+*Note: These values update daily based on actual snow line observations*
 
 #### Orientation Mapping
 - **North aspects (N, NE, NW):** Typically more snow, slower melt
@@ -217,10 +235,30 @@ The "Top 3" section shows the highest-scoring routes after applying the full ran
   - Start/end altitudes and orientations
   - Geographic zone assignments
 
-### Update Frequency
+### Update Frequency & Smart Bulletin Selection (NEW)
 - **Bulletins:** Daily at 4:00 PM (Andorra time)
 - **Route rankings:** Automatically recalculated with each new bulletin
 - **Deployment:** Automated via GitHub Actions at 4:05 PM daily
+
+#### Intelligent Bulletin Selection
+The system now uses **smart bulletin selection** to ensure data accuracy:
+
+**Previous Logic (FIXED):**
+- Always searched backwards from today
+- Used first file found (usually yesterday's data)
+- Could show outdated ratings with current timestamps
+
+**NEW Enhanced Logic:**
+- Searches through 30 days of potential bulletin files
+- **Automatically selects the most recent available bulletin**
+- Displays correct timestamp matching the actual data being shown
+- Handles varying update schedules (not always at exactly 4:05 PM)
+
+**Benefits:**
+- ✅ Always shows most current available data
+- ✅ Accurate timestamp display
+- ✅ Handles irregular update schedules
+- ✅ No more data/timestamp mismatches
 
 ---
 
@@ -259,12 +297,19 @@ scripts/
 └── generate_butlleti_csv.py   # Rating calculation engine
 ```
 
-### Rating Calculation Pipeline
-1. **Extract** fresh bulletin data from meteo.ad
-2. **Parse** snow depths, danger levels, wind conditions
+### ENHANCED Rating Calculation Pipeline (NEW)
+1. **Extract** fresh bulletin data from meteo.ad with mantell altitude information
+2. **Parse** snow depths, danger levels, wind conditions, and mantell thresholds
 3. **Load** route catalog with terrain classifications
-4. **Calculate** individual ratings for each route
-5. **Generate** ranked CSV file for web application
-6. **Deploy** updated rankings to live website
+4. **Calculate** individual ratings for each route using mantell-based snow logic
+5. **Generate** ranked CSV file with enhanced snow calculations
+6. **Smart Selection** of most recent bulletin data in web application
+7. **Deploy** updated rankings to live website with accurate timestamps
 
-This systematic approach ensures reliable, repeatable route assessments based on official avalanche safety data.
+#### Key Enhancements (NEW)
+- **Mantell Threshold Integration:** Real snow line data from bulletins
+- **Smart Altitude Interpolation:** Three-tier snow depth calculation
+- **Intelligent Data Selection:** Always uses most recent available bulletin
+- **Accurate Timestamping:** UI shows correct dates for displayed data
+
+This enhanced systematic approach ensures **more accurate and reliable** route assessments based on real-world snow line observations and intelligent data handling.

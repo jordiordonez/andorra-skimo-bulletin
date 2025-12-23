@@ -7,7 +7,10 @@ A React-based avalanche route planning web application for ski-mountaineering in
 - **📊 Intelligent Route Ranking**: Multi-criteria scoring system (safety, snow quality, wind exposure)
 - **🔍 Smart Search & Filtering**: Autocomplete route search with advanced filters
 - **🏆 Top Recommendations**: Daily top 3 route suggestions based on current conditions
-- **❄️ Real-time Snow Data**: Current avalanche bulletins and snow depth measurements
+- **❄️ Real-time Snow Data**: Current avalanche bulletins and snow depth measurements with mantell threshold logic
+- **🤖 Automated Updates**: Daily data scraping and processing at 4:05 PM Andorra time
+- **📊 Advanced Snow Rating**: Mantell-based snow depth calculations with altitude interpolation
+- **📅 Smart Bulletin Selection**: Automatically uses most recent available bulletin data
 - **📱 Responsive Design**: Works seamlessly on desktop, tablet, and mobile
 - **🗺️ Route Integration**: Direct links to detailed route information on visor.allaus.ad
 
@@ -45,10 +48,14 @@ npm run preview
 - **Route Cards**: Detailed route information with safety assessments
 - **Methodology Legend**: Interactive explanations of rating system and data sources
 
-### Data Sources
+### Data Sources & Automation
 
-1. **meteo.ad/estatneu** - Official Andorra avalanche bulletins (daily updates)
+1. **meteo.ad/estatneu** - Official Andorra avalanche bulletins
+   - Automated daily scraping at 4:05 PM
+   - Real-time snow depth and mantell altitude data
+   - Avalanche danger levels by zone and orientation
 2. **visor.allaus.ad** - ATES terrain classification and route catalog
+3. **GitHub Actions Workflow** - Automated data processing and deployment
 
 ### Technology Stack
 
@@ -59,12 +66,23 @@ npm run preview
 
 ## 📊 Route Ranking Algorithm
 
-Routes are ranked using a multi-criteria scoring system:
+Routes are ranked using a multi-criteria scoring system with advanced snow calculations:
 
+### Rating Components
 1. **Final Rating** (primary) - Overall recommendation score
 2. **Safety Level** (secondary) - Terrain complexity + avalanche risk
-3. **Snow Quality** (tertiary) - Snow depth and conditions
+3. **Snow Quality** (tertiary) - Snow depth and conditions with mantell logic
 4. **Wind Exposure** (quaternary) - Problematic wind directions
+
+### Snow Rating Logic (NEW)
+- **Below Mantell Altitude**: `rating_neu = 0` (no skiable snow)
+- **Between Mantell & 1500m**: Linear interpolation from 0cm to actual snow depth
+- **Above 1500m**: Standard altitude-based interpolation (1500m-2500m)
+
+### Bulletin Selection (NEW)
+- Automatically finds and uses the most recent available bulletin file
+- Searches through 30 days of potential data files
+- Displays correct timestamp matching the actual data being shown
 
 ## 🎨 Design System
 

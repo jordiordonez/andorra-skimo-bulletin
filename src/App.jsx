@@ -74,10 +74,18 @@ function App() {
       updatedTime = updatedTime.replace('16:00', '16h10');
     }
 
-    // Format next update time with 16h10 announcement
-    let nextUpdateTime = metadata.valid_fins || '—';
-    if (nextUpdateTime !== '—') {
-      nextUpdateTime = `${nextUpdateTime} (16h10)`;
+    // Format next update time with 16h10 announcement - should be the day after valid_fins
+    let nextUpdateTime = '—';
+    if (metadata?.valid_fins) {
+      const validDate = parseDate(metadata.valid_fins);
+      if (validDate) {
+        const nextDay = new Date(validDate);
+        nextDay.setDate(nextDay.getDate() + 1);
+        const day = String(nextDay.getDate()).padStart(2, '0');
+        const month = String(nextDay.getMonth() + 1).padStart(2, '0');
+        const year = nextDay.getFullYear();
+        nextUpdateTime = `${day}/${month}/${year} (16h10)`;
+      }
     }
 
     return { updatedTime, nextUpdateTime };

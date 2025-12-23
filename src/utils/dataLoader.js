@@ -85,12 +85,14 @@ const parseCSV = (text, separator = ',') => {
 };
 
 export const getAllData = async () => {
-  const [butlleti, visor, routes, ratings] = await Promise.all([
+  const [butlleti, visor, routes, ratingResult] = await Promise.all([
     loadButlletiData(),
     loadVisorData(),
     loadRoutesCSV(),
     loadRatingsCSV()
   ]);
+
+  const ratings = ratingResult?.rows ?? null;
 
   // Merge routes with ratings based on route_index_global
   const mergedRoutes = routes ? routes.map(route => {
@@ -106,6 +108,7 @@ export const getAllData = async () => {
   return {
     butlleti,
     visor,
-    routes: mergedRoutes
+    routes: mergedRoutes,
+    ratingSourceDate: ratingResult?.sourceDate ?? null
   };
 };

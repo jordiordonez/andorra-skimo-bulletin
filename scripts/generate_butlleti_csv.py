@@ -10,6 +10,11 @@ def _parse_cm(value: str) -> float:
     return float(value.replace("cm", "").strip())
 
 
+def _parse_altitude(value: str) -> float:
+    """Parse altitude string like '1400 m' to float 1400.0"""
+    return float(value.replace("m", "").strip())
+
+
 def _round_to_5(value: float) -> int:
     return int(round(value / 5.0) * 5)
 
@@ -22,16 +27,27 @@ def _split_orientations(value: str):
     return [part.strip().upper() for part in value.split("+") if part.strip()]
 
 
-def _interpolate_snow(gruixos: dict, zone_key: str, orient_key: str, altitude: float) -> int:
+def _interpolate_snow(gruixos: dict, zone_key: str, orient_key: str, altitude: float, altitud_mantell_str: str) -> int:
     zone_data = gruixos[zone_key][orient_key]
+    mantell_altitude = _parse_altitude(altitud_mantell_str)
+
     values = {
         1500: _parse_cm(zone_data.get("gruix_1500m", "0 cm")),
         2000: _parse_cm(zone_data.get("gruix_2000m", "0 cm")),
         2500: _parse_cm(zone_data.get("gruix_2500m", "0 cm")),
     }
 
-    if altitude <= 1500:
-        raw = values[1500]
+    # New logic: Check mantell threshold first
+    if altitude < mantell_altitude:
+        raw = 0
+    elif altitude <= 1500:
+        # Interpolate between mantell (0cm) and 1500m (actual snow)
+        if mantell_altitude >= 1500:
+            # Edge case: mantell is at or above 1500m
+            raw = 0
+        else:
+            factor = (altitude - mantell_altitude) / (1500 - mantell_altitude)
+            raw = 0 + factor * values[1500]  # Linear interpolation from 0 to values[1500]
     elif altitude >= 2500:
         raw = values[2500]
     elif altitude <= 2000:
@@ -61,8 +77,15 @@ def _rating_neu(gruixos: dict, zona_meteo: str, orientation: str, start_alt: flo
     zone_key = zona_meteo.replace("zona_", "")
     orient_key = _orientation_key(orientation)
 
-    start_snow = _interpolate_snow(gruixos, zone_key, orient_key, start_alt)
-    end_snow = _interpolate_snow(gruixos, zone_key, orient_key, end_alt)
+    # Check if route starts below mantell level
+    altitud_mantell_str = gruixos[zone_key][orient_key]["altitud_mantell"]
+    mantell_altitude = _parse_altitude(altitud_mantell_str)
+
+    if start_alt < mantell_altitude:
+        return 0  # No snow below mantell level
+
+    start_snow = _interpolate_snow(gruixos, zone_key, orient_key, start_alt, altitud_mantell_str)
+    end_snow = _interpolate_snow(gruixos, zone_key, orient_key, end_alt, altitud_mantell_str)
 
     if start_snow == 0 or end_snow == 0:
         return 0

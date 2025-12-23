@@ -50,11 +50,19 @@ npm run preview
 
 ### Data Sources & Automation
 
-1. **meteo.ad/estatneu** - Official Andorra avalanche bulletins
-   - Automated daily scraping at 4:05 PM
+1. **meteo.ad/estatneu** - Official Andorra Meteorological Service
+   - Avalanche bulletins and snow condition reports
+   - Automated daily scraping at 4:05 PM Andorra time
    - Real-time snow depth and mantell altitude data
    - Avalanche danger levels by zone and orientation
-2. **visor.allaus.ad** - ATES terrain classification and route catalog
+   - Copyright: Servei Meteorològic d'Andorra
+
+2. **visor.allaus.ad** - Avalanche Research Institute (ARI)
+   - ATES (Avalanche Terrain Exposure Scale) route classifications
+   - Comprehensive route catalog with terrain complexity ratings
+   - Route difficulty, altitude, and orientation data
+   - Copyright: Institut de Recerca en Allaus d'Andorra
+
 3. **GitHub Actions Workflow** - Automated data processing and deployment
 
 ### Technology Stack
@@ -154,7 +162,22 @@ This tool provides informational data only. Always:
 - Check current weather conditions
 - Inform others of your route plans
 
-**Data sources**: Official Andorra meteorological services and ATES terrain classification system.
+## 📊 Data Attribution & Sources
+
+This application uses data from:
+
+**Avalanche & Meteorological Data:**
+- **Servei Meteorològic d'Andorra** (meteo.ad) - Official avalanche bulletins, snow depth measurements, and weather conditions
+- All avalanche danger assessments and snow data are sourced from official Andorran meteorological services
+
+**Route & Terrain Data:**
+- **Institut de Recerca en Allaus d'Andorra (ARI)** via visor.allaus.ad - ATES route classifications and terrain complexity ratings
+- Route catalog includes difficulty ratings, altitude profiles, and orientation data
+
+**Usage Compliance:**
+- Data is used for non-commercial educational and safety purposes
+- All original data remains property of respective institutions
+- Users should always consult original official sources for authoritative information
 
 ## 📄 License
 

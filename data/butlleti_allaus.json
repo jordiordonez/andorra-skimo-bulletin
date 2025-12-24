@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2025-12-23T15:22:53.583336",
+  "timestamp_scraping": "2025-12-24T15:22:20.200136",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "23/12/2025 16:00",
+    "data_elaboracio": "24/12/2025 16:00",
     "valid_fins": "24/12/2025",
     "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1371.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_23122025160044.jpg"
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_24122025160038.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -116,80 +116,86 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "19/12/2025": "0 cm",
       "20/12/2025": "0 cm",
       "21/12/2025": "0 cm",
-      "22/12/2025": "1 cm"
+      "22/12/2025": "1 cm",
+      "23/12/2025": "0 cm"
     },
     "Engolasters - FEDA": {
-      "19/12/2025": "0 cm",
       "20/12/2025": "1 cm",
       "21/12/2025": "8 cm",
-      "22/12/2025": "5 cm"
+      "22/12/2025": "5 cm",
+      "23/12/2025": "0 cm"
     },
-    "Bony de les Neres": {
-      "19/12/2025": "0 cm",
-      "20/12/2025": "0 cm",
-      "21/12/2025": "14 cm",
-      "22/12/2025": "9 cm"
-    },
-    "Grau Roig - FEDA": {
-      "19/12/2025": "1 cm",
+    "Ransol - FEDA": {
       "20/12/2025": "0 cm",
       "21/12/2025": "15 cm",
-      "22/12/2025": "5 cm"
+      "22/12/2025": "10 cm",
+      "23/12/2025": "2 cm"
     },
-    "Sorteny": {
-      "19/12/2025": "0 cm",
-      "20/12/2025": "4 cm",
-      "21/12/2025": "10 cm",
-      "22/12/2025": "10 cm"
-    },
-    "Perafita": {
-      "19/12/2025": "0 cm",
-      "20/12/2025": "3 cm",
-      "21/12/2025": "10 cm",
-      "22/12/2025": "3 cm"
-    },
-    "Tossa Espiolets": {
-      "19/12/2025": "1 cm",
-      "20/12/2025": "0 cm",
-      "21/12/2025": "9 cm",
-      "22/12/2025": "0 cm"
-    },
-    "La Solana": {
-      "19/12/2025": "0 cm",
+    "Bony de les Neres": {
       "20/12/2025": "0 cm",
       "21/12/2025": "14 cm",
-      "22/12/2025": "9 cm"
+      "22/12/2025": "9 cm",
+      "23/12/2025": "0 cm"
     },
-    "Vall del Riu FEDA": {
-      "19/12/2025": "0 cm",
+    "Grau Roig - FEDA": {
       "20/12/2025": "0 cm",
-      "21/12/2025": "0 cm",
-      "22/12/2025": "0 cm"
+      "21/12/2025": "15 cm",
+      "22/12/2025": "5 cm",
+      "23/12/2025": "0 cm"
     },
-    "Envalira Antenes": {
-      "19/12/2025": "0 cm",
+    "Sorteny": {
+      "20/12/2025": "4 cm",
+      "21/12/2025": "10 cm",
+      "22/12/2025": "10 cm",
+      "23/12/2025": "0 cm"
+    },
+    "Perafita": {
+      "20/12/2025": "3 cm",
+      "21/12/2025": "10 cm",
+      "22/12/2025": "3 cm",
+      "23/12/2025": "4 cm"
+    },
+    "Tossa Espiolets": {
       "20/12/2025": "0 cm",
       "21/12/2025": "9 cm",
-      "22/12/2025": "10 cm"
+      "22/12/2025": "0 cm",
+      "23/12/2025": "0 cm"
+    },
+    "La Solana": {
+      "20/12/2025": "0 cm",
+      "21/12/2025": "14 cm",
+      "22/12/2025": "9 cm",
+      "23/12/2025": "0 cm"
+    },
+    "Vall del Riu FEDA": {
+      "20/12/2025": "0 cm",
+      "21/12/2025": "0 cm",
+      "22/12/2025": "0 cm",
+      "23/12/2025": "0 cm"
+    },
+    "Envalira Antenes": {
+      "20/12/2025": "0 cm",
+      "21/12/2025": "9 cm",
+      "22/12/2025": "10 cm",
+      "23/12/2025": "7 cm"
     },
     "Les Fonts d'Arinsal": {
-      "19/12/2025": "0 cm",
       "20/12/2025": "0 cm",
       "21/12/2025": "11 cm",
-      "22/12/2025": "12 cm"
+      "22/12/2025": "12 cm",
+      "23/12/2025": "0 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
       "descripcio": "Al refugi hi podrem arribar amb esquís, però per sobre encara no hi ha prou neu com per tapar els torrents. La neu nova és molt lleugera i encara no aïlla bé les pedres i arbustos que hi havia a la vista.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_23122025160044.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_24122025160038.jpg"
     },
     "Comapedrosa": {
       "descripcio": "La situació és similar a totes les valls del nord d´Andorra, amb plaques de vent amagades sota la neu nova. Haurem d´evitar els vessants molt inclinats i exposats que estiguin orientats a nord-oest fins a l´est passant pel nord.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_23122025160044.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_24122025160038.jpg"
     },
     "Madriu-Perafita-Claror": {
       "descripcio": "La neu encara no aïlla bé totes les pedres. Les parets rocoses sovint no estan completament tapades i haurem de desconfiar dels pocs indrets esquiables que siguin molt inclinats i obacs, ja que poden ser plaques d´acumulació. A les canals de Pessons i a prop de les carenes, com poden ser les Montmalús, Serra Seca, Pics Negres d´Envalira o Abelletes poden haver-hi plaques de vent sensibles a sobrecàrregues a les orientacions nord i est. L´accés des de la Plana també està nevat.",

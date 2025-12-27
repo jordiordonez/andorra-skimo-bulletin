@@ -1,65 +1,69 @@
 {
-  "timestamp_scraping": "2025-12-26T15:21:46.504751",
+  "timestamp_scraping": "2025-12-27T15:19:46.512611",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "26/12/2025 16:00",
-    "valid_fins": "27/12/2025",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1373.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_26122025160033.jpg"
+    "data_elaboracio": "27/12/2025 16:00",
+    "valid_fins": "28/12/2025",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1374.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_27122025160037.jpg"
   },
   "zones": {
     "zona_nord": {
       "problemes": [
-        "neu recent",
-        "capes febles persistents"
+        "capes febles persistents",
+        "neu humida"
       ],
       "orientacions": [
-        "W+NW+N+NE+E",
-        "NW+N+NE+E+SE"
+        "NW+N+NE+E+SE",
+        "E+SE+S+SW+W"
       ],
       "mides_allaus": [
+        3,
         2
       ],
       "tipus_sobrecarga": [
-        "Feble"
+        "Feble",
+        "Espontani"
       ],
       "nivell_perill": 3,
       "tendencia": "igual"
     },
     "zona_centre": {
       "problemes": [
-        "neu recent",
-        "capes febles persistents"
+        "capes febles persistents",
+        "neu humida"
       ],
       "orientacions": [
-        "W+NW+N+NE+E",
-        "NW+N+NE+E+SE"
+        "NW+N+NE+E+SE",
+        "E+SE+S+SW+W"
       ],
       "mides_allaus": [
-        2,
-        1
+        3,
+        2
       ],
       "tipus_sobrecarga": [
-        "Feble"
+        "Feble",
+        "Espontani"
       ],
       "nivell_perill": 3,
       "tendencia": "igual"
     },
     "zona_sud": {
       "problemes": [
-        "neu recent",
-        "capes febles persistents"
+        "capes febles persistents",
+        "neu humida"
       ],
       "orientacions": [
-        "W+NW+N+NE+E",
-        "NW+N+NE+E+SE"
+        "NW+N+NE+E+SE",
+        "E+SE+S+SW+W"
       ],
       "mides_allaus": [
-        2,
-        1
+        3,
+        2
       ],
       "tipus_sobrecarga": [
-        "Feble"
+        "Feble",
+        "Espontani"
       ],
       "nivell_perill": 3,
       "tendencia": "igual"
@@ -111,98 +115,98 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "22/12/2025": "1 cm",
       "23/12/2025": "0 cm",
       "24/12/2025": "0 cm",
-      "25/12/2025": "2 cm"
+      "25/12/2025": "2 cm",
+      "26/12/2025": "0 cm"
     },
     "Engolasters - FEDA": {
-      "22/12/2025": "5 cm",
       "23/12/2025": "0 cm",
       "24/12/2025": "2 cm",
-      "25/12/2025": "6 cm"
+      "25/12/2025": "6 cm",
+      "26/12/2025": "0 cm"
     },
     "Ransol - FEDA": {
-      "22/12/2025": "10 cm",
       "23/12/2025": "2 cm",
       "24/12/2025": "0 cm",
-      "25/12/2025": "10 cm"
+      "25/12/2025": "10 cm",
+      "26/12/2025": "0 cm"
     },
     "Bony de les Neres": {
-      "22/12/2025": "9 cm",
       "23/12/2025": "0 cm",
       "24/12/2025": "3 cm",
-      "25/12/2025": "7 cm"
+      "25/12/2025": "7 cm",
+      "26/12/2025": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "22/12/2025": "5 cm",
       "23/12/2025": "0 cm",
       "24/12/2025": "2 cm",
-      "25/12/2025": "6 cm"
+      "25/12/2025": "6 cm",
+      "26/12/2025": "0 cm"
     },
     "Caborreu": {
-      "22/12/2025": "3 cm",
       "23/12/2025": "0 cm",
       "24/12/2025": "5 cm",
-      "25/12/2025": "11 cm"
+      "25/12/2025": "11 cm",
+      "26/12/2025": "0 cm"
     },
     "Sorteny": {
-      "22/12/2025": "10 cm",
       "23/12/2025": "0 cm",
       "24/12/2025": "5 cm",
-      "25/12/2025": "4 cm"
+      "25/12/2025": "4 cm",
+      "26/12/2025": "1 cm"
     },
     "Coll Pa": {
-      "22/12/2025": "8 cm",
       "23/12/2025": "0 cm",
       "24/12/2025": "5 cm",
-      "25/12/2025": "7 cm"
+      "25/12/2025": "7 cm",
+      "26/12/2025": "0 cm"
     },
     "Perafita": {
-      "22/12/2025": "3 cm",
       "23/12/2025": "4 cm",
       "24/12/2025": "0 cm",
-      "25/12/2025": "8 cm"
+      "25/12/2025": "8 cm",
+      "26/12/2025": "0 cm"
     },
     "Tossa Espiolets": {
-      "22/12/2025": "0 cm",
       "23/12/2025": "0 cm",
       "24/12/2025": "0 cm",
-      "25/12/2025": "0 cm"
+      "25/12/2025": "0 cm",
+      "26/12/2025": "1 cm"
     },
     "La Solana": {
-      "22/12/2025": "9 cm",
       "23/12/2025": "0 cm",
       "24/12/2025": "0 cm",
-      "25/12/2025": "0 cm"
+      "25/12/2025": "0 cm",
+      "26/12/2025": "12 cm"
     },
     "Envalira Antenes": {
-      "22/12/2025": "10 cm",
       "23/12/2025": "7 cm",
       "24/12/2025": "0 cm",
-      "25/12/2025": "2 cm"
+      "25/12/2025": "2 cm",
+      "26/12/2025": "6 cm"
     },
     "Les Fonts d'Arinsal": {
-      "22/12/2025": "12 cm",
       "23/12/2025": "0 cm",
       "24/12/2025": "3 cm",
-      "25/12/2025": "7 cm"
+      "25/12/2025": "7 cm",
+      "26/12/2025": "0 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
-      "descripcio": "Al refugi hi podrem arribar amb esquís i cada vegada hi ha més neu per fer excursions. De moment, però, encara és molt lleugera i pot no aïllar del tot algunes pedres i arbustos. Es recomana mantenir-nos dins del nivell del bosc fins que no millori la visibilitat i puguem identificar el perill d´allaus.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_26122025160033.jpg"
+      "descripcio": "Al refugi hi podrem arribar amb esquís i cada vegada hi ha més neu per fer excursions, però l´augment de temperatures ha fet que la neu recent sigui més humida i densa. Aquesta descansa a sobre de capes més toves, per tant el mantell de neu té una estructura desfavorable per sobre del límit del bosc.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_27122025160037.jpg"
     },
     "Comapedrosa": {
-      "descripcio": "Com a tot arreu, haurem de vigilar amb plaques de vent amagades sota la neu nova. Haurem d´evitar els vessants molt inclinats i exposats que estiguin orientats a nord-oest fins a l´est passant pel nord.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_26122025160033.jpg"
+      "descripcio": "Haurem de vigilar amb plaques de vent amagades sota la neu nova. Aquestes es poden desprendre amb més facilitat que els dies anteriors per l´augment de pes del mantell de neu en superfície degut a la humitat.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_27122025160037.jpg"
     },
     "Madriu-Perafita-Claror": {
-      "descripcio": "A les canals de Pessons i a prop de les carenes, com poden ser les Montmalús, Serra Seca, Pics Negres d´Envalira o Abelletes poden haver-hi plaques de vent sensibles a sobrecàrregues a les orientacions nord i est. L´accés des de la Plana també està nevat.",
+      "descripcio": "A les canals de Pessons i a prop de les carenes, com poden ser les Montmalús, Serra Seca, Pics Negres d´Envalira o Abelletes hi ha nombroses plaques de vent amagades sota la neu nova densa que es poden desprendre amb facilitat, ja sigui de forma natural per l´augment de les temperatures, com de forma accidental per la sobrecàrrega d´un esquiador. La neu a cotes baixes s´ha humidificat.",
       "mapa_url": null
     }
   },
-  "estabilitat_text": "La neu recent d'ahir i les plaques de vent a vegades grans poden fàcilment desencadenar-se de manera natural o accidental. Els indrets perillosos són coberts amb neu recent i difícils de reconèixer. Als vessants orientats a oest i nord les plaques de vent augmentaran de mida addicionalment. Les allaus poden en alguns casos ser desencadenades molt fàcilment i, de manera aïllada, assolir grans dimensions. Es recomana mantenir la distància entre els components. Les excursions de muntanya requereixen una elecció prudent de l'itinerari. Els indrets perillosos són nombrosos i difícils de reconèixer amb mala visibilitat.",
-  "qualitat_neu_text": "Des del dilluns ha caigut neu fins a cotes mitges en una zona àmplia. La neu recent es dipositarà a sobre de capes toves en totes les orientacions."
+  "estabilitat_text": "La neu recent dels darrers dies i les plaques de vent a vegades grans poden fàcilment desencadenar-se de manera natural o accidental. Amb l'augment de la temperatura diürna, són possibles nombroses allaus de mida mitjana i, localment, gran. Són possibles allaus de neu humida a totes les cotes. Els indrets perillosos són coberts amb neu recent i difícils de reconèixer. Les allaus poden en alguns casos ser desencadenades molt fàcilment i, de manera aïllada, assolir grans dimensions. Es recomana mantenir la distància entre els components. Les excursions de muntanya requereixen una elecció prudent de l'itinerari.",
+  "qualitat_neu_text": "Des del dilluns ha caigut neu fins a cotes mitges en una zona àmplia. La neu recent descansa a sobre de capes toves en totes les orientacions. La neu recent i les plaques de vent dels darrers dies descansen a sobre d'una superfície desfavorable del mantell de neu vella."
 }

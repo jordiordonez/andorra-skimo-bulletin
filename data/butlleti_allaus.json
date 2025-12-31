@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2025-12-30T15:22:59.793492",
+  "timestamp_scraping": "2025-12-31T15:21:41.543369",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "30/12/2025 16:00",
-    "valid_fins": "31/12/2025",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1378.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_30122025160037.jpg"
+    "data_elaboracio": "31/12/2025 16:00",
+    "valid_fins": "02/01/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1380.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_31122025160040.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -75,42 +75,42 @@
   "gruixos_mantell": {
     "nord": {
       "N": {
-        "altitud_mantell": "1300 m",
+        "altitud_mantell": "1400 m",
         "gruix_1500m": "15 cm",
         "gruix_2000m": "70 cm",
         "gruix_2500m": "90 cm"
       },
       "S": {
-        "altitud_mantell": "1300 m",
-        "gruix_1500m": "15 cm",
+        "altitud_mantell": "1700 m",
+        "gruix_1500m": "0 cm",
         "gruix_2000m": "40 cm",
         "gruix_2500m": "40 cm"
       }
     },
     "centre": {
       "N": {
-        "altitud_mantell": "1200 m",
+        "altitud_mantell": "1400 m",
         "gruix_1500m": "15 cm",
         "gruix_2000m": "50 cm",
         "gruix_2500m": "70 cm"
       },
       "S": {
-        "altitud_mantell": "1200 m",
-        "gruix_1500m": "15 cm",
+        "altitud_mantell": "1700 m",
+        "gruix_1500m": "0 cm",
         "gruix_2000m": "40 cm",
         "gruix_2500m": "40 cm"
       }
     },
     "sud": {
       "N": {
-        "altitud_mantell": "1200 m",
+        "altitud_mantell": "1400 m",
         "gruix_1500m": "15 cm",
         "gruix_2000m": "30 cm",
         "gruix_2500m": "30 cm"
       },
       "S": {
-        "altitud_mantell": "1200 m",
-        "gruix_1500m": "15 cm",
+        "altitud_mantell": "1700 m",
+        "gruix_1500m": "0 cm",
         "gruix_2000m": "30 cm",
         "gruix_2500m": "30 cm"
       }
@@ -118,95 +118,95 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "26/12/2025": "0 cm",
       "27/12/2025": "0 cm",
       "28/12/2025": "0 cm",
-      "29/12/2025": "0 cm"
+      "29/12/2025": "0 cm",
+      "30/12/2025": "0 cm"
     },
     "Engolasters - FEDA": {
-      "26/12/2025": "0 cm",
       "27/12/2025": "0 cm",
       "28/12/2025": "0 cm",
-      "29/12/2025": "0 cm"
+      "29/12/2025": "0 cm",
+      "30/12/2025": "0 cm"
     },
     "Ransol - FEDA": {
-      "26/12/2025": "0 cm",
       "27/12/2025": "0 cm",
       "28/12/2025": "1 cm",
-      "29/12/2025": "0 cm"
+      "29/12/2025": "0 cm",
+      "30/12/2025": "0 cm"
     },
     "Bony de les Neres": {
-      "26/12/2025": "0 cm",
       "27/12/2025": "2 cm",
       "28/12/2025": "0 cm",
-      "29/12/2025": "0 cm"
+      "29/12/2025": "0 cm",
+      "30/12/2025": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "26/12/2025": "0 cm",
       "27/12/2025": "0 cm",
       "28/12/2025": "0 cm",
-      "29/12/2025": "0 cm"
+      "29/12/2025": "0 cm",
+      "30/12/2025": "0 cm"
     },
     "Caborreu": {
-      "26/12/2025": "0 cm",
       "27/12/2025": "7 cm",
       "28/12/2025": "0 cm",
-      "29/12/2025": "0 cm"
+      "29/12/2025": "0 cm",
+      "30/12/2025": "0 cm"
     },
     "Sorteny": {
-      "26/12/2025": "1 cm",
       "27/12/2025": "6 cm",
       "28/12/2025": "0 cm",
-      "29/12/2025": "0 cm"
+      "29/12/2025": "0 cm",
+      "30/12/2025": "0 cm"
     },
     "Coll Pa": {
-      "26/12/2025": "0 cm",
       "27/12/2025": "2 cm",
       "28/12/2025": "0 cm",
-      "29/12/2025": "0 cm"
+      "29/12/2025": "0 cm",
+      "30/12/2025": "0 cm"
     },
     "Perafita": {
-      "26/12/2025": "0 cm",
       "27/12/2025": "0 cm",
       "28/12/2025": "0 cm",
-      "29/12/2025": "0 cm"
+      "29/12/2025": "0 cm",
+      "30/12/2025": "0 cm"
     },
     "Tossa Espiolets": {
-      "26/12/2025": "1 cm",
       "27/12/2025": "0 cm",
       "28/12/2025": "0 cm",
-      "29/12/2025": "0 cm"
+      "29/12/2025": "0 cm",
+      "30/12/2025": "0 cm"
     },
     "La Solana": {
-      "26/12/2025": "12 cm",
       "27/12/2025": "4 cm",
       "28/12/2025": "0 cm",
-      "29/12/2025": "1 cm"
+      "29/12/2025": "0 cm",
+      "30/12/2025": "0 cm"
     },
     "Envalira Antenes": {
-      "26/12/2025": "6 cm",
       "27/12/2025": "1 cm",
       "28/12/2025": "0 cm",
-      "29/12/2025": "0 cm"
+      "29/12/2025": "0 cm",
+      "30/12/2025": "0 cm"
     },
     "Les Fonts d'Arinsal": {
-      "26/12/2025": "0 cm",
       "27/12/2025": "0 cm",
       "28/12/2025": "0 cm",
-      "29/12/2025": "0 cm"
+      "29/12/2025": "0 cm",
+      "30/12/2025": "0 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
-      "descripcio": "Al refugi hi podrem arribar amb esquís i cada vegada hi ha més neu per fer excursions. La neu recent és densa i ha caigut sobre capes més toves. A l´interior del bosc i zones planes no tindrem problemes de desencadenament d´allaus, però a les parets verticals dels circs podem desencadenar allaus de placa. Tot i la presència de neu, haurem d´evitar el terreny complex dels vessants obacs.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_30122025160037.jpg"
+      "descripcio": "Al refugi hi podrem arribar amb esquís i cada vegada hi ha més neu per fer excursions. La neu recent és densa i ha caigut sobre capes més toves. A l´interior del bosc i zones planes no tindrem problemes de desencadenament d´allaus, però a les parets verticals dels circs podem desencadenar allaus de placa. Tot i la presència de neu, haurem d´evitar el terreny complex dels vessants obacs per la presència de capes febles persistents en profunditat. De cara al cap de setmana, amb més humitat i la isozero a 2500 metres, aquestes capes febles es poden activar molt més fàcilment.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_31122025160040.jpg"
     },
     "Comapedrosa": {
       "descripcio": "No es recomana circular per pendents molt inclinats dels vessants obacs, ja que amaguen capes febles persistents que poden ser sensibles a sobrecàrregues. Majoritàriament les activarem per sobrecàrregues fortes, però depenent de la profunditat de la capa feble, la podem activar amb sobrecàrregues més febles. Si arribem a circular per terreny complex ho haurem de fer extremant la prudència i prenent el camí més conservador.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_30122025160037.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_31122025160040.jpg"
     },
     "Madriu-Perafita-Claror": {
-      "descripcio": "A les canals de Pessons i a prop de les carenes, com poden ser les de Pessons, Montmalús, Colells, Serra Seca, Pics Negres d´Envalira o Abelletes hi ha nombroses plaques de vent amagades sota la neu nova densa que reposen sobre una capa de neu rodona. Aquesta capa ja ha provocat allaus durant aquest mes de desembre, i els testos d´estabilitat donen positiu, fet que ens ha de fer extremar les precaucions als indrets culminants, com pot ser la collada de Montmalús, on hem de mantenir la distància de seguretat. Aquestes capes febles persistents es poden activar encara que hi hagin passat molts esquiadors abans. Un canvi en les condicions atmosfèriques (humitat, temperatura, vent, etc.) pot fer variar l´estabilitat en poques hores.",
+      "descripcio": "A les canals de Pessons i a prop de les carenes, com poden ser les de Pessons, Montmalús, Colells, Serra Seca, Pics Negres d´Envalira o Abelletes hi ha nombroses plaques de vent amagades sota la neu nova densa que reposen sobre una capa de neu rodona. Aquesta capa ja ha provocat allaus durant aquest mes de desembre, i els testos d´estabilitat donen positiu, fet que ens ha de fer extremar les precaucions als indrets culminants, com pot ser la collada de Montmalús, on hem de mantenir la distància de seguretat. Aquestes capes febles persistents es poden activar encara que hi hagin passat molts esquiadors abans. Un canvi en les condicions atmosfèriques (humitat, temperatura, vent, etc.) pot fer variar l´estabilitat en poques hores, sobretot dissabte i diumenge.",
       "mapa_url": null
     }
   },

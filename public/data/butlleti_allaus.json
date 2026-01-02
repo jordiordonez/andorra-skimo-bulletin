@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2026-01-01T15:22:28.027702",
+  "timestamp_scraping": "2026-01-02T15:22:27.519226",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "01/01/2026 16:00",
-    "valid_fins": "02/01/2026",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1380.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_01012026160038.jpg"
+    "data_elaboracio": "02/01/2026 16:00",
+    "valid_fins": "03/01/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1381.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_02012026160044.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -118,92 +118,92 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "28/12/2025": "0 cm",
       "29/12/2025": "0 cm",
       "30/12/2025": "0 cm",
-      "31/12/2025": "0 cm"
+      "31/12/2025": "0 cm",
+      "01/01/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "28/12/2025": "0 cm",
       "29/12/2025": "0 cm",
       "30/12/2025": "0 cm",
-      "31/12/2025": "0 cm"
+      "31/12/2025": "0 cm",
+      "01/01/2026": "0 cm"
     },
     "Ransol - FEDA": {
-      "28/12/2025": "1 cm",
       "29/12/2025": "0 cm",
       "30/12/2025": "0 cm",
-      "31/12/2025": "0 cm"
+      "31/12/2025": "0 cm",
+      "01/01/2026": "0 cm"
     },
     "Bony de les Neres": {
-      "28/12/2025": "0 cm",
       "29/12/2025": "0 cm",
       "30/12/2025": "0 cm",
-      "31/12/2025": "0 cm"
+      "31/12/2025": "0 cm",
+      "01/01/2026": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "28/12/2025": "0 cm",
       "29/12/2025": "0 cm",
       "30/12/2025": "0 cm",
-      "31/12/2025": "0 cm"
+      "31/12/2025": "0 cm",
+      "01/01/2026": "0 cm"
     },
     "Caborreu": {
-      "28/12/2025": "0 cm",
       "29/12/2025": "0 cm",
       "30/12/2025": "0 cm",
-      "31/12/2025": "0 cm"
+      "31/12/2025": "0 cm",
+      "01/01/2026": "0 cm"
     },
     "Sorteny": {
-      "28/12/2025": "0 cm",
       "29/12/2025": "0 cm",
       "30/12/2025": "0 cm",
-      "31/12/2025": "0 cm"
+      "31/12/2025": "0 cm",
+      "01/01/2026": "0 cm"
     },
     "Coll Pa": {
-      "28/12/2025": "0 cm",
       "29/12/2025": "0 cm",
       "30/12/2025": "0 cm",
-      "31/12/2025": "0 cm"
+      "31/12/2025": "0 cm",
+      "01/01/2026": "0 cm"
     },
     "Perafita": {
-      "28/12/2025": "0 cm",
       "29/12/2025": "0 cm",
       "30/12/2025": "0 cm",
-      "31/12/2025": "0 cm"
+      "31/12/2025": "0 cm",
+      "01/01/2026": "0 cm"
     },
     "Tossa Espiolets": {
-      "28/12/2025": "0 cm",
       "29/12/2025": "0 cm",
       "30/12/2025": "0 cm",
-      "31/12/2025": "0 cm"
+      "31/12/2025": "0 cm",
+      "01/01/2026": "0 cm"
     },
     "La Solana": {
-      "28/12/2025": "0 cm",
       "29/12/2025": "0 cm",
       "30/12/2025": "0 cm",
-      "31/12/2025": "0 cm"
+      "31/12/2025": "0 cm",
+      "01/01/2026": "0 cm"
     },
     "Envalira Antenes": {
-      "28/12/2025": "0 cm",
       "29/12/2025": "0 cm",
       "30/12/2025": "0 cm",
-      "31/12/2025": "0 cm"
+      "31/12/2025": "0 cm",
+      "01/01/2026": "0 cm"
     },
     "Les Fonts d'Arinsal": {
-      "28/12/2025": "0 cm",
       "29/12/2025": "0 cm",
       "30/12/2025": "0 cm",
-      "31/12/2025": "0 cm"
+      "31/12/2025": "0 cm",
+      "01/01/2026": "0 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
       "descripcio": "Al refugi hi podrem arribar amb esquís i cada vegada hi ha més neu per fer excursions. La neu recent és densa i ha caigut sobre capes més toves. A l´interior del bosc i zones planes no tindrem problemes de desencadenament d´allaus, però a les parets verticals dels circs podem desencadenar allaus de placa. Tot i la presència de neu, haurem d´evitar el terreny complex dels vessants obacs per la presència de capes febles persistents en profunditat. De cara al cap de setmana, amb més humitat i la isozero a 2500 metres, aquestes capes febles es poden activar molt més fàcilment.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_01012026160038.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_02012026160044.jpg"
     },
     "Comapedrosa": {
       "descripcio": "No es recomana circular per pendents molt inclinats dels vessants obacs, ja que amaguen capes febles persistents que poden ser sensibles a sobrecàrregues. Majoritàriament les activarem per sobrecàrregues fortes, però depenent de la profunditat de la capa feble, la podem activar amb sobrecàrregues més febles. Si arribem a circular per terreny complex ho haurem de fer extremant la prudència i prenent el camí més conservador.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_01012026160038.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_02012026160044.jpg"
     },
     "Madriu-Perafita-Claror": {
       "descripcio": "A les canals de Pessons i a prop de les carenes, com poden ser les de Pessons, Montmalús, Colells, Serra Seca, Pics Negres d´Envalira o Abelletes hi ha nombroses plaques de vent amagades sota la neu nova densa que reposen sobre una capa de neu rodona. Aquesta capa ja ha provocat allaus durant aquest mes de desembre, i els testos d´estabilitat donen positiu, fet que ens ha de fer extremar les precaucions als indrets culminants, com pot ser la collada de Montmalús, on hem de mantenir la distància de seguretat. Aquestes capes febles persistents es poden activar encara que hi hagin passat molts esquiadors abans. Un canvi en les condicions atmosfèriques (humitat, temperatura, vent, etc.) pot fer variar l´estabilitat en poques hores, sobretot dissabte i diumenge.",

@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2026-01-06T15:24:00.540779",
+  "timestamp_scraping": "2026-01-07T15:26:43.442872",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "06/01/2026 16:00",
-    "valid_fins": "07/01/2026",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1385.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_06012026160032.jpg"
+    "data_elaboracio": "07/01/2026 16:00",
+    "valid_fins": "08/01/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1386.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_07012026160034.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -14,7 +14,7 @@
         "capes febles persistents"
       ],
       "orientacions": [
-        "NW+N+NE+E",
+        "E+SE+S+SW",
         "NW+N+NE+E+SE"
       ],
       "mides_allaus": [
@@ -39,7 +39,7 @@
         "capes febles persistents"
       ],
       "orientacions": [
-        "NW+N+NE+E",
+        "E+SE+S+SW",
         "NW+N+NE+E+SE"
       ],
       "mides_allaus": [
@@ -64,7 +64,7 @@
         "capes febles persistents"
       ],
       "orientacions": [
-        "NW+N+NE+E",
+        "E+SE+S+SW",
         "NW+N+NE+E+SE"
       ],
       "mides_allaus": [
@@ -130,92 +130,92 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "02/01/2026": "0 cm",
       "03/01/2026": "0 cm",
       "04/01/2026": "0 cm",
-      "05/01/2026": "0 cm"
+      "05/01/2026": "0 cm",
+      "06/01/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "02/01/2026": "0 cm",
       "03/01/2026": "0 cm",
       "04/01/2026": "0 cm",
-      "05/01/2026": "0 cm"
+      "05/01/2026": "0 cm",
+      "06/01/2026": "0 cm"
     },
     "Ransol - FEDA": {
-      "02/01/2026": "1 cm",
       "03/01/2026": "0 cm",
       "04/01/2026": "0 cm",
-      "05/01/2026": "0 cm"
+      "05/01/2026": "0 cm",
+      "06/01/2026": "0 cm"
     },
     "Bony de les Neres": {
-      "02/01/2026": "0 cm",
       "03/01/2026": "0 cm",
       "04/01/2026": "0 cm",
-      "05/01/2026": "0 cm"
+      "05/01/2026": "0 cm",
+      "06/01/2026": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "02/01/2026": "0 cm",
       "03/01/2026": "0 cm",
       "04/01/2026": "0 cm",
-      "05/01/2026": "0 cm"
+      "05/01/2026": "0 cm",
+      "06/01/2026": "0 cm"
     },
     "Caborreu": {
-      "02/01/2026": "0 cm",
       "03/01/2026": "1 cm",
       "04/01/2026": "0 cm",
-      "05/01/2026": "0 cm"
+      "05/01/2026": "0 cm",
+      "06/01/2026": "0 cm"
     },
     "Sorteny": {
-      "02/01/2026": "0 cm",
       "03/01/2026": "0 cm",
       "04/01/2026": "0 cm",
-      "05/01/2026": "0 cm"
+      "05/01/2026": "0 cm",
+      "06/01/2026": "0 cm"
     },
     "Coll Pa": {
-      "02/01/2026": "0 cm",
       "03/01/2026": "2 cm",
       "04/01/2026": "4 cm",
-      "05/01/2026": "0 cm"
+      "05/01/2026": "0 cm",
+      "06/01/2026": "2 cm"
     },
     "Perafita": {
-      "02/01/2026": "0 cm",
       "03/01/2026": "0 cm",
       "04/01/2026": "0 cm",
-      "05/01/2026": "0 cm"
+      "05/01/2026": "0 cm",
+      "06/01/2026": "0 cm"
     },
     "Tossa Espiolets": {
-      "02/01/2026": "0 cm",
       "03/01/2026": "0 cm",
       "04/01/2026": "1 cm",
-      "05/01/2026": "0 cm"
+      "05/01/2026": "0 cm",
+      "06/01/2026": "0 cm"
     },
     "La Solana": {
-      "02/01/2026": "0 cm",
       "03/01/2026": "0 cm",
       "04/01/2026": "0 cm",
-      "05/01/2026": "0 cm"
+      "05/01/2026": "0 cm",
+      "06/01/2026": "0 cm"
     },
     "Envalira Antenes": {
-      "02/01/2026": "0 cm",
       "03/01/2026": "3 cm",
       "04/01/2026": "0 cm",
-      "05/01/2026": "0 cm"
+      "05/01/2026": "0 cm",
+      "06/01/2026": "3 cm"
     },
     "Les Fonts d'Arinsal": {
-      "02/01/2026": "0 cm",
       "03/01/2026": "3 cm",
       "04/01/2026": "0 cm",
-      "05/01/2026": "0 cm"
+      "05/01/2026": "0 cm",
+      "06/01/2026": "0 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
       "descripcio": "Al refugi hi podrem arribar amb esquís i cada vegada hi ha més neu per fer excursions. La neu recent és densa i ha caigut sobre capes més toves. A l´interior del bosc i zones planes no tindrem problemes de desencadenament d´allaus, però a les parets verticals dels circs podem desencadenar allaus de placa. Tot i la presència de neu, haurem d´evitar el terreny complex dels vessants obacs per la presència de capes febles persistents en profunditat. De cara al cap de setmana, amb més humitat i la isozero a 2500 metres, aquestes capes febles es poden activar molt més fàcilment.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_06012026160032.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_07012026160034.jpg"
     },
     "Comapedrosa": {
       "descripcio": "No es recomana circular per pendents molt inclinats dels vessants obacs, ja que amaguen capes febles persistents que poden ser sensibles a sobrecàrregues. Majoritàriament les activarem per sobrecàrregues fortes, però depenent de la profunditat de la capa feble, la podem activar amb sobrecàrregues més febles. Si arribem a circular per terreny complex ho haurem de fer extremant la prudència i prenent el camí més conservador.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_06012026160032.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_07012026160034.jpg"
     },
     "Madriu-Perafita-Claror": {
       "descripcio": "A les canals de Pessons i a prop de les carenes, com poden ser les de Pessons, Montmalús, Colells, Serra Seca, Pics Negres d´Envalira o Abelletes hi ha nombroses plaques de vent amagades sota la neu nova densa que reposen sobre una capa de neu rodona. Aquesta capa ja ha provocat allaus durant aquest mes de desembre, i els testos d´estabilitat donen positiu, fet que ens ha de fer extremar les precaucions als indrets culminants, com pot ser la collada de Montmalús, on hem de mantenir la distància de seguretat. Aquestes capes febles persistents es poden activar encara que hi hagin passat molts esquiadors abans. Un canvi en les condicions atmosfèriques (humitat, temperatura, vent, etc.) pot fer variar l´estabilitat en poques hores, sobretot dissabte i diumenge.",
@@ -223,5 +223,5 @@
     }
   },
   "estabilitat_text": "Les noves acumulacions de neu ventada són més aviat petites però en alguns casos propenses al desencadenament. Especialment als vessants obacs molt inclinats a la part central del mantell de neu vella hi ha capes febles inestables. De manera aïllada són possibles desencadenaments a distància. Els indrets perillosos són coberts amb neu recent i difícils de reconèixer. Es recomana mantenir la distància entre els components. Les excursions de muntanya requereixen una elecció prudent de l'itinerari. Si és possible les excursions haurien de limitar-se a terreny moderadament inclinat.",
-  "qualitat_neu_text": "La neu recent i les plaques de vent de l'última setmana descansen a sobre de capes toves sobretot en vessants obacs. En el transcurs de la jornada es formaran plaques de vent majoritàriament de mida petita prop dels cims. De moment només hi ha una mica de neu. Fins al dijous el temps serà fred."
+  "qualitat_neu_text": "Durant la nit caurà una mica de neu sobretot als al nord. Especialment als vessants prop de les carenes orientats a sud-oest, sud i sud-est en el transcurs de la jornada les plaques de vent, fins ara petites, augmentaran de mida. La neu recent i les plaques de vent descansen a sobre de capes toves en vessants obacs. De moment només hi ha una mica de neu. El temps serà fred."
 }

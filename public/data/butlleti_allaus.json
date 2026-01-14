@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2026-01-13T15:26:27.403924",
+  "timestamp_scraping": "2026-01-14T15:27:23.116589",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "13/01/2026 16:00",
-    "valid_fins": "14/01/2026",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1395.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_13012026160029.jpg"
+    "data_elaboracio": "14/01/2026 16:00",
+    "valid_fins": "15/01/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1396.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_14012026160031.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -62,6 +62,11 @@
         "Forta",
         "Feble"
       ],
+      "nivells_perill": {
+        "alt_altitud": 3,
+        "baix_altitud": 2,
+        "altitud_critica": "2300m"
+      },
       "nivell_perill": 3,
       "tendencia": "igual"
     }
@@ -112,110 +117,110 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "09/01/2026": "13 cm",
       "10/01/2026": "0 cm",
       "11/01/2026": "0 cm",
-      "12/01/2026": "0 cm"
+      "12/01/2026": "0 cm",
+      "13/01/2026": "0 cm"
     },
     "Aixàs": {
-      "09/01/2026": "9 cm",
       "10/01/2026": "0 cm",
       "11/01/2026": "0 cm",
-      "12/01/2026": "0 cm"
+      "12/01/2026": "0 cm",
+      "13/01/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "09/01/2026": "23 cm",
       "10/01/2026": "0 cm",
       "11/01/2026": "0 cm",
-      "12/01/2026": "0 cm"
+      "12/01/2026": "0 cm",
+      "13/01/2026": "0 cm"
     },
     "Ransol - FEDA": {
-      "09/01/2026": "37 cm",
       "10/01/2026": "0 cm",
       "11/01/2026": "0 cm",
-      "12/01/2026": "0 cm"
+      "12/01/2026": "0 cm",
+      "13/01/2026": "0 cm"
     },
     "Fontverd": {
-      "09/01/2026": "27 cm",
       "10/01/2026": "3 cm",
       "11/01/2026": "0 cm",
-      "12/01/2026": "0 cm"
+      "12/01/2026": "0 cm",
+      "13/01/2026": "0 cm"
     },
     "Setúria": {
-      "09/01/2026": "13 cm",
       "10/01/2026": "0 cm",
       "11/01/2026": "0 cm",
-      "12/01/2026": "0 cm"
+      "12/01/2026": "0 cm",
+      "13/01/2026": "0 cm"
     },
     "Bony de les Neres": {
-      "09/01/2026": "40 cm",
       "10/01/2026": "5 cm",
       "11/01/2026": "0 cm",
-      "12/01/2026": "0 cm"
+      "12/01/2026": "0 cm",
+      "13/01/2026": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "09/01/2026": "39 cm",
       "10/01/2026": "0 cm",
       "11/01/2026": "0 cm",
-      "12/01/2026": "0 cm"
+      "12/01/2026": "0 cm",
+      "13/01/2026": "0 cm"
     },
     "Caborreu": {
-      "09/01/2026": "22 cm",
       "10/01/2026": "0 cm",
       "11/01/2026": "0 cm",
-      "12/01/2026": "0 cm"
+      "12/01/2026": "0 cm",
+      "13/01/2026": "0 cm"
     },
     "Sorteny": {
-      "09/01/2026": "51 cm",
       "10/01/2026": "75 cm",
       "11/01/2026": "0 cm",
-      "12/01/2026": "0 cm"
+      "12/01/2026": "0 cm",
+      "13/01/2026": "0 cm"
     },
     "Coll Pa": {
-      "09/01/2026": "25 cm",
       "10/01/2026": "1 cm",
       "11/01/2026": "0 cm",
-      "12/01/2026": "0 cm"
+      "12/01/2026": "0 cm",
+      "13/01/2026": "0 cm"
     },
     "Perafita": {
-      "09/01/2026": "19 cm",
       "10/01/2026": "8 cm",
       "11/01/2026": "0 cm",
-      "12/01/2026": "0 cm"
+      "12/01/2026": "0 cm",
+      "13/01/2026": "0 cm"
     },
     "Tossa Espiolets": {
-      "09/01/2026": "1 cm",
       "10/01/2026": "0 cm",
       "11/01/2026": "0 cm",
-      "12/01/2026": "0 cm"
+      "12/01/2026": "0 cm",
+      "13/01/2026": "0 cm"
     },
     "La Solana": {
-      "09/01/2026": "31 cm",
       "10/01/2026": "0 cm",
       "11/01/2026": "0 cm",
-      "12/01/2026": "0 cm"
+      "12/01/2026": "0 cm",
+      "13/01/2026": "0 cm"
     },
     "Envalira Antenes": {
-      "09/01/2026": "40 cm",
       "10/01/2026": "0 cm",
       "11/01/2026": "0 cm",
-      "12/01/2026": "0 cm"
+      "12/01/2026": "0 cm",
+      "13/01/2026": "0 cm"
     },
     "Les Fonts d'Arinsal": {
-      "09/01/2026": "53 cm",
       "10/01/2026": "0 cm",
       "11/01/2026": "0 cm",
-      "12/01/2026": "0 cm"
+      "12/01/2026": "0 cm",
+      "13/01/2026": "0 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
       "descripcio": "La nevada del dissabte va ser generosa a totes les cotes. La humitat i l´augment de temperatures d´avui dilluns ha ajudat a compactar la neu, sobretot a cotes baixes. Per sobre del límit del bosc podrem trobar acumulacions importants i extenses, però hem de desconfiar dels vessants nord (obacs), on hi ha capes febles a l´interior del mantell que poden desencadenar allaus. Per excursions més amunt de l´estany de l´Estanyó, la Serrera, la Cebollera o Ransol recomanem mantenir la màxima prudència i escollir els recorreguts més conservadors. Als vessants sud, com el Forn, haurem de vigilar amb les plaques de vent, tot i que serà un problema que anirà disminuint abans que el de les capes febles als vessants obacs.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_13012026160029.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_14012026160031.jpg"
     },
     "Comapedrosa": {
       "descripcio": "Les excursions pel Comapedrosa requereixen la màxima prudència al tractar-se en bona part de terreny complex i exigent. La humitat està compactant la neu, i amb aquest procés el problema de neu ventada als vessants est i sud-est disminueix, ja que les capes febles temporals on reposen les plaques de vent cada vegada són més locals. Però el problema de capes febles persistents a tot el sector nord no canvia de perillositat.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_13012026160029.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_14012026160031.jpg"
     },
     "Madriu-Perafita-Claror": {
       "descripcio": "Tots els accessos a la vall estan nevats. Com a tot el país, haurem d´extremar les precaucions o evitar els vessants nord més inclinats, com poden ser la collada dels Agols. Als vessants est, com la Maiana o Pessons poden haver-hi plaques de vent que reposin a sobre de capes febles fàcils de desencadenar.",

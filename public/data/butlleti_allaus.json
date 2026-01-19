@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2026-01-18T15:20:28.854337",
+  "timestamp_scraping": "2026-01-19T15:27:21.058087",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "18/01/2026 16:00",
-    "valid_fins": "19/01/2026",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1400.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_18012026160037.jpg"
+    "data_elaboracio": "19/01/2026 16:00",
+    "valid_fins": "20/01/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1402.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_19012026160034.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -127,116 +127,116 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "14/01/2026": "0 cm",
       "15/01/2026": "0 cm",
       "16/01/2026": "0 cm",
-      "17/01/2026": "0 cm"
+      "17/01/2026": "0 cm",
+      "18/01/2026": "0 cm"
     },
     "Aixàs": {
-      "14/01/2026": "0 cm",
       "15/01/2026": "0 cm",
       "16/01/2026": "2 cm",
-      "17/01/2026": "2 cm"
+      "17/01/2026": "2 cm",
+      "18/01/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "14/01/2026": "0 cm",
       "15/01/2026": "0 cm",
       "16/01/2026": "1 cm",
-      "17/01/2026": "12 cm"
+      "17/01/2026": "12 cm",
+      "18/01/2026": "0 cm"
     },
     "Ransol - FEDA": {
-      "14/01/2026": "0 cm",
       "15/01/2026": "0 cm",
       "16/01/2026": "1 cm",
-      "17/01/2026": "7 cm"
+      "17/01/2026": "7 cm",
+      "18/01/2026": "1 cm"
     },
     "Fontverd": {
-      "14/01/2026": "0 cm",
       "15/01/2026": "0 cm",
       "16/01/2026": "1 cm",
-      "17/01/2026": "16 cm"
+      "17/01/2026": "16 cm",
+      "18/01/2026": "0 cm"
     },
     "Setúria": {
-      "14/01/2026": "0 cm",
       "15/01/2026": "0 cm",
       "16/01/2026": "6 cm",
-      "17/01/2026": "25 cm"
+      "17/01/2026": "25 cm",
+      "18/01/2026": "0 cm"
     },
     "Bony de les Neres": {
-      "14/01/2026": "0 cm",
       "15/01/2026": "0 cm",
       "16/01/2026": "0 cm",
-      "17/01/2026": "14 cm"
+      "17/01/2026": "14 cm",
+      "18/01/2026": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "14/01/2026": "0 cm",
       "15/01/2026": "0 cm",
       "16/01/2026": "0 cm",
-      "17/01/2026": "9 cm"
+      "17/01/2026": "9 cm",
+      "18/01/2026": "1 cm"
     },
     "Caborreu": {
-      "14/01/2026": "0 cm",
       "15/01/2026": "0 cm",
       "16/01/2026": "5 cm",
-      "17/01/2026": "28 cm"
+      "17/01/2026": "28 cm",
+      "18/01/2026": "0 cm"
     },
     "Sorteny": {
-      "14/01/2026": "0 cm",
       "15/01/2026": "0 cm",
       "16/01/2026": "0 cm",
-      "17/01/2026": "11 cm"
+      "17/01/2026": "11 cm",
+      "18/01/2026": "0 cm"
     },
     "Coll Pa": {
-      "14/01/2026": "0 cm",
       "15/01/2026": "0 cm",
       "16/01/2026": "7 cm",
-      "17/01/2026": "17 cm"
+      "17/01/2026": "17 cm",
+      "18/01/2026": "0 cm"
     },
     "Perafita": {
-      "14/01/2026": "0 cm",
       "15/01/2026": "0 cm",
       "16/01/2026": "3 cm",
-      "17/01/2026": "30 cm"
+      "17/01/2026": "30 cm",
+      "18/01/2026": "0 cm"
     },
     "Tossa Espiolets": {
-      "14/01/2026": "0 cm",
       "15/01/2026": "0 cm",
       "16/01/2026": "1 cm",
-      "17/01/2026": "0 cm"
+      "17/01/2026": "0 cm",
+      "18/01/2026": "2 cm"
     },
     "La Solana": {
-      "14/01/2026": "0 cm",
       "15/01/2026": "0 cm",
       "16/01/2026": "3 cm",
-      "17/01/2026": "4 cm"
+      "17/01/2026": "4 cm",
+      "18/01/2026": "3 cm"
     },
     "Envalira Antenes": {
-      "14/01/2026": "0 cm",
       "15/01/2026": "0 cm",
       "16/01/2026": "0 cm",
-      "17/01/2026": "6 cm"
+      "17/01/2026": "6 cm",
+      "18/01/2026": "2 cm"
     },
     "Les Fonts d'Arinsal": {
-      "14/01/2026": "0 cm",
       "15/01/2026": "0 cm",
       "16/01/2026": "1 cm",
-      "17/01/2026": "11 cm"
+      "17/01/2026": "11 cm",
+      "18/01/2026": "1 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
-      "descripcio": "Durant la darrera setmana s´ha acumulat molta neu en altura que ha sigut modelada pel vent. La humitat i l´augment de cotes baixes ha ajudat a compactar la neu, però per sobre dels 2.000 metres trobem varis nivells de trencament del mantell nival a causa del vent i les nevades. No es recomanen les excursions més amunt de l´estany de l´Estanyó, la Serrera, la Cebollera o Ransol",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_18012026160037.jpg"
+      "descripcio": "Durant la darrera setmana s´ha acumulat molta neu en altura que ha sigut modelada pel vent. La humitat de cotes baixes ha ajudat a compactar la neu, però per sobre dels 2.000 metres trobem varis nivells de trencament del mantell nival a causa del vent i les nevades. No es recomanen les excursions més amunt de l´estany de l´Estanyó, la Serrera, la Cebollera o Ransol.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_19012026160034.jpg"
     },
     "Comapedrosa": {
       "descripcio": "Les excursions pel Comapedrosa requereixen la màxima prudència al tractar-se en bona part de terreny complex i exigent. La humitat ha compactat la neu a cotes baixes. A més, el problema de capes febles persistents a tot el sector nord no canvia de perillositat.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_18012026160037.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_19012026160034.jpg"
     },
     "Madriu-Perafita-Claror": {
       "descripcio": "Tots els accessos a la vall estan nevats. A cotes baixes de la Plana trobarem neu humida que pot estar glaçada. Aquesta zona serà la que rebrà més neu durant aquest cap de setmana i serà les més crítica a nivell d´allaus.",
       "mapa_url": null
     }
   },
-  "estabilitat_text": "Les plaques de vent a vegades de mida gran del dissabte quedaran cobertes de neu i, per tant, gairebé no seran identificables. La neu recent abundant així com les plaques de vent sovint grans representen la principal font de perill. Les plaques de vent poden desencadenar-se fàcilment especialment en orientacions oest a fins al nord-est pel nord per sobre dels 2100 m aproximadament. Fins i tot un únic practicant d'esports d'hivern pot en alguns indrets desencadenar allaus, també de mida gran. Especialment als vessants obacs a la part central del mantell de neu hi ha capes febles de cristalls facetats. Les excursions de muntanya requereixen una elecció prudent de l'itinerari. Les excursions haurien de limitar-se a terreny moderadament inclinat.",
-  "qualitat_neu_text": "En alguns sectors han caigut fins a 25 cm de neu per sobre dels 2100 m aproximadament. El dissabte el vent ha estat, prop de les carenes, fort. Sobretot prop de les carenes els gruixos de neu varien molt per la influència del vent. Les condicions d'allaus són perilloses. Els indrets perillosos són generalitzats i difícils de reconèixer a dins la boira."
+  "estabilitat_text": "Les plaques de vent a vegades de mida gran dels darrers tres dies quedaran cobertes de neu i, per tant, gairebé no seran identificables. La neu recent abundant així com les plaques de vent sovint grans representen la principal font de perill. Les plaques de vent poden desencadenar-se fàcilment especialment en orientacions oest a fins al nord-est pel nord per sobre dels 2100 m aproximadament. Fins i tot un únic practicant d'esports d'hivern pot en alguns indrets desencadenar allaus, també de mida gran. Especialment als vessants obacs a la part central del mantell de neu hi ha capes febles de cristalls facetats. Les excursions de muntanya requereixen una elecció prudent de l'itinerari. Les excursions haurien de limitar-se a terreny moderadament inclinat.",
+  "qualitat_neu_text": "En alguns sectors han caigut fins a 25 cm de neu per sobre dels 2100 m aproximadament. El dissabte el vent ha estat, prop de les carenes, fort. Amb la neu recent i el fort vent les plaques de vent han augmentat de mida considerablement. Sobretot prop de les carenes els gruixos de neu varien molt per la influència del vent. Les condicions d'allaus són perilloses. Els indrets perillosos són generalitzats i difícils de reconèixer amb mala visibilitat."
 }

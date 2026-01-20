@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2026-01-20T10:35:17.320958",
+  "timestamp_scraping": "2026-01-20T15:31:52.585459",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "19/01/2026 16:00",
-    "valid_fins": "20/01/2026",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1402.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_19012026160034.jpg"
+    "data_elaboracio": "20/01/2026 16:00",
+    "valid_fins": "21/01/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1403.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_20012026160034.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -226,11 +226,11 @@
   "espais_protegits": {
     "Sorteny": {
       "descripcio": "Durant la darrera setmana s´ha acumulat molta neu en altura que ha sigut modelada pel vent. La humitat de cotes baixes ha ajudat a compactar la neu, però per sobre dels 2.000 metres trobem varis nivells de trencament del mantell nival a causa del vent i les nevades. No es recomanen les excursions més amunt de l´estany de l´Estanyó, la Serrera, la Cebollera o Ransol.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_19012026160034.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_20012026160034.jpg"
     },
     "Comapedrosa": {
       "descripcio": "Les excursions pel Comapedrosa requereixen la màxima prudència al tractar-se en bona part de terreny complex i exigent. La humitat ha compactat la neu a cotes baixes. A més, el problema de capes febles persistents a tot el sector nord no canvia de perillositat.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_19012026160034.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_20012026160034.jpg"
     },
     "Madriu-Perafita-Claror": {
       "descripcio": "Tots els accessos a la vall estan nevats. A cotes baixes de la Plana trobarem neu humida que pot estar glaçada. Aquesta zona serà la que rebrà més neu durant aquest cap de setmana i serà les més crítica a nivell d´allaus.",

@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2026-01-27T15:31:21.773262",
+  "timestamp_scraping": "2026-01-28T15:33:23.789829",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "27/01/2026 16:00",
+    "data_elaboracio": "28/01/2026 16:00",
     "valid_fins": "28/01/2026",
     "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1426.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_27012026160033.jpg"
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_28012026160036.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -103,105 +103,107 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "23/01/2026": "0 cm",
       "24/01/2026": "0 cm",
       "25/01/2026": "10 cm",
-      "26/01/2026": "0 cm"
+      "26/01/2026": "0 cm",
+      "27/01/2026": "0 cm"
     },
     "Aixàs": {
-      "23/01/2026": "0 cm",
       "24/01/2026": "0 cm",
       "25/01/2026": "4 cm",
-      "26/01/2026": "0 cm"
+      "26/01/2026": "0 cm",
+      "27/01/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "23/01/2026": "0 cm",
       "24/01/2026": "6 cm",
       "25/01/2026": "23 cm",
-      "26/01/2026": "0 cm"
-    },
-    "Ransol - FEDA": {
-      "23/01/2026": "0 cm",
-      "24/01/2026": "3 cm",
-      "25/01/2026": "26 cm",
-      "26/01/2026": "0 cm"
+      "26/01/2026": "0 cm",
+      "27/01/2026": "9 cm"
     },
     "Fontverd": {
-      "23/01/2026": "0 cm",
       "24/01/2026": "20 cm",
       "25/01/2026": "26 cm",
-      "26/01/2026": "0 cm"
+      "26/01/2026": "0 cm",
+      "27/01/2026": "7 cm"
     },
     "Setúria": {
-      "23/01/2026": "7 cm",
       "24/01/2026": "12 cm",
       "25/01/2026": "11 cm",
-      "26/01/2026": "0 cm"
+      "26/01/2026": "0 cm",
+      "27/01/2026": "14 cm"
     },
     "Coll Ordino": {
-      "23/01/2026": "0 cm",
       "24/01/2026": "11 cm",
       "25/01/2026": "29 cm",
-      "26/01/2026": "6 cm"
+      "26/01/2026": "6 cm",
+      "27/01/2026": "21 cm"
     },
     "Bony de les Neres": {
-      "23/01/2026": "3 cm",
       "24/01/2026": "16 cm",
       "25/01/2026": "24 cm",
-      "26/01/2026": "0 cm"
+      "26/01/2026": "0 cm",
+      "27/01/2026": "16 cm"
     },
     "Grau Roig - FEDA": {
-      "23/01/2026": "1 cm",
       "24/01/2026": "16 cm",
       "25/01/2026": "26 cm",
-      "26/01/2026": "0 cm"
+      "26/01/2026": "0 cm",
+      "27/01/2026": "10 cm"
     },
     "Caborreu": {
-      "23/01/2026": "2 cm",
       "24/01/2026": "0 cm",
       "25/01/2026": "10 cm",
-      "26/01/2026": "2 cm"
+      "26/01/2026": "2 cm",
+      "27/01/2026": "12 cm"
     },
     "Sorteny": {
-      "23/01/2026": "0 cm",
       "24/01/2026": "52 cm",
       "25/01/2026": "38 cm",
-      "26/01/2026": "0 cm"
+      "26/01/2026": "0 cm",
+      "27/01/2026": "17 cm"
     },
     "Coll Pa": {
-      "23/01/2026": "8 cm",
       "24/01/2026": "12 cm",
       "25/01/2026": "10 cm",
-      "26/01/2026": "0 cm"
+      "26/01/2026": "0 cm",
+      "27/01/2026": "10 cm"
     },
     "Perafita": {
-      "23/01/2026": "0 cm",
       "24/01/2026": "3 cm",
       "25/01/2026": "18 cm",
-      "26/01/2026": "0 cm"
+      "26/01/2026": "0 cm",
+      "27/01/2026": "20 cm"
     },
     "Tossa Espiolets": {
-      "23/01/2026": "1 cm",
       "24/01/2026": "23 cm",
       "25/01/2026": "0 cm",
-      "26/01/2026": "1 cm"
+      "26/01/2026": "1 cm",
+      "27/01/2026": "18 cm"
     },
     "La Solana": {
-      "23/01/2026": "2 cm",
       "24/01/2026": "24 cm",
       "25/01/2026": "26 cm",
-      "26/01/2026": "0 cm"
+      "26/01/2026": "0 cm",
+      "27/01/2026": "16 cm"
     },
     "Envalira Antenes": {
-      "23/01/2026": "0 cm",
       "24/01/2026": "28 cm",
       "25/01/2026": "26 cm",
-      "26/01/2026": "0 cm"
+      "26/01/2026": "0 cm",
+      "27/01/2026": "8 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
-      "descripcio": "Aquest butlletí ha estat elaborat amb col·laboració amb Météo France i elaborat seguint les normes i recomanacions de l’European Avalanche Warning Services, del qual el Servei meteorològic Nacional n’és membre.",
+      "descripcio": "Per sota de 2.200 metres trobarem una crosta de regel per sota de la fina capa de neu nova que dificultarà les baixades, sobretot a dins del bosc, on el regel encara no ha sigut prou efectiu. A cotes altes haurem de ser molt prudents i conservadors a l´hora d´escollir rutes d´esquí de muntanya, doncs s´ha d´analitzar l´estabilitat després dels episodis de neu i pluja de dilluns i dimarts.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_28012026160036.jpg"
+    },
+    "Comapedrosa": {
+      "descripcio": "Les excursions pel Comapedrosa requereixen la màxima prudència al tractar-se en bona part de terreny complex i exigent.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_28012026160036.jpg"
+    },
+    "Madriu-Perafita-Claror": {
+      "descripcio": "Tots els accessos a la vall estan nevats, amb neu regelada a cotes baixes i grans acumulacions a partir de mitja muntanya. Aquestes acumulacions ens han de fer mantenir la màxima prudència.",
       "mapa_url": null
     }
   },

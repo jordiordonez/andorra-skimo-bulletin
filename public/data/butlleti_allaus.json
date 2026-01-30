@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2026-01-29T15:36:17.699637",
+  "timestamp_scraping": "2026-01-30T15:35:32.797228",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "29/01/2026 16:00",
-    "valid_fins": "30/01/2026",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1428.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_29012026160032.jpg"
+    "data_elaboracio": "30/01/2026 16:00",
+    "valid_fins": "31/01/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1430.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_30012026160034.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -115,104 +115,104 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "25/01/2026": "10 cm",
       "26/01/2026": "0 cm",
       "27/01/2026": "0 cm",
-      "28/01/2026": "0 cm"
+      "28/01/2026": "0 cm",
+      "29/01/2026": "0 cm"
     },
     "Aixàs": {
-      "25/01/2026": "4 cm",
       "26/01/2026": "0 cm",
       "27/01/2026": "0 cm",
-      "28/01/2026": "0 cm"
+      "28/01/2026": "0 cm",
+      "29/01/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "25/01/2026": "23 cm",
       "26/01/2026": "0 cm",
       "27/01/2026": "9 cm",
-      "28/01/2026": "0 cm"
+      "28/01/2026": "0 cm",
+      "29/01/2026": "0 cm"
     },
     "Fontverd": {
-      "25/01/2026": "26 cm",
       "26/01/2026": "0 cm",
       "27/01/2026": "7 cm",
-      "28/01/2026": "0 cm"
+      "28/01/2026": "0 cm",
+      "29/01/2026": "0 cm"
     },
     "Setúria": {
-      "25/01/2026": "11 cm",
       "26/01/2026": "0 cm",
       "27/01/2026": "14 cm",
-      "28/01/2026": "0 cm"
+      "28/01/2026": "0 cm",
+      "29/01/2026": "0 cm"
     },
     "Coll Ordino": {
-      "25/01/2026": "29 cm",
       "26/01/2026": "6 cm",
       "27/01/2026": "21 cm",
-      "28/01/2026": "0 cm"
+      "28/01/2026": "0 cm",
+      "29/01/2026": "0 cm"
     },
     "Bony de les Neres": {
-      "25/01/2026": "24 cm",
       "26/01/2026": "0 cm",
       "27/01/2026": "16 cm",
-      "28/01/2026": "0 cm"
+      "28/01/2026": "0 cm",
+      "29/01/2026": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "25/01/2026": "26 cm",
       "26/01/2026": "0 cm",
       "27/01/2026": "10 cm",
-      "28/01/2026": "0 cm"
+      "28/01/2026": "0 cm",
+      "29/01/2026": "0 cm"
     },
     "Caborreu": {
-      "25/01/2026": "10 cm",
       "26/01/2026": "2 cm",
       "27/01/2026": "12 cm",
-      "28/01/2026": "0 cm"
+      "28/01/2026": "0 cm",
+      "29/01/2026": "4 cm"
     },
     "Sorteny": {
-      "25/01/2026": "38 cm",
       "26/01/2026": "0 cm",
       "27/01/2026": "17 cm",
-      "28/01/2026": "0 cm"
+      "28/01/2026": "0 cm",
+      "29/01/2026": "11 cm"
     },
     "Coll Pa": {
-      "25/01/2026": "10 cm",
       "26/01/2026": "0 cm",
       "27/01/2026": "10 cm",
-      "28/01/2026": "0 cm"
+      "28/01/2026": "0 cm",
+      "29/01/2026": "8 cm"
     },
     "Perafita": {
-      "25/01/2026": "18 cm",
       "26/01/2026": "0 cm",
       "27/01/2026": "20 cm",
-      "28/01/2026": "0 cm"
+      "28/01/2026": "0 cm",
+      "29/01/2026": "0 cm"
     },
     "Tossa Espiolets": {
-      "25/01/2026": "0 cm",
       "26/01/2026": "1 cm",
       "27/01/2026": "18 cm",
-      "28/01/2026": "0 cm"
+      "28/01/2026": "0 cm",
+      "29/01/2026": "0 cm"
     },
     "La Solana": {
-      "25/01/2026": "26 cm",
       "26/01/2026": "0 cm",
       "27/01/2026": "16 cm",
-      "28/01/2026": "2 cm"
+      "28/01/2026": "2 cm",
+      "29/01/2026": "5 cm"
     },
     "Envalira Antenes": {
-      "25/01/2026": "26 cm",
       "26/01/2026": "0 cm",
       "27/01/2026": "8 cm",
-      "28/01/2026": "0 cm"
+      "28/01/2026": "0 cm",
+      "29/01/2026": "0 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
-      "descripcio": "Per sota de 2.300 metres trobem una crosta de regel per sota de la capa de neu nova. Per sobre d´aquesta cota la neu és molt lleugera i fàcil d´esquiar. Els woumfs que se senten sovint en els trajectes de pujada són senyals inequívoques d´inestabilitat. Es recomana mantenir-nos el màxim temps en terrenys simples i quan sortim d´aquest terreny ho fem amb les màximes mesures de seguretat. A cotes altes haurem de ser prudents i conservadors a l´hora d´escollir rutes d´esquí de muntanya. Amb el vent en altura de dijous i divendres les condicions d´estabilitat en altura canviaran, i els vessants amb cert component est tendiran a ser cada vegada més perillosos.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_29012026160032.jpg"
+      "descripcio": "El vent de l´oest està fent disminuir el gruix de neu en altura en alguns vessants i l´està transportant cap als vessants amb cert component est, que haurem d´evitar. Els woumfs que se senten sovint en els trajectes de pujada són senyals inequívocs d´inestabilitat. Es recomana mantenir-nos el màxim temps en terrenys simples i quan sortim d´aquest terreny ho fem amb les màximes mesures de seguretat (distància, traçades segures, etc.). Amb el vent en altura les condicions d´estabilitat han canviat i vessants que hem esquiat entre setmana poden ser ara perillosos per les noves acumulacions ventades.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_30012026160034.jpg"
     },
     "Comapedrosa": {
-      "descripcio": "Les excursions pel Comapedrosa requereixen la màxima prudència al tractar-se en bona part de terreny complex i exigent. L´augment del vent previst per dijous i divendres crearà noves plaques de vent en aquests vessants que haurem d´evitar totalment.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_29012026160032.jpg"
+      "descripcio": "Les excursions pel Comapedrosa requereixen la màxima prudència al tractar-se en bona part de terreny complex i exigent. Les allaus a Sanfons demostren la inestabilitat de la zona. L´augment del vent crearà noves plaques de vent en aquests vessants que haurem d´evitar totalment.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_30012026160034.jpg"
     },
     "Madriu-Perafita-Claror": {
       "descripcio": "Tots els accessos a la vall estan nevats, amb neu regelada a cotes baixes i grans acumulacions a partir de mitja muntanya. L´increment del vent crearà noves plaques als vessants est, molt freqüents en aquesta zona. Aquests vessants (majoritàriament est) s´hauran d´evitar. El fet que hagin estat purgats i esquiats durant el dimecres i dijous ens pot oferir una falsa sensació de seguretat, ja que amb el transport de neu pel vent es crearan noves acumulacions que poden provocar noves allaus.",
@@ -220,5 +220,5 @@
     }
   },
   "estabilitat_text": "Amb la neu recent i el vent fort, el nombre i l'extensió dels indrets perillosos augmentarà. Sobretot en canals i cubetes i darrere de canvis abruptes de pendent en el transcurs de la jornada les plaques de vent augmentaran de mida considerablement. Encara als vessants inclinats orientats a oest, nord i est a la part central del mantell de neu hi ha capes febles de cristalls facetats. Les plaques de vent poden ser desencadenades fàcilment. Són d'esperar allaus de mida mitjana i gran. Als vessants inclinats orientats a nord , est i sud els indrets perillosos són més nombrosos. Es recomana una selecció acurada de la ruta i mantenir la distància entre els components.",
-  "qualitat_neu_text": "El vent serà, prop de les carenes, de moderat a fort en una zona àmplia. La neu recent d'ahir i les plaques de vent es troben a sobre d'una crosta en totes les orientacions per sota dels 2300 m aproximadament. El vent de l'oest transportarà intensament la neu recent. Ja hi ha molta neu. Sobretot prop dels cims en cotes altes els gruixos de neu varien molt per la influència del vent."
+  "qualitat_neu_text": "Caurà neu fins a cotes baixes sobretot als al nord. El vent serà, prop de les carenes, de moderat a fort en una zona àmplia. El vent de l'oest transportarà intensament la neu recent. Ja hi ha molta neu. Sobretot prop dels cims en cotes altes els gruixos de neu varien molt per la influència del vent. Els indrets perillosos són difícils de reconèixer amb mala visibilitat."
 }

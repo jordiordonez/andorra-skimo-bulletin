@@ -4,6 +4,7 @@ import { filterRoutes, getUniqueZones, sortRoutes } from './utils/routeRanking';
 import FilterPanel from './components/FilterPanel';
 import Legend from './components/Legend';
 import RouteList from './components/RouteList';
+import RatingLegend from './components/RatingLegend';
 
 function App() {
   const [data, setData] = useState({
@@ -340,6 +341,9 @@ function App() {
           </p>
         </div>
       </footer>
+
+      {/* Floating Rating Legend */}
+      <RatingLegend />
     </div>
   );
 }

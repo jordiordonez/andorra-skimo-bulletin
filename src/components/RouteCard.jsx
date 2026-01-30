@@ -4,6 +4,67 @@ const RouteCard = ({ route, rank }) => {
   const danger = getDangerLevel(route.rating_perill);
   const snow = getSnowRating(route.rating_neu);
 
+  // Color scales for ratings
+  const getRecommendedColor = (rating) => {
+    const val = parseFloat(rating || 0);
+    if (val >= 4.5) return 'bg-green-500';
+    if (val >= 3.5) return 'bg-green-400';
+    if (val >= 2.5) return 'bg-yellow-400';
+    if (val >= 1.5) return 'bg-orange-400';
+    if (val >= 0.5) return 'bg-red-400';
+    return 'bg-gray-400';
+  };
+
+  const getSafetyColor = (rating) => {
+    const val = parseFloat(rating || 0);
+    if (val >= 4.5) return 'bg-green-500';
+    if (val >= 3.5) return 'bg-yellow-400';
+    if (val >= 2.5) return 'bg-orange-400';
+    if (val >= 1.5) return 'bg-orange-500';
+    if (val >= 0.5) return 'bg-red-500';
+    return 'bg-red-600';
+  };
+
+  const getSnowColor = (rating) => {
+    const val = parseFloat(rating || 0);
+    if (val >= 4.5) return 'bg-blue-500';
+    if (val >= 3.5) return 'bg-blue-400';
+    if (val >= 2.5) return 'bg-sky-400';
+    if (val >= 1.5) return 'bg-gray-300';
+    if (val >= 0.5) return 'bg-gray-200';
+    return 'bg-gray-100';
+  };
+
+  const getRecommendedText = (rating) => {
+    const val = parseFloat(rating || 0);
+    if (val >= 4.5) return 'Top Recommended';
+    if (val >= 3.5) return 'Recommended';
+    if (val >= 2.5) return 'Acceptable';
+    if (val >= 1.5) return 'Not Ideal';
+    if (val >= 0.5) return 'Not Recommended';
+    return 'Avoid';
+  };
+
+  const getSafetyText = (rating) => {
+    const val = parseFloat(rating || 0);
+    if (val >= 4.5) return 'Very Safe';
+    if (val >= 3.5) return 'Safe';
+    if (val >= 2.5) return 'Moderate Risk';
+    if (val >= 1.5) return 'High Risk';
+    if (val >= 0.5) return 'Very High Risk';
+    return 'Extreme Risk';
+  };
+
+  const getSnowText = (rating) => {
+    const val = parseFloat(rating || 0);
+    if (val >= 4.5) return 'Excellent';
+    if (val >= 3.5) return 'Good';
+    if (val >= 2.5) return 'Fair';
+    if (val >= 1.5) return 'Poor';
+    if (val >= 0.5) return 'Very Poor';
+    return 'No Snow';
+  };
+
   const handleRouteClick = async () => {
     // First, copy route name to clipboard and wait for user permission
     if (navigator.clipboard && route.route_name) {
@@ -79,11 +140,11 @@ const RouteCard = ({ route, rank }) => {
 
           {/* Recommended Rating Badge */}
           <div className="ml-4">
-            <div className="bg-green-500 text-white rounded-full w-20 h-20 flex flex-col items-center justify-center font-bold shadow-lg">
-              <div className="text-lg">{parseFloat(route.rating_final || 0).toFixed(1)}</div>
+            <div className={`${getRecommendedColor(route.rating_final)} text-white rounded-full w-20 h-20 flex flex-col items-center justify-center font-bold shadow-lg border-2 border-white`}>
+              <div className="text-2xl">{parseFloat(route.rating_final || 0).toFixed(1)}</div>
               <div className="text-xs opacity-90">/5</div>
             </div>
-            <div className="text-xs text-center text-gray-500 mt-1 font-semibold">Recommended</div>
+            <div className="text-xs text-center text-gray-700 mt-1 font-bold">{getRecommendedText(route.rating_final)}</div>
           </div>
         </div>
       </div>
@@ -92,22 +153,30 @@ const RouteCard = ({ route, rank }) => {
       <div className="px-6 py-4 bg-white">
         <div className="grid grid-cols-2 gap-6">
           {/* Snow Rating */}
-          <div className="text-center p-4 bg-blue-50 rounded-xl">
-            <div className="text-lg mb-2 break-all leading-tight h-12 flex items-center justify-center overflow-hidden">
-              {snow.snowflakes || '❄️'}
-            </div>
-            <div className="text-xs font-semibold text-gray-700 mb-1">Snow Quantity</div>
-            <div className="text-lg font-bold text-blue-600">
-              {parseFloat(route.rating_neu || 0).toFixed(1)}/5
+          <div className={`text-center p-4 rounded-xl ${getSnowColor(route.rating_neu)} text-white relative overflow-hidden`}>
+            <div className="absolute inset-0 bg-black/10"></div>
+            <div className="relative z-10">
+              <div className="text-lg mb-2 break-all leading-tight h-12 flex items-center justify-center overflow-hidden">
+                {snow.snowflakes || '❄️'}
+              </div>
+              <div className="text-xs font-bold opacity-90 mb-1">Snow Quality</div>
+              <div className="text-2xl font-bold">
+                {parseFloat(route.rating_neu || 0).toFixed(1)}/5
+              </div>
+              <div className="text-xs mt-1 font-medium opacity-90">{getSnowText(route.rating_neu)}</div>
             </div>
           </div>
 
-          {/* Danger Level */}
-          <div className="text-center p-4 bg-orange-50 rounded-xl">
-            <div className={`text-3xl mb-2 ${danger.color}`}>{danger.icon}</div>
-            <div className="text-xs font-semibold text-gray-700 mb-1">Safety Level</div>
-            <div className="text-lg font-bold text-orange-600">
-              {parseFloat(route.rating_perill || 0).toFixed(1)}/5
+          {/* Safety Level */}
+          <div className={`text-center p-4 rounded-xl ${getSafetyColor(route.rating_perill)} text-white relative overflow-hidden`}>
+            <div className="absolute inset-0 bg-black/10"></div>
+            <div className="relative z-10">
+              <div className={`text-3xl mb-2`}>{danger.icon}</div>
+              <div className="text-xs font-bold opacity-90 mb-1">Safety Level</div>
+              <div className="text-2xl font-bold">
+                {parseFloat(route.rating_perill || 0).toFixed(1)}/5
+              </div>
+              <div className="text-xs mt-1 font-medium opacity-90">{getSafetyText(route.rating_perill)}</div>
             </div>
           </div>
         </div>

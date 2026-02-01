@@ -1,21 +1,21 @@
 {
-  "timestamp_scraping": "2026-01-31T15:24:52.462873",
+  "timestamp_scraping": "2026-02-01T15:25:53.416898",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "31/01/2026 16:00",
-    "valid_fins": "01/02/2026",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1431.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_31012026160038.jpg"
+    "data_elaboracio": "01/02/2026 16:00",
+    "valid_fins": "02/02/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1432.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_01022026160046.jpg"
   },
   "zones": {
     "zona_nord": {
       "problemes": [
         "neu ventada",
-        "capes febles persistents"
+        "neu humida"
       ],
       "orientacions": [
         "N+NE+E+SE+S",
-        "W+NW+N+NE+E"
+        "ALL_DIRECTIONS"
       ],
       "mides_allaus": [
         2,
@@ -23,7 +23,7 @@
       ],
       "tipus_sobrecarga": [
         "Feble",
-        "Forta"
+        "Espontani"
       ],
       "nivell_perill": 3,
       "tendencia": "igual"
@@ -31,11 +31,11 @@
     "zona_centre": {
       "problemes": [
         "neu ventada",
-        "capes febles persistents"
+        "neu humida"
       ],
       "orientacions": [
         "N+NE+E+SE+S",
-        "W+NW+N+NE+E"
+        "ALL_DIRECTIONS"
       ],
       "mides_allaus": [
         2,
@@ -43,7 +43,7 @@
       ],
       "tipus_sobrecarga": [
         "Feble",
-        "Forta"
+        "Espontani"
       ],
       "nivell_perill": 3,
       "tendencia": "igual"
@@ -51,11 +51,11 @@
     "zona_sud": {
       "problemes": [
         "neu ventada",
-        "capes febles persistents"
+        "neu humida"
       ],
       "orientacions": [
         "N+NE+E+SE+S",
-        "W+NW+N+NE+E"
+        "ALL_DIRECTIONS"
       ],
       "mides_allaus": [
         2,
@@ -63,7 +63,7 @@
       ],
       "tipus_sobrecarga": [
         "Feble",
-        "Forta"
+        "Espontani"
       ],
       "nivell_perill": 3,
       "tendencia": "igual"
@@ -115,110 +115,116 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "27/01/2026": "0 cm",
       "28/01/2026": "0 cm",
       "29/01/2026": "0 cm",
-      "30/01/2026": "0 cm"
+      "30/01/2026": "0 cm",
+      "31/01/2026": "0 cm"
     },
     "Aixàs": {
-      "27/01/2026": "0 cm",
       "28/01/2026": "0 cm",
       "29/01/2026": "0 cm",
-      "30/01/2026": "0 cm"
+      "30/01/2026": "0 cm",
+      "31/01/2026": "3 cm"
     },
     "Engolasters - FEDA": {
-      "27/01/2026": "9 cm",
       "28/01/2026": "0 cm",
       "29/01/2026": "0 cm",
-      "30/01/2026": "2 cm"
+      "30/01/2026": "2 cm",
+      "31/01/2026": "6 cm"
+    },
+    "Ransol - FEDA": {
+      "28/01/2026": "0 cm",
+      "29/01/2026": "0 cm",
+      "30/01/2026": "5 cm",
+      "31/01/2026": "11 cm"
     },
     "Fontverd": {
-      "27/01/2026": "7 cm",
       "28/01/2026": "0 cm",
       "29/01/2026": "0 cm",
-      "30/01/2026": "5 cm"
+      "30/01/2026": "5 cm",
+      "31/01/2026": "6 cm"
     },
     "Setúria": {
-      "27/01/2026": "14 cm",
       "28/01/2026": "0 cm",
       "29/01/2026": "0 cm",
-      "30/01/2026": "4 cm"
+      "30/01/2026": "4 cm",
+      "31/01/2026": "7 cm"
     },
     "Bony de les Neres": {
-      "27/01/2026": "16 cm",
       "28/01/2026": "0 cm",
       "29/01/2026": "0 cm",
-      "30/01/2026": "0 cm"
+      "30/01/2026": "0 cm",
+      "31/01/2026": "17 cm"
     },
     "Grau Roig - FEDA": {
-      "27/01/2026": "10 cm",
       "28/01/2026": "0 cm",
       "29/01/2026": "0 cm",
-      "30/01/2026": "5 cm"
+      "30/01/2026": "5 cm",
+      "31/01/2026": "13 cm"
     },
     "Caborreu": {
-      "27/01/2026": "12 cm",
       "28/01/2026": "0 cm",
       "29/01/2026": "4 cm",
-      "30/01/2026": "1 cm"
+      "30/01/2026": "1 cm",
+      "31/01/2026": "2 cm"
     },
     "Sorteny": {
-      "27/01/2026": "17 cm",
       "28/01/2026": "0 cm",
       "29/01/2026": "11 cm",
-      "30/01/2026": "7 cm"
+      "30/01/2026": "7 cm",
+      "31/01/2026": "24 cm"
     },
     "Coll Pa": {
-      "27/01/2026": "10 cm",
       "28/01/2026": "0 cm",
       "29/01/2026": "8 cm",
-      "30/01/2026": "9 cm"
+      "30/01/2026": "9 cm",
+      "31/01/2026": "9 cm"
     },
     "Perafita": {
-      "27/01/2026": "20 cm",
       "28/01/2026": "0 cm",
       "29/01/2026": "0 cm",
-      "30/01/2026": "0 cm"
+      "30/01/2026": "0 cm",
+      "31/01/2026": "1 cm"
     },
     "Tossa Espiolets": {
-      "27/01/2026": "18 cm",
       "28/01/2026": "0 cm",
       "29/01/2026": "0 cm",
-      "30/01/2026": "1 cm"
+      "30/01/2026": "1 cm",
+      "31/01/2026": "1 cm"
     },
     "La Solana": {
-      "27/01/2026": "16 cm",
       "28/01/2026": "2 cm",
       "29/01/2026": "5 cm",
-      "30/01/2026": "6 cm"
+      "30/01/2026": "6 cm",
+      "31/01/2026": "24 cm"
     },
     "Envalira Antenes": {
-      "27/01/2026": "8 cm",
       "28/01/2026": "0 cm",
       "29/01/2026": "0 cm",
-      "30/01/2026": "1 cm"
+      "30/01/2026": "1 cm",
+      "31/01/2026": "16 cm"
     },
     "Les Fonts d'Arinsal": {
-      "27/01/2026": "16 cm",
       "28/01/2026": "0 cm",
       "29/01/2026": "0 cm",
-      "30/01/2026": "9 cm"
+      "30/01/2026": "9 cm",
+      "31/01/2026": "23 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
-      "descripcio": "Haurem d´evitar els vessants amb component est i allà on veiem signes d´acumulació del vent a través de l´orografia. Els woumfs que se senten sovint en els trajectes de pujada són senyals inequívocs d´inestabilitat, però si ens mantenim en terreny simple tenen poques possibilitats de desencadenar allaus. En canvi, si ens desplacem per terrenys més inclinats podem desencadenat allaus amb capacitat de propagació. Amb el vent en altura i la nova nevada les condicions d´estabilitat han canviat i vessants que hem esquiat entre setmana poden ser ara perillosos per les noves acumulacions.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_31012026160038.jpg"
+      "descripcio": "Haurem d´evitar els vessants amb component est i allà on veiem signes d´acumulació del vent a través de l´orografia. Els woumfs que se senten sovint en els trajectes de pujada són senyals inequívocs d´inestabilitat, però si ens mantenim en terreny simple tenen poques possibilitats de desencadenar allaus. En canvi, si ens desplacem per terrenys més inclinats podem desencadenat allaus amb capacitat de propagació. La pluja de dilluns farà augmentar el perill d´allaus naturals en qualsevol vessant.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_01022026160046.jpg"
     },
     "Comapedrosa": {
       "descripcio": "Les excursions pel Comapedrosa requereixen la màxima prudència al tractar-se en bona part de terreny complex i exigent. Sovint, el més sensat serà renunciar a excursions en aquesta zona. Les allaus a Sanfons que van baixar dimarts demostren la inestabilitat dels vessants est. Aquestes allaus han quedat de nou tapades i s´han creat noves acumulacions ventades. El fet que s´organitzin competicions de freeride ens pot oferir una falsa sensació de seguretat, però hem de pensar que les àrees de competició han estat àmpliament purgades amb explosius. Per tant, les condicions d´estabilitat seran molt diferents de forma molt local.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_31012026160038.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_01022026160046.jpg"
     },
     "Madriu-Perafita-Claror": {
-      "descripcio": "Tots els accessos a la vall estan nevats, amb grans acumulacions a partir de mitja muntanya. El vent ha creat noves plaques als vessants est, molt freqüents en aquesta zona (Cap dels Agols i estany Blau, ondulacions dels Forcats, collada de Pessons, Montmalús, Vallcivera, Portella Blanca, Pics Negres d´Envalira, Clot de les Avelletes, per exemple). Les traces prèvies no ens han de donar seguretat si el terreny és complex i té les orientacions indicades, ja que amb els canvis de temperatura i humitat del diumenge faran canviar les condicions d´estabilitat durant el dia en un mateix vessant.",
+      "descripcio": "Tots els accessos a la vall estan nevats, amb grans acumulacions a partir de mitja muntanya. El vent ha creat noves plaques als vessants est, molt freqüents en aquesta zona (Cap dels Agols i estany Blau, ondulacions dels Forcats, collada de Pessons, Montmalús, Vallcivera, Portella Blanca, Pics Negres d´Envalira, Clot de les Avelletes, per exemple). Les traces prèvies no ens han de donar seguretat si el terreny és complex i té les orientacions indicades, ja que amb els canvis de temperatura i humitat del diumenge i la pluja de dilluns faran canviar les condicions d´estabilitat durant el dia en un mateix vessant.",
       "mapa_url": null
     }
   },
-  "estabilitat_text": "Amb la neu recent i el vent fort, el nombre i l'extensió dels indrets perillosos augmentarà. Les noves acumulacions de neu ventada s'han format sobretot prop de colls i carenes i generalment a l'alta muntanya. Als vessants inclinats orientats a nord, est i sud els indrets perillosos són més nombrosos. Les plaques de vent poden ser desencadenades fàcilment. Són d'esperar allaus de mida mitjana i gran. Encara als vessants inclinats orientats a oest , nord i est a la part central del mantell de neu hi ha capes febles de cristalls facetats. Es recomana una selecció acurada de la ruta i mantenir la distància entre els components. A més, són possibles allaus de lliscament basal en qualsevol moment. A les zones d'allau típiques aquestes darreres arribaran sovint fins al fons de vall.",
-  "qualitat_neu_text": "El vent de l'oest ha transportat la neu recent i, en part, també la neu vella. Sobretot prop dels cims en cotes altes els gruixos de neu varien molt per la influència del vent. Ja hi ha molta neu. Els indrets perillosos són força freqüents i difícils de reconèixer pels principiants. Si és possible les excursions haurien de limitar-se a terreny moderadament inclinat."
+  "estabilitat_text": "Amb la pujada de la cota de neu, el nombre i l'extensió dels indrets perillosos augmentarà. Durant el matí la probabilitat de desencadenament d'allaus naturals augmentarà ràpidament. Des del matí són d'esperar allaus de placa humida. Als vessants inclinats orientats a nord, est i sud els indrets perillosos són més nombrosos. Són d'esperar allaus de mida mitjana i gran. Encara als vessants inclinats orientats a oest , nord i est a la part central del mantell de neu hi ha capes febles de cristalls facetats. A més, són possibles allaus de lliscament basal en qualsevol moment. A les zones d'allau típiques aquestes darreres arribaran sovint fins al fons de vall.",
+  "qualitat_neu_text": "Caurà una mica de pluja en una zona àmplia. Ja hi ha molta neu. Sobretot prop dels cims en cotes altes els gruixos de neu varien molt per la influència del vent. Els indrets perillosos són força freqüents i difícils de reconèixer amb mala visibilitat. Si és possible les excursions haurien de limitar-se a terreny pla o controlat."
 }

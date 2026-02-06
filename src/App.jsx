@@ -292,7 +292,7 @@ function App() {
                               : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-200'
                           }`}
                         >
-                          ❄️ Snow Quality
+                          ❄️ Snow Quantity
                         </button>
                         <button
                           onClick={() => setSortBy('wind')}
@@ -313,7 +313,7 @@ function App() {
                   Showing {filteredRoutes.length} routes with current avalanche conditions
                   {viewMode === 'all' && (
                     <span className="ml-2 text-blue-600 font-medium">
-                      • Sorted by {sortBy === 'final' ? 'Recommended' : sortBy === 'safety' ? 'Safety Level' : sortBy === 'snow' ? 'Snow Quality' : 'Wind Safety'}
+                      • Sorted by {sortBy === 'final' ? 'Recommended' : sortBy === 'safety' ? 'Safety Level' : sortBy === 'snow' ? 'Snow Quantity' : 'Wind Safety'}
                     </span>
                   )}
                 </div>

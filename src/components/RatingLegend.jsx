@@ -106,7 +106,7 @@ const RatingLegend = () => {
               {/* Snow Scale */}
               <div>
                 <h3 className="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
-                  <span>❄️</span> Snow Quality
+                  <span>❄️</span> Snow Quantity
                 </h3>
                 <div className="space-y-2">
                   {snowScale.map((item) => (
@@ -120,23 +120,23 @@ const RatingLegend = () => {
                 </div>
               </div>
 
-              {/* Wind Scale */}
+              {/* Exposed Slopes Scale */}
               <div>
                 <h3 className="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
-                  <span>🌬️</span> Wind Exposure
+                  <span>⚠️</span> Exposed Slopes
                 </h3>
                 <div className="space-y-2">
                   <div className="flex items-center gap-3">
                     <div className="bg-green-500 text-white px-3 py-2 rounded-lg min-w-[100px] text-center font-bold">
                       ✅ Safe
                     </div>
-                    <span className="text-gray-700 font-medium">No problematic winds</span>
+                    <span className="text-gray-700 font-medium">Safe slope orientation</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <div className="bg-yellow-500 text-white px-3 py-2 rounded-lg min-w-[100px] text-center font-bold">
-                      🌬️ Exposed
+                      ⚠️ Exposed
                     </div>
-                    <span className="text-gray-700 font-medium">Wind exposed area - Check conditions</span>
+                    <span className="text-gray-700 font-medium">Problematic slope exposure - Check conditions</span>
                   </div>
                 </div>
               </div>

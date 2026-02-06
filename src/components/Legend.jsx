@@ -155,22 +155,22 @@ const Legend = ({ isOpen, onToggle }) => {
             </div>
           </div>
 
-          {/* Wind Exposure */}
+          {/* Exposed Slopes */}
           <div>
-            <h3 className="font-semibold text-sm text-gray-700 mb-2">Wind Exposure</h3>
+            <h3 className="font-semibold text-sm text-gray-700 mb-2">Exposed Slopes</h3>
             <div className="space-y-2 text-sm">
               <div className="flex items-center space-x-3">
-                <span className="font-mono text-lg">🌬️</span>
+                <span className="font-mono text-lg">⚠️</span>
                 <div>
-                  <div className="text-gray-800 font-medium">Problematic winds detected</div>
-                  <div className="text-xs text-gray-500">Route exposed to dangerous wind directions</div>
+                  <div className="text-gray-800 font-medium">Exposed slopes detected</div>
+                  <div className="text-xs text-gray-500">Route has problematic slope orientations</div>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <span className="font-mono text-lg">✅</span>
                 <div>
-                  <div className="text-gray-800 font-medium">Wind safe</div>
-                  <div className="text-xs text-gray-500">No problematic wind exposure detected</div>
+                  <div className="text-gray-800 font-medium">Safe orientation</div>
+                  <div className="text-xs text-gray-500">No problematic exposed slopes detected</div>
                 </div>
               </div>
             </div>

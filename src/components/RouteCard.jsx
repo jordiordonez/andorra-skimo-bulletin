@@ -159,7 +159,7 @@ const RouteCard = ({ route, rank }) => {
               <div className="text-lg mb-2 break-all leading-tight h-12 flex items-center justify-center overflow-hidden">
                 {snow.snowflakes || '❄️'}
               </div>
-              <div className="text-xs font-bold opacity-90 mb-1">Snow Quality</div>
+              <div className="text-xs font-bold opacity-90 mb-1">Snow Quantity</div>
               <div className="text-2xl font-bold">
                 {parseFloat(route.rating_neu || 0).toFixed(1)}/5
               </div>
@@ -181,7 +181,7 @@ const RouteCard = ({ route, rank }) => {
           </div>
         </div>
 
-        {/* Wind Exposure - Always show */}
+        {/* Exposed Slopes - Always show */}
         <div className={`mt-4 p-4 rounded-xl border ${
           route.rating_vent
             ? 'bg-yellow-100 border-yellow-200'
@@ -189,14 +189,14 @@ const RouteCard = ({ route, rank }) => {
         }`}>
           <div className="flex items-center space-x-3">
             <span className="text-2xl">
-              {route.rating_vent ? '🌬️' : '✅'}
+              {route.rating_vent ? '⚠️' : '✅'}
             </span>
             <div>
-              <div className="text-sm font-semibold text-gray-700">Wind Exposure</div>
+              <div className="text-sm font-semibold text-gray-700">Exposed Slopes</div>
               <div className={`font-bold ${
                 route.rating_vent ? 'text-orange-700' : 'text-green-700'
               }`}>
-                {route.rating_vent || 'Safe - No problematic winds'}
+                {route.rating_vent || 'Safe - No problematic exposures'}
               </div>
             </div>
           </div>

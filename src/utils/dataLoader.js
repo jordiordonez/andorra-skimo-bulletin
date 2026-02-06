@@ -12,14 +12,8 @@ export const loadButlletiData = async () => {
 };
 
 export const loadVisorData = async () => {
-  try {
-    const response = await fetch(withCacheBust('https://jordiordonez.github.io/andorra-skimo-bulletin/data/visor_allaus.json'), { cache: 'no-store' });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    return await response.json();
-  } catch (error) {
-    console.error('Error loading visor data:', error);
-    return null;
-  }
+  // Visor data not currently used - returning null
+  return null;
 };
 
 export const loadRoutesCSV = async () => {
@@ -108,12 +102,15 @@ const parseCSV = (text, separator = ',') => {
   });
 };
 
+import { fetchAllWeather } from './weatherService';
+
 export const getAllData = async () => {
-  const [butlleti, visor, routes, ratingResult] = await Promise.all([
+  const [butlleti, visor, routes, ratingResult, weatherData] = await Promise.all([
     loadButlletiData(),
     loadVisorData(),
     loadRoutesCSV(),
-    loadRatingsCSV()
+    loadRatingsCSV(),
+    fetchAllWeather() // Fetch weather data in parallel
   ]);
 
   const ratings = ratingResult?.data ?? null;
@@ -125,7 +122,8 @@ export const getAllData = async () => {
     return {
       ...route,
       route_name: route.name, // Map 'name' field to 'route_name' for consistency
-      zona_meteo: route.zone, // Map 'zone' field to 'zona_meteo' for consistency
+      zona_meteo: route.zona_meteo || route.zone, // Use zona_meteo if available, fallback to zone
+      location: route.zone, // Keep the specific location name
       ...rating // Merge rating data (rating_neu, rating_perill, rating_vent, rating_final)
     };
   }) : null;
@@ -134,6 +132,7 @@ export const getAllData = async () => {
     butlleti,
     visor,
     routes: mergedRoutes,
-    ratingSourceDate: ratingSourceDate
+    ratingSourceDate: ratingSourceDate,
+    weatherData // Include weather data
   };
 };

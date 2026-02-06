@@ -1,7 +1,7 @@
 import RouteCard from './RouteCard';
 import { getTopRoutes } from '../utils/routeRanking';
 
-const RouteList = ({ routes, showTopOnly = false }) => {
+const RouteList = ({ routes, showTopOnly = false, weatherData = null }) => {
   if (!routes || routes.length === 0) {
     return (
       <div className="text-center py-8">
@@ -28,6 +28,7 @@ const RouteList = ({ routes, showTopOnly = false }) => {
             key={route.route_index_global || index}
             route={route}
             rank={showTopOnly ? index + 1 : null}
+            weather={weatherData ? weatherData[route.zona_meteo] : null}
           />
         ))}
       </div>

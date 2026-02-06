@@ -10,7 +10,8 @@ function App() {
   const [data, setData] = useState({
     butlleti: null,
     visor: null,
-    routes: null
+    routes: null,
+    weatherData: null
   });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -323,6 +324,7 @@ function App() {
               <RouteList
                 routes={sortedRoutes}
                 showTopOnly={viewMode === 'top3'}
+                weatherData={data.weatherData}
               />
             </div>
           </div>

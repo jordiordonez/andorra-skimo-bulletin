@@ -1,6 +1,7 @@
 import { getDangerLevel, getSnowRating } from '../utils/routeRanking';
+import WeatherDisplay from './WeatherDisplay';
 
-const RouteCard = ({ route, rank }) => {
+const RouteCard = ({ route, rank, weather }) => {
   const danger = getDangerLevel(route.rating_perill);
   const snow = getSnowRating(route.rating_neu);
 
@@ -203,8 +204,13 @@ const RouteCard = ({ route, rank }) => {
         </div>
       </div>
 
+      {/* Weather Display */}
+      <div className="px-6">
+        <WeatherDisplay weather={weather} />
+      </div>
+
       {/* Action Button */}
-      <div className="p-6 pt-0">
+      <div className="p-6">
         <button
           onClick={handleRouteClick}
           className="w-full py-4 px-6 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-semibold text-lg transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"

@@ -190,6 +190,11 @@ const Legend = ({ isOpen, onToggle }) => {
                   visor.allaus.ad
                 </a> - ATES terrain classification and route profiles
               </div>
+              <div>
+                🌤️ <a href="https://open-meteo.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                  open-meteo.com
+                </a> - Real-time weather data at 2000m elevation
+              </div>
             </div>
           </div>
 

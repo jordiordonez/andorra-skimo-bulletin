@@ -105,9 +105,21 @@ const RouteCard = ({ route, rank, weather }) => {
       <div className="relative p-6 pb-4 bg-blue-50">
         <div className="flex items-start justify-between">
           <div className="flex-1">
-            <h3 className="text-2xl font-bold text-gray-800 mb-2 group-hover:text-blue-600 transition-colors">
-              🏔️ {route.route_name || 'Unknown Route'}
-            </h3>
+            <div className="flex items-center gap-3 mb-2">
+              <h3 className="text-2xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
+                🏔️ {route.route_name || 'Unknown Route'}
+              </h3>
+              <button
+                onClick={handleRouteClick}
+                className="inline-flex items-center gap-1 px-3 py-1 text-sm font-medium text-blue-600 hover:text-blue-800 hover:bg-blue-100 rounded-lg transition-all"
+                title="Copy name and open in Visor Allaus"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+                <span>See in Visor</span>
+              </button>
+            </div>
 
             <div className="flex flex-wrap items-center gap-2 mb-4">
               {route.zona_meteo && (
@@ -209,15 +221,6 @@ const RouteCard = ({ route, rank, weather }) => {
         <WeatherDisplay weather={weather} />
       </div>
 
-      {/* Action Button */}
-      <div className="p-6">
-        <button
-          onClick={handleRouteClick}
-          className="w-full py-4 px-6 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-semibold text-lg transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
-        >
-          📋 Click & paste in "Tria una ruta"
-        </button>
-      </div>
 
       {/* Decorative Elements */}
       <div className="absolute top-4 left-4 w-2 h-2 bg-blue-400 rounded-full opacity-50"></div>

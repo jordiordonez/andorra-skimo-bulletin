@@ -4,10 +4,12 @@ A React-based avalanche route planning web application for ski-mountaineering in
 
 ## ✨ Features
 
-- **📊 Intelligent Route Ranking**: Multi-criteria scoring system (safety, snow quality, wind exposure)
+- **📊 Intelligent Route Ranking**: Multi-criteria scoring system (safety, snow quantity, exposed slopes)
 - **🔍 Smart Search & Filtering**: Autocomplete route search with advanced filters
 - **🏆 Top Recommendations**: Daily top 3 route suggestions based on current conditions
 - **❄️ Real-time Snow Data**: Current avalanche bulletins and snow depth measurements with mantell threshold logic
+- **🌤️ Live Weather Integration**: Real-time weather conditions at 2000m elevation from Open-Meteo API
+- **💾 Smart Weather Caching**: 15-minute client-side caching to optimize API usage and performance
 - **🤖 Automated Updates**: Daily data scraping and processing at 4:05 PM Andorra time
 - **📊 Advanced Snow Rating**: Mantell-based snow depth calculations with altitude interpolation
 - **📅 Smart Bulletin Selection**: Automatically uses most recent available bulletin data
@@ -45,7 +47,8 @@ npm run preview
 - **Hero Section**: Landing page with project statistics and call-to-action
 - **Route Explorer**: Main interface with top picks and complete route listing
 - **Smart Filters**: Advanced filtering by route name, zone, and safety ratings
-- **Route Cards**: Detailed route information with safety assessments
+- **Route Cards**: Detailed route information with safety assessments and real-time weather
+- **Weather Display**: Live conditions at 2000m with temperature, wind, and forecasts
 - **Methodology Legend**: Interactive explanations of rating system and data sources
 
 ### Data Sources & Automation
@@ -64,14 +67,22 @@ npm run preview
    - Original ATES cartographic work: Centre d'Estudis de la Neu i la Muntanya d'Andorra (CENMA) & OBSA Observatori de la Sostenibilitat d'Andorra
    - Copyright: Andorra Recerca + Innovació
 
-3. **GitHub Actions Workflow** - Automated data processing and deployment
+3. **open-meteo.com** - European Weather Service
+   - Real-time weather data at 2000m elevation
+   - Current temperature, wind conditions, and weather status
+   - Today's and tomorrow's forecasts
+   - Free API with 10,000 daily requests (3,000+ app visits supported)
+   - Copyright: Open-Meteo.com
+
+4. **GitHub Actions Workflow** - Automated data processing and deployment
 
 ### Technology Stack
 
 - **Frontend**: React 18 with Vite
 - **Styling**: Tailwind CSS v3 (clean, gradient-free design)
 - **Data**: Static CSV/JSON files served from public folder
-- **Deployment**: Static site generation for Vercel, Netlify, etc.
+- **Weather API**: Open-Meteo REST API with client-side caching
+- **Deployment**: Static site generation for GitHub Pages, Vercel, Netlify, etc.
 
 ## 📊 Route Ranking Algorithm
 
@@ -80,8 +91,8 @@ Routes are ranked using a multi-criteria scoring system with advanced snow calcu
 ### Rating Components
 1. **Final Rating** (primary) - Overall recommendation score
 2. **Safety Level** (secondary) - Terrain complexity + avalanche risk
-3. **Snow Quality** (tertiary) - Snow depth and conditions with mantell logic
-4. **Wind Exposure** (quaternary) - Problematic wind directions
+3. **Snow Quantity** (tertiary) - Snow depth and conditions with mantell logic
+4. **Exposed Slopes** (quaternary) - Problematic slope orientations
 
 ### Snow Rating Logic (NEW)
 - **Below Mantell Altitude**: `rating_neu = 0` (no skiable snow)
@@ -114,11 +125,14 @@ src/
 ├── components/
 │   ├── FilterPanel.jsx     # Search and filtering interface
 │   ├── Legend.jsx          # Methodology and data sources
-│   ├── RouteCard.jsx       # Individual route display
-│   └── RouteList.jsx       # Route container component
+│   ├── RouteCard.jsx       # Individual route display with weather
+│   ├── RouteList.jsx       # Route container component
+│   └── WeatherDisplay.jsx  # Weather conditions component
 └── utils/
     ├── dataLoader.js       # CSV/JSON data loading
-    └── routeRanking.js     # Route analysis and sorting
+    ├── routeRanking.js     # Route analysis and sorting
+    ├── weatherService.js   # Open-Meteo API integration
+    └── weatherCache.js     # Client-side weather caching
 
 public/
 ├── data/
@@ -175,6 +189,11 @@ This application uses data from:
 - **Andorra Recerca + Innovació (ARI)** via visor.allaus.ad - ATES route classifications and terrain complexity ratings
 - Original ATES cartographic development by Centre d'Estudis de la Neu i la Muntanya d'Andorra (CENMA) and OBSA Observatori de la Sostenibilitat d'Andorra
 - Route catalog includes difficulty ratings, altitude profiles, and orientation data
+
+**Weather Data:**
+- **Open-Meteo.com** - Free European weather service providing real-time meteorological data
+- Weather conditions at 2000m elevation across three Andorran zones (North, Centre, South)
+- Current temperature, wind speed/direction, precipitation, and 48-hour forecasts
 
 **Usage Compliance:**
 - Data is used for non-commercial educational and safety purposes

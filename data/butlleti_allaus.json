@@ -1,65 +1,59 @@
 {
-  "timestamp_scraping": "2026-02-08T15:27:48.427318",
+  "timestamp_scraping": "2026-02-09T15:57:00.649909",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "08/02/2026 16:00",
-    "valid_fins": "09/02/2026",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1451.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_08022026160035.jpg"
+    "data_elaboracio": "09/02/2026 16:36",
+    "valid_fins": "10/02/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1458.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_09022026163602.jpg"
   },
   "zones": {
     "zona_nord": {
       "problemes": [
-        "capes febles persistents"
+        "neu humida"
       ],
       "orientacions": [
-        "NW+N+NE+E",
-        "SE+S+SW+W"
+        "ALL_DIRECTIONS"
       ],
       "mides_allaus": [
-        2
+        3
       ],
       "tipus_sobrecarga": [
-        "Forta",
         "Espontani"
       ],
-      "nivell_perill": 2,
+      "nivell_perill": 3,
       "tendencia": "igual"
     },
     "zona_centre": {
       "problemes": [
-        "capes febles persistents"
+        "neu humida"
       ],
       "orientacions": [
-        "NW+N+NE+E",
-        "SE+S+SW+W"
+        "ALL_DIRECTIONS"
       ],
       "mides_allaus": [
-        2
+        3
       ],
       "tipus_sobrecarga": [
-        "Forta",
         "Espontani"
       ],
-      "nivell_perill": 2,
+      "nivell_perill": 3,
       "tendencia": "igual"
     },
     "zona_sud": {
       "problemes": [
-        "capes febles persistents"
+        "neu humida"
       ],
       "orientacions": [
-        "NW+N+NE+E",
-        "SE+S+SW+W"
+        "ALL_DIRECTIONS"
       ],
       "mides_allaus": [
-        2
+        3
       ],
       "tipus_sobrecarga": [
-        "Forta",
         "Espontani"
       ],
-      "nivell_perill": 2,
+      "nivell_perill": 3,
       "tendencia": "igual"
     }
   },
@@ -109,112 +103,110 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "04/02/2026": "0 cm",
       "05/02/2026": "0 cm",
       "06/02/2026": "0 cm",
-      "07/02/2026": "0 cm"
-    },
-    "Aixàs": {
-      "04/02/2026": "0 cm",
-      "05/02/2026": "0 cm",
-      "06/02/2026": "0 cm",
-      "07/02/2026": "0 cm"
+      "07/02/2026": "0 cm",
+      "08/02/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "04/02/2026": "0 cm",
       "05/02/2026": "9 cm",
       "06/02/2026": "0 cm",
-      "07/02/2026": "0 cm"
+      "07/02/2026": "0 cm",
+      "08/02/2026": "0 cm"
     },
     "Ransol - FEDA": {
-      "04/02/2026": "0 cm",
       "05/02/2026": "12 cm",
       "06/02/2026": "0 cm",
-      "07/02/2026": "1 cm"
+      "07/02/2026": "1 cm",
+      "08/02/2026": "0 cm"
     },
     "Fontverd": {
-      "04/02/2026": "0 cm",
       "05/02/2026": "8 cm",
       "06/02/2026": "0 cm",
-      "07/02/2026": "0 cm"
+      "07/02/2026": "0 cm",
+      "08/02/2026": "0 cm"
     },
     "Setúria": {
-      "04/02/2026": "0 cm",
       "05/02/2026": "13 cm",
       "06/02/2026": "0 cm",
-      "07/02/2026": "4 cm"
+      "07/02/2026": "4 cm",
+      "08/02/2026": "6 cm"
     },
     "Bony de les Neres": {
-      "04/02/2026": "0 cm",
       "05/02/2026": "10 cm",
       "06/02/2026": "0 cm",
-      "07/02/2026": "0 cm"
+      "07/02/2026": "0 cm",
+      "08/02/2026": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "04/02/2026": "0 cm",
       "05/02/2026": "6 cm",
       "06/02/2026": "0 cm",
-      "07/02/2026": "0 cm"
+      "07/02/2026": "0 cm",
+      "08/02/2026": "0 cm"
     },
     "Caborreu": {
-      "04/02/2026": "0 cm",
       "05/02/2026": "15 cm",
       "06/02/2026": "0 cm",
-      "07/02/2026": "0 cm"
+      "07/02/2026": "0 cm",
+      "08/02/2026": "0 cm"
     },
     "Sorteny": {
-      "04/02/2026": "0 cm",
       "05/02/2026": "4 cm",
       "06/02/2026": "0 cm",
-      "07/02/2026": "3 cm"
+      "07/02/2026": "3 cm",
+      "08/02/2026": "2 cm"
     },
     "Coll Pa": {
-      "04/02/2026": "0 cm",
       "05/02/2026": "9 cm",
       "06/02/2026": "0 cm",
-      "07/02/2026": "2 cm"
+      "07/02/2026": "2 cm",
+      "08/02/2026": "3 cm"
     },
     "Perafita": {
-      "04/02/2026": "0 cm",
       "05/02/2026": "2 cm",
       "06/02/2026": "0 cm",
-      "07/02/2026": "0 cm"
+      "07/02/2026": "0 cm",
+      "08/02/2026": "0 cm"
     },
     "Tossa Espiolets": {
-      "04/02/2026": "1 cm",
       "05/02/2026": "8 cm",
       "06/02/2026": "0 cm",
-      "07/02/2026": "0 cm"
+      "07/02/2026": "0 cm",
+      "08/02/2026": "4 cm"
     },
-    "La Solana": {
-      "04/02/2026": "0 cm",
-      "05/02/2026": "1 cm",
+    "Vall del Riu FEDA": {
+      "05/02/2026": "0 cm",
       "06/02/2026": "0 cm",
-      "07/02/2026": "0 cm"
+      "07/02/2026": "9 cm",
+      "08/02/2026": "0 cm"
     },
     "Envalira Antenes": {
-      "04/02/2026": "0 cm",
       "05/02/2026": "2 cm",
       "06/02/2026": "0 cm",
-      "07/02/2026": "0 cm"
+      "07/02/2026": "0 cm",
+      "08/02/2026": "4 cm"
     },
     "Les Fonts d'Arinsal": {
-      "04/02/2026": "0 cm",
       "05/02/2026": "2 cm",
       "06/02/2026": "0 cm",
-      "07/02/2026": "0 cm"
+      "07/02/2026": "0 cm",
+      "08/02/2026": "10 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
-      "descripcio": "Haurem d´evitar els vessants amb component nord on són més probables les capes febles.  Els woumfs que ses poden sentir en els trajectes de pujada són senyals inequívocs d´inestabilitat, però si ens mantenim en terreny simple o exigent tenen poques possibilitats de desencadenar allaus. En canvi, si ens desplacem per terrenys més inclinats o complexes podem desencadenatr allaus.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_08022026160035.jpg"
+      "descripcio": "La pluja fins a cotes altes humidificarà les capes febles de la part superficial del mantell, acumulades en les febles nevades dels darrers dies. La previsió d´allaus humides naturals fan desaconsellar l´accés a la muntanya.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_09022026163602.jpg"
+    },
+    "Comapedrosa": {
+      "descripcio": "La humidificació de la neu fa preveure nombroses allaus humides per les canals que creuen els camins.A més, encara que ja hi hagi hagut allaus durant l´hivern que hagin purgat alguns vessants, no podem descartar que tornin a baixar allaus grans.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_09022026163602.jpg"
     },
     "Madriu-Perafita-Claror": {
-      "descripcio": "Com a tot el país, haurem d´extremar les precaucions en els vessants nord més inclinats, com poden ser la collada dels Agols. Encara hi ha algunes plaques però que tendiran a estabilitzar-se. Les traces prèvies no ens han de donar seguretat si el terreny és complex i té les orientacions indicades.",
+      "descripcio": "Com a tot el país, haurem d´extremar les precaucions en els vessants més inclinats. La pluja causarà una fosa del mantell a les cotes més baixes, dificultant els accessos a la Vall.",
       "mapa_url": null
     }
   },
-  "estabilitat_text": "Encara als vessants obacs molt inclinats les capes de neu a prop de la superfície poden ser desencadenades amb sobrecàrregues fortes. Amb l’augment de la temperatura diürna, a partir del migdia el perill d'allaus de lliscament basal augmentarà. Evitar les zones amb esquerdes de lliscament basal. Són possibles allaus de mida petita i, localment, mitjana. Es recomana mantenir la distància entre els components. Els indrets perillosos són difícils de reconèixer amb mala visibilitat.",
-  "qualitat_neu_text": "Sobretot prop dels cims en cotes altes els gruixos de neu varien molt per la influència del vent. La superfície del mantell de neu es regelarà per formar una crosta portant i s'estovarà al llarg del dia. Les condicions de temps  causarà una gradual humidificació del mantell de neu  als vessants assolellats . Això es dona especialment en cotes baixes. El dilluns serà molt ennuvolat. Durant la nit caurà una mica de neu sobretot  al nord."
+  "estabilitat_text": "Amb la pujada de la cota de neu, augment clar del perill d'allaus de neu humida i de neu molt humida. A més, són d'esperar allaus de lliscament basal en qualsevol moment. Evitar les zones amb esquerdes de lliscament basal. Són d'esperar allaus naturals de mida mitjana i, localment, gran. Aquestes poden implicar les capes més profundes del mantell de neu., també en el cas de zones de sortida ja purgades. Els indrets perillosos són generalitzats. Les excursions de muntanya fora de les pistes controlades són desaconsellables.",
+  "qualitat_neu_text": "Sobretot prop dels cims en cotes altes els gruixos de neu varien molt per la influència del vent. Durant la nit caurà pluja fins als 2100 m sobretot als al nord. El dimarts caurà pluja fins a cotes altes. La pluja causarà en una àrea extensa una clara humidificació del mantell de neu en totes les orientacions."
 }

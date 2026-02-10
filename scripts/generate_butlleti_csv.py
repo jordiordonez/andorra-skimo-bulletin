@@ -65,6 +65,11 @@ def _rating_vent(zone_data: dict, route_orientation: str) -> str:
     matched = []
 
     for orient_str in zone_data.get("orientacions", []):
+        # Handle ALL_DIRECTIONS case
+        if orient_str == "ALL_DIRECTIONS":
+            # All route orientations are dangerous
+            return route_orientation
+
         zone_dirs = _split_orientations(orient_str)
         for dir_code in route_dirs:
             if dir_code in zone_dirs and dir_code not in matched:
@@ -187,9 +192,10 @@ def main():
         rating_perill = _rating_perill(zone_data, float(row["end_altitude"]), row["terreny"])
         rating_vent = _rating_vent(zone_data, row["orientation"])
         base_final = min(rating_neu, rating_perill)
-        if not rating_vent:
-            base_final = math.ceil(base_final * 1.25)
-        rating_final = min(5, base_final)
+        # If route has dangerous orientations, reduce rating by 40%
+        if rating_vent:
+            base_final = math.floor(base_final * 0.6)
+        rating_final = max(0, min(5, base_final))
 
         records.append(
             {

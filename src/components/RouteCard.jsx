@@ -102,22 +102,23 @@ const RouteCard = ({ route, rank, weather }) => {
       )}
 
       {/* Hero Section */}
-      <div className="relative p-6 pb-4 bg-blue-50">
-        <div className="flex items-start justify-between">
-          <div className="flex-1">
-            <div className="flex items-center gap-3 mb-2">
-              <h3 className="text-2xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
+      <div className="relative p-4 sm:p-6 pb-4 bg-blue-50">
+        <div className="flex flex-col sm:flex-row items-start sm:justify-between gap-4">
+          <div className="flex-1 w-full">
+            <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3 mb-2">
+              <h3 className="text-xl sm:text-2xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
                 🏔️ {route.route_name || 'Unknown Route'}
               </h3>
               <button
                 onClick={handleRouteClick}
-                className="inline-flex items-center gap-1 px-3 py-1 text-sm font-medium text-blue-600 hover:text-blue-800 hover:bg-blue-100 rounded-lg transition-all"
+                className="inline-flex items-center gap-1 px-2 sm:px-3 py-1 text-xs sm:text-sm font-medium text-blue-600 hover:text-blue-800 hover:bg-blue-100 rounded-lg transition-all self-start sm:self-auto"
                 title="Copy name and open in Visor Allaus"
               >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-3 h-3 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
-                <span>See in Visor</span>
+                <span className="hidden sm:inline">See in Visor</span>
+                <span className="sm:hidden">Visor</span>
               </button>
             </div>
 
@@ -135,7 +136,7 @@ const RouteCard = ({ route, rank, weather }) => {
             </div>
 
             {/* Route Details */}
-            <div className="grid grid-cols-2 gap-4 text-sm text-gray-600">
+            <div className="grid grid-cols-2 gap-2 sm:gap-4 text-xs sm:text-sm text-gray-600">
               {route.distance && (
                 <div className="flex items-center space-x-2">
                   <span>📏</span>
@@ -152,44 +153,44 @@ const RouteCard = ({ route, rank, weather }) => {
           </div>
 
           {/* Recommended Rating Badge */}
-          <div className="ml-4">
-            <div className={`${getRecommendedColor(route.rating_final)} text-white rounded-full w-20 h-20 flex flex-col items-center justify-center font-bold shadow-lg border-2 border-white`}>
-              <div className="text-2xl">{parseFloat(route.rating_final || 0).toFixed(1)}</div>
+          <div className="sm:ml-4 flex-shrink-0">
+            <div className={`${getRecommendedColor(route.rating_final)} text-white rounded-full w-16 h-16 sm:w-20 sm:h-20 flex flex-col items-center justify-center font-bold shadow-lg border-2 border-white`}>
+              <div className="text-xl sm:text-2xl">{parseFloat(route.rating_final || 0).toFixed(1)}</div>
               <div className="text-xs opacity-90">/5</div>
             </div>
-            <div className="text-xs text-center text-gray-700 mt-1 font-bold">{getRecommendedText(route.rating_final)}</div>
+            <div className="text-xs text-center text-gray-700 mt-1 font-bold max-w-[64px] sm:max-w-[80px] break-words">{getRecommendedText(route.rating_final)}</div>
           </div>
         </div>
       </div>
 
       {/* Ratings Section */}
-      <div className="px-6 py-4 bg-white">
-        <div className="grid grid-cols-2 gap-6">
+      <div className="px-4 sm:px-6 py-4 bg-white">
+        <div className="grid grid-cols-2 gap-3 sm:gap-6">
           {/* Snow Rating */}
-          <div className={`text-center p-4 rounded-xl ${getSnowColor(route.rating_neu)} text-white relative overflow-hidden`}>
+          <div className={`text-center p-3 sm:p-4 rounded-xl ${getSnowColor(route.rating_neu)} text-white relative overflow-hidden`}>
             <div className="absolute inset-0 bg-black/10"></div>
             <div className="relative z-10">
-              <div className="text-lg mb-2 break-all leading-tight h-12 flex items-center justify-center overflow-hidden">
+              <div className="text-sm sm:text-lg mb-1 sm:mb-2 break-all leading-tight h-8 sm:h-12 flex items-center justify-center overflow-hidden">
                 {snow.snowflakes || '❄️'}
               </div>
               <div className="text-xs font-bold opacity-90 mb-1">Snow Quantity</div>
-              <div className="text-2xl font-bold">
+              <div className="text-lg sm:text-2xl font-bold">
                 {parseFloat(route.rating_neu || 0).toFixed(1)}/5
               </div>
-              <div className="text-xs mt-1 font-medium opacity-90">{getSnowText(route.rating_neu)}</div>
+              <div className="text-xs mt-1 font-medium opacity-90 hidden sm:block">{getSnowText(route.rating_neu)}</div>
             </div>
           </div>
 
           {/* Safety Level */}
-          <div className={`text-center p-4 rounded-xl ${getSafetyColor(route.rating_perill)} text-white relative overflow-hidden`}>
+          <div className={`text-center p-3 sm:p-4 rounded-xl ${getSafetyColor(route.rating_perill)} text-white relative overflow-hidden`}>
             <div className="absolute inset-0 bg-black/10"></div>
             <div className="relative z-10">
-              <div className={`text-3xl mb-2`}>{danger.icon}</div>
+              <div className={`text-2xl sm:text-3xl mb-1 sm:mb-2`}>{danger.icon}</div>
               <div className="text-xs font-bold opacity-90 mb-1">Safety Level</div>
-              <div className="text-2xl font-bold">
+              <div className="text-lg sm:text-2xl font-bold">
                 {parseFloat(route.rating_perill || 0).toFixed(1)}/5
               </div>
-              <div className="text-xs mt-1 font-medium opacity-90">{getSafetyText(route.rating_perill)}</div>
+              <div className="text-xs mt-1 font-medium opacity-90 hidden sm:block">{getSafetyText(route.rating_perill)}</div>
             </div>
           </div>
         </div>
@@ -217,7 +218,7 @@ const RouteCard = ({ route, rank, weather }) => {
       </div>
 
       {/* Weather Display */}
-      <div className="px-6">
+      <div className="px-4 sm:px-6">
         <WeatherDisplay weather={weather} />
       </div>
 

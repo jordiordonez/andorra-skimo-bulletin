@@ -44,7 +44,7 @@ export const filterRoutes = (routes, filters) => {
   return routes.filter(route => {
     // Zone filter
     if (filters.zone && filters.zone !== 'all') {
-      if (route.zona_meteo !== filters.zone) return false;
+      if (route.zone !== filters.zone) return false;
     }
 
     // Rating filters
@@ -71,7 +71,7 @@ export const filterRoutes = (routes, filters) => {
 };
 
 export const getUniqueZones = (routes) => {
-  const zones = [...new Set(routes.map(route => route.zona_meteo))];
+  const zones = [...new Set(routes.map(route => route.zone))];
   return zones.filter(Boolean).sort();
 };
 

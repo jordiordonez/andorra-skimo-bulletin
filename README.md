@@ -12,9 +12,12 @@ A React-based avalanche route planning web application for ski-mountaineering in
 - **💾 Smart Weather Caching**: 15-minute client-side caching to optimize API usage and performance
 - **🤖 Automated Updates**: Daily data scraping and processing at 4:05 PM Andorra time
 - **📊 Advanced Snow Rating**: Mantell-based snow depth calculations with altitude interpolation
+- **⚠️ Dangerous Slopes Detection**: Identifies and highlights routes with problematic slope orientations
 - **📅 Smart Bulletin Selection**: Automatically uses most recent available bulletin data
 - **📱 Responsive Design**: Works seamlessly on desktop, tablet, and mobile
 - **🗺️ Route Integration**: Direct links to detailed route information on visor.allaus.ad
+- **🌡️ Weather Forecasting**: 48-hour weather predictions for better trip planning
+- **🎯 Safety-First Scoring**: Penalizes routes with dangerous conditions in the final rating
 
 ## 🚀 Quick Start
 
@@ -49,7 +52,9 @@ npm run preview
 - **Smart Filters**: Advanced filtering by route name, zone, and safety ratings
 - **Route Cards**: Detailed route information with safety assessments and real-time weather
 - **Weather Display**: Live conditions at 2000m with temperature, wind, and forecasts
+- **Dangerous Slopes Indicator**: Visual warnings for routes with problematic orientations
 - **Methodology Legend**: Interactive explanations of rating system and data sources
+- **Mobile-Optimized Views**: Responsive cards and layouts for all screen sizes
 
 ### Data Sources & Automation
 
@@ -89,20 +94,27 @@ npm run preview
 Routes are ranked using a multi-criteria scoring system with advanced snow calculations:
 
 ### Rating Components
-1. **Final Rating** (primary) - Overall recommendation score
+1. **Final Rating** (primary) - Overall recommendation score with safety penalties
 2. **Safety Level** (secondary) - Terrain complexity + avalanche risk
 3. **Snow Quantity** (tertiary) - Snow depth and conditions with mantell logic
 4. **Exposed Slopes** (quaternary) - Problematic slope orientations
 
-### Snow Rating Logic (NEW)
+### Safety Penalties (NEW)
+- Routes with dangerous slopes receive a -0.5 penalty to their final rating
+- Ensures safer routes are recommended even if they have slightly lower base scores
+- Dangerous slopes are clearly marked with warning indicators
+
+### Snow Rating Logic
 - **Below Mantell Altitude**: `rating_neu = 0` (no skiable snow)
 - **Between Mantell & 1500m**: Linear interpolation from 0cm to actual snow depth
 - **Above 1500m**: Standard altitude-based interpolation (1500m-2500m)
+- **Dynamic Updates**: Automatically adjusts based on latest snow depth measurements
 
-### Bulletin Selection (NEW)
+### Bulletin Selection
 - Automatically finds and uses the most recent available bulletin file
 - Searches through 30 days of potential data files
 - Displays correct timestamp matching the actual data being shown
+- Falls back gracefully if current day's data is not yet available
 
 ## 🎨 Design System
 

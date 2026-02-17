@@ -1,63 +1,84 @@
 {
-  "timestamp_scraping": "2026-02-16T15:41:03.576800",
+  "timestamp_scraping": "2026-02-17T15:53:36.461853",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "16/02/2026 16:00",
-    "valid_fins": "17/02/2026",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1475.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_16022026160033.jpg"
+    "data_elaboracio": "17/02/2026 16:31",
+    "valid_fins": "18/02/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1479.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_17022026163106.jpg"
   },
   "zones": {
     "zona_nord": {
       "problemes": [
-        "neu recent",
+        "neu ventada",
         "neu humida"
       ],
       "orientacions": [
-        "ALL_DIRECTIONS"
+        "NE+E+SE+S",
+        "SE+S+SW"
       ],
       "mides_allaus": [
-        3
+        2
       ],
       "tipus_sobrecarga": [
+        "Forta",
         "Espontani"
       ],
-      "nivell_perill": 4,
-      "tendencia": "baixa"
+      "nivells_perill": {
+        "alt_altitud": 3,
+        "baix_altitud": 2,
+        "altitud_critica": "2200m"
+      },
+      "nivell_perill": 3,
+      "tendencia": "igual"
     },
     "zona_centre": {
       "problemes": [
-        "neu recent",
+        "neu ventada",
         "neu humida"
       ],
       "orientacions": [
-        "ALL_DIRECTIONS"
+        "NE+E+SE+S",
+        "SE+S+SW"
       ],
       "mides_allaus": [
-        2
+        1
       ],
       "tipus_sobrecarga": [
+        "Forta",
         "Espontani"
       ],
+      "nivells_perill": {
+        "alt_altitud": 3,
+        "baix_altitud": 2,
+        "altitud_critica": "2200m"
+      },
       "nivell_perill": 3,
-      "tendencia": "baixa"
+      "tendencia": "igual"
     },
     "zona_sud": {
       "problemes": [
-        "neu recent",
+        "neu ventada",
         "neu humida"
       ],
       "orientacions": [
-        "ALL_DIRECTIONS"
+        "NE+E+SE+S",
+        "SE+S+SW"
       ],
       "mides_allaus": [
-        2
+        1
       ],
       "tipus_sobrecarga": [
+        "Forta",
         "Espontani"
       ],
+      "nivells_perill": {
+        "alt_altitud": 3,
+        "baix_altitud": 2,
+        "altitud_critica": "2200m"
+      },
       "nivell_perill": 3,
-      "tendencia": "baixa"
+      "tendencia": "igual"
     }
   },
   "gruixos_mantell": {
@@ -69,8 +90,8 @@
         "gruix_2500m": "200 cm"
       },
       "S": {
-        "altitud_mantell": "1400 m",
-        "gruix_1500m": "30 cm",
+        "altitud_mantell": "1500 m",
+        "gruix_1500m": "0 cm",
         "gruix_2000m": "100 cm",
         "gruix_2500m": "150 cm"
       }
@@ -83,8 +104,8 @@
         "gruix_2500m": "200 cm"
       },
       "S": {
-        "altitud_mantell": "1400 m",
-        "gruix_1500m": "10 cm",
+        "altitud_mantell": "1500 m",
+        "gruix_1500m": "0 cm",
         "gruix_2000m": "100 cm",
         "gruix_2500m": "150 cm"
       }
@@ -97,8 +118,8 @@
         "gruix_2500m": "150 cm"
       },
       "S": {
-        "altitud_mantell": "1400 m",
-        "gruix_1500m": "10 cm",
+        "altitud_mantell": "1500 m",
+        "gruix_1500m": "0 cm",
         "gruix_2000m": "60 cm",
         "gruix_2500m": "100 cm"
       }
@@ -106,98 +127,98 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "12/02/2026": "0 cm",
       "13/02/2026": "0 cm",
       "14/02/2026": "0 cm",
-      "15/02/2026": "0 cm"
+      "15/02/2026": "0 cm",
+      "16/02/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "12/02/2026": "0 cm",
       "13/02/2026": "10 cm",
       "14/02/2026": "3 cm",
-      "15/02/2026": "0 cm"
+      "15/02/2026": "0 cm",
+      "16/02/2026": "0 cm"
     },
     "Ransol - FEDA": {
-      "12/02/2026": "0 cm",
       "13/02/2026": "13 cm",
       "14/02/2026": "2 cm",
-      "15/02/2026": "0 cm"
+      "15/02/2026": "0 cm",
+      "16/02/2026": "0 cm"
     },
     "Fontverd": {
-      "12/02/2026": "0 cm",
       "13/02/2026": "8 cm",
       "14/02/2026": "13 cm",
-      "15/02/2026": "0 cm"
+      "15/02/2026": "0 cm",
+      "16/02/2026": "0 cm"
     },
     "Setúria": {
-      "12/02/2026": "0 cm",
       "13/02/2026": "8 cm",
       "14/02/2026": "0 cm",
-      "15/02/2026": "0 cm"
+      "15/02/2026": "0 cm",
+      "16/02/2026": "0 cm"
     },
     "Bony de les Neres": {
-      "12/02/2026": "0 cm",
       "13/02/2026": "14 cm",
       "14/02/2026": "0 cm",
-      "15/02/2026": "0 cm"
+      "15/02/2026": "0 cm",
+      "16/02/2026": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "12/02/2026": "0 cm",
       "13/02/2026": "10 cm",
       "14/02/2026": "0 cm",
-      "15/02/2026": "0 cm"
+      "15/02/2026": "0 cm",
+      "16/02/2026": "0 cm"
     },
     "Caborreu": {
-      "12/02/2026": "0 cm",
       "13/02/2026": "8 cm",
       "14/02/2026": "0 cm",
-      "15/02/2026": "4 cm"
+      "15/02/2026": "4 cm",
+      "16/02/2026": "6 cm"
     },
     "Sorteny": {
-      "12/02/2026": "0 cm",
       "13/02/2026": "36 cm",
       "14/02/2026": "0 cm",
-      "15/02/2026": "2 cm"
+      "15/02/2026": "2 cm",
+      "16/02/2026": "6 cm"
     },
     "Perafita": {
-      "12/02/2026": "0 cm",
       "13/02/2026": "0 cm",
       "14/02/2026": "12 cm",
-      "15/02/2026": "0 cm"
+      "15/02/2026": "0 cm",
+      "16/02/2026": "0 cm"
     },
     "Tossa Espiolets": {
-      "12/02/2026": "0 cm",
       "13/02/2026": "8 cm",
       "14/02/2026": "3 cm",
-      "15/02/2026": "56 cm"
+      "15/02/2026": "0 cm",
+      "16/02/2026": "0 cm"
     },
     "Envalira Antenes": {
-      "12/02/2026": "0 cm",
       "13/02/2026": "6 cm",
       "14/02/2026": "8 cm",
-      "15/02/2026": "0 cm"
+      "15/02/2026": "0 cm",
+      "16/02/2026": "0 cm"
     },
     "Les Fonts d'Arinsal": {
-      "12/02/2026": "0 cm",
       "13/02/2026": "18 cm",
       "14/02/2026": "0 cm",
-      "15/02/2026": "0 cm"
+      "15/02/2026": "0 cm",
+      "16/02/2026": "0 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
-      "descripcio": "Les nevades del cap de setmana han estat conseqüents i han deixat gruixos de neu nova superiors als 50 cm, modelats pel vent. La pluja humidificarà el mantell  fins a cotes mitges i la sobrecàrrega pot fer baixar allaus de manera natural  Les activitats fora de les pistes controlades requereixen experiència i molta cura en l´elecció del territori.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_16022026160033.jpg"
+      "descripcio": "Les nevades del cap de setmana han creat acumulacions de neu ventada superiors als 50 cm. La pluja ha humidificat el mantell, l´ha regelat i compactat per sota dels 2.200 metres. Per sobre d´aquesta cota hi ha grans acumulacions de neu, sobretot als peus de les parets rocoses. En altura hi ha menys neu a causa del vent, però en algunes collades hi ha grans congestes que poden dificultar l´accés.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_17022026163106.jpg"
     },
     "Comapedrosa": {
-      "descripcio": "Les activitats a la muntanya són desaconsellables fins que la neu recent s´hagi estabilitzat . S´esperen nombroses allaus naturals.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_16022026160033.jpg"
+      "descripcio": "A cotes baixes la neu s´ha compactat i ha reduït el seu gruix a causa de l´humidificació. Per sobre del Pla de l´Estany i del refugi del Comapedrosa haurem de circular amb cautela, ja que als vessants amb component est poden haver-hi plaques de vent sensibles a sobrecàrregues.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_17022026163106.jpg"
     },
     "Madriu-Perafita-Claror": {
-      "descripcio": "A la part alta del Madriu també hi ha nevat, tot i que les nevades al sud del país han estat menys intenses, també esperem la formació de plaques de vent. La pluja humifdificarà la neu recent en les cotes baixes dificultant els accessos amb esquís.",
+      "descripcio": "Als vessants est s´hi ha de circular amb molta cautela, ja que és on hi ha les acumulacions de neu ventada més importants i perilloses. A la resta de vessants, a cotes baixes trobarem una neu ben compactada mentre a cotes altes els vent haurà deixat la neu dura al descobert.",
       "mapa_url": null
     }
   },
-  "estabilitat_text": "La neu recent i les plaques de vent dels darrers tres dies han de ser avaluades amb cautela. Especialment als sectors més afectats per les precipitacions són d'esperar allaus naturals de mida mitjana i, localment, gran. Amb la fi de les precipitacions, afebliment progressiu del perill d'allaus de neu humida. Les condicions són perilloses per les excursions i les activitats forapista. Es recomana una selecció acurada de la ruta i mantenir la distància entre els components. Després d'un període de mal temps, en aquest primer dia de sol es recomana prudència.",
-  "qualitat_neu_text": "Amb la neu recent i el vent les plaques de vent han augmentat de mida. Aquesta neu ha de ser avaluada amb cautela. Fins al vespre caurà pluja fins a cotes altes especialment als al nord. La pluja causarà en una àrea extensa una humidificació del mantell de neu en particular en cotes baixes i mitges. El refredament nocturn serà força bo. A causa de la crosta de gel hi ha el perill de relliscar i caure. A cotes altes :. La neu recent esdevindrà progressivament més inestable  vessants assolellats ."
+  "estabilitat_text": "La neu recent i les plaques de vent han de ser avaluades amb cautela., especialment en vessants inclinats orientats a nord-est , sud i sud-est , i també en cubetes, canals i darrere de canvis abruptes de pendent. A conseqüencia de l'augment de la temperatura diürna i la radiació solar, augment progressiu del perill d'allaus de neu humida. Això es dona especialment en vessants assolellats inclinats i en cotes baixes i mitges. Es recomana una selecció acurada de la ruta i mantenir la distància entre els components. A més, són possibles algunes allaus de lliscament basal.",
+  "qualitat_neu_text": "Amb la neu recent i el vent les plaques de vent han augmentat de mida. Aquesta neu ha de ser avaluada amb cautela. El refredament nocturn serà força bo. A causa de la crosta de gel hi ha el perill de relliscar i caure. Els gruixos de neu varien molt per sobre dels 2600 m aproximadament per la influència del vent. La pluja barrejada amb neu ha causat una consolidació del mantell de neu per sota dels 2200 m aproximadament."
 }

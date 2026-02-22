@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2026-02-21T15:26:11.140368",
+  "timestamp_scraping": "2026-02-22T15:26:29.017353",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "21/02/2026 16:00",
+    "data_elaboracio": "22/02/2026 16:00",
     "valid_fins": "22/02/2026",
     "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1488.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_21022026160032.jpg"
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_22022026160037.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -127,98 +127,98 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "17/02/2026": "0 cm",
       "18/02/2026": "0 cm",
       "19/02/2026": "0 cm",
-      "20/02/2026": "0 cm"
+      "20/02/2026": "0 cm",
+      "21/02/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "17/02/2026": "0 cm",
       "18/02/2026": "0 cm",
       "19/02/2026": "0 cm",
-      "20/02/2026": "0 cm"
+      "20/02/2026": "0 cm",
+      "21/02/2026": "0 cm"
     },
     "Ransol - FEDA": {
-      "17/02/2026": "2 cm",
       "18/02/2026": "0 cm",
       "19/02/2026": "0 cm",
-      "20/02/2026": "0 cm"
+      "20/02/2026": "0 cm",
+      "21/02/2026": "0 cm"
     },
     "Fontverd": {
-      "17/02/2026": "0 cm",
       "18/02/2026": "3 cm",
       "19/02/2026": "2 cm",
-      "20/02/2026": "0 cm"
+      "20/02/2026": "0 cm",
+      "21/02/2026": "0 cm"
     },
     "Setúria": {
-      "17/02/2026": "0 cm",
       "18/02/2026": "2 cm",
       "19/02/2026": "4 cm",
-      "20/02/2026": "0 cm"
+      "20/02/2026": "0 cm",
+      "21/02/2026": "0 cm"
     },
     "Bony de les Neres": {
-      "17/02/2026": "0 cm",
       "18/02/2026": "0 cm",
       "19/02/2026": "4 cm",
-      "20/02/2026": "0 cm"
+      "20/02/2026": "0 cm",
+      "21/02/2026": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "17/02/2026": "0 cm",
       "18/02/2026": "3 cm",
       "19/02/2026": "1 cm",
-      "20/02/2026": "0 cm"
+      "20/02/2026": "0 cm",
+      "21/02/2026": "0 cm"
     },
     "Caborreu": {
-      "17/02/2026": "0 cm",
       "18/02/2026": "0 cm",
       "19/02/2026": "0 cm",
-      "20/02/2026": "0 cm"
+      "20/02/2026": "0 cm",
+      "21/02/2026": "0 cm"
     },
     "Sorteny": {
-      "17/02/2026": "0 cm",
       "18/02/2026": "3 cm",
       "19/02/2026": "16 cm",
-      "20/02/2026": "0 cm"
+      "20/02/2026": "0 cm",
+      "21/02/2026": "0 cm"
     },
     "Perafita": {
-      "17/02/2026": "0 cm",
       "18/02/2026": "0 cm",
       "19/02/2026": "9 cm",
-      "20/02/2026": "0 cm"
+      "20/02/2026": "0 cm",
+      "21/02/2026": "0 cm"
     },
     "Tossa Espiolets": {
-      "17/02/2026": "0 cm",
       "18/02/2026": "1 cm",
       "19/02/2026": "0 cm",
-      "20/02/2026": "53 cm"
+      "20/02/2026": "53 cm",
+      "21/02/2026": "0 cm"
     },
     "La Solana": {
-      "17/02/2026": "0 cm",
       "18/02/2026": "6 cm",
       "19/02/2026": "0 cm",
-      "20/02/2026": "0 cm"
+      "20/02/2026": "0 cm",
+      "21/02/2026": "0 cm"
     },
     "Vall del Riu FEDA": {
-      "17/02/2026": "0 cm",
       "18/02/2026": "2 cm",
       "19/02/2026": "19 cm",
-      "20/02/2026": "0 cm"
+      "20/02/2026": "0 cm",
+      "21/02/2026": "0 cm"
     },
     "Envalira Antenes": {
-      "17/02/2026": "3 cm",
       "18/02/2026": "2 cm",
       "19/02/2026": "1 cm",
-      "20/02/2026": "0 cm"
+      "20/02/2026": "0 cm",
+      "21/02/2026": "0 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
       "descripcio": "La nevada de dijous va afegir alguns centímetres a cotes baixes per sobre de la crosta de regel. A cotes altes es va acumular més neu, fet que farà més agradables les excursions, sobretot per sota del límit del bosc. En altura la neu estarà més ventada i amb distribucions molt irregulars, sovint encrostada. Trobem neu a tots els camins des de Llorts i l´accés amb esquís fins al Refugi es pot fer com feia anys que no es veia durant tantes setmanes seguides. Haurem de seguir les recomanacions de l´estabilitat del mantell nival per evitar posar-nos en perill als vessants est. Amb l´augment de temperatures apareixeran problemes de neu humida als vessants sud, fet que en un primer moment comportarà un augment de l´activitat d´allaus, però ajudarà a estabilitzar el mantell.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_21022026160032.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_22022026160037.jpg"
     },
     "Comapedrosa": {
       "descripcio": "A cotes baixes la neu s´ha compactat i ha reduït el seu gruix a causa de l´humidificació provocada per les pluges de fa una setmana. Per sobre d´aquesta crosta, però, hi ha una mica de neu nova. A dins del bosc serà menys abundant i haurem de vigilar a no relliscar, però a les clarianes i a les parts altes aïllarà el gel. Tot i així, la distribució de la neu és molt irregular a causa del vent. Als vessants orientats a est, com pot ser l´accés des d´Arinsal pel Port Negre (Sanfons) haurem d´extremar les precaucions o evitar-los per no desencadenar les plaques de vent formades aquests darrers dies. El problema de neu humida anirà a més durant el cap de setmana.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_21022026160032.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_22022026160037.jpg"
     },
     "Madriu-Perafita-Claror": {
       "descripcio": "Als vessants est s´hi ha de circular amb molta cautela, ja que és on hi ha les acumulacions de neu ventada més importants i perilloses. A cotes altes els vent haurà deixat la neu dura al descobert i amb condicions difícils de baixar en algunes ocasions.",

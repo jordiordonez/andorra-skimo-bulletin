@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2026-03-06T15:37:51.149086",
+  "timestamp_scraping": "2026-03-07T15:23:58.257449",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "06/03/2026 16:00",
-    "valid_fins": "07/03/2026",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1511.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_06032026160008.jpg"
+    "data_elaboracio": "07/03/2026 16:00",
+    "valid_fins": "08/03/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1512.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_07032026160008.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -115,116 +115,116 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "02/03/2026": "0 cm",
       "03/03/2026": "0 cm",
       "04/03/2026": "0 cm",
-      "05/03/2026": "0 cm"
+      "05/03/2026": "0 cm",
+      "06/03/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "02/03/2026": "0 cm",
       "03/03/2026": "0 cm",
       "04/03/2026": "0 cm",
-      "05/03/2026": "0 cm"
+      "05/03/2026": "0 cm",
+      "06/03/2026": "0 cm"
     },
     "Ransol - FEDA": {
-      "02/03/2026": "0 cm",
       "03/03/2026": "0 cm",
       "04/03/2026": "0 cm",
-      "05/03/2026": "0 cm"
+      "05/03/2026": "0 cm",
+      "06/03/2026": "0 cm"
     },
     "Fontverd": {
-      "02/03/2026": "0 cm",
       "03/03/2026": "0 cm",
       "04/03/2026": "0 cm",
-      "05/03/2026": "0 cm"
+      "05/03/2026": "0 cm",
+      "06/03/2026": "1 cm"
     },
     "Setúria": {
-      "02/03/2026": "0 cm",
       "03/03/2026": "0 cm",
       "04/03/2026": "0 cm",
-      "05/03/2026": "0 cm"
+      "05/03/2026": "0 cm",
+      "06/03/2026": "0 cm"
     },
     "Bony de les Neres": {
-      "02/03/2026": "0 cm",
       "03/03/2026": "0 cm",
       "04/03/2026": "0 cm",
-      "05/03/2026": "0 cm"
+      "05/03/2026": "0 cm",
+      "06/03/2026": "2 cm"
     },
     "Grau Roig - FEDA": {
-      "02/03/2026": "0 cm",
       "03/03/2026": "0 cm",
       "04/03/2026": "0 cm",
-      "05/03/2026": "3 cm"
+      "05/03/2026": "3 cm",
+      "06/03/2026": "5 cm"
     },
     "Caborreu": {
-      "02/03/2026": "0 cm",
       "03/03/2026": "0 cm",
       "04/03/2026": "0 cm",
-      "05/03/2026": "0 cm"
+      "05/03/2026": "0 cm",
+      "06/03/2026": "0 cm"
     },
     "Sorteny": {
-      "02/03/2026": "0 cm",
       "03/03/2026": "0 cm",
       "04/03/2026": "3 cm",
-      "05/03/2026": "10 cm"
+      "05/03/2026": "10 cm",
+      "06/03/2026": "5 cm"
     },
     "Coll Pa": {
-      "02/03/2026": "0 cm",
       "03/03/2026": "0 cm",
       "04/03/2026": "0 cm",
-      "05/03/2026": "9 cm"
+      "05/03/2026": "9 cm",
+      "06/03/2026": "9 cm"
     },
     "Perafita": {
-      "02/03/2026": "0 cm",
       "03/03/2026": "4 cm",
       "04/03/2026": "3 cm",
-      "05/03/2026": "26 cm"
+      "05/03/2026": "26 cm",
+      "06/03/2026": "3 cm"
     },
     "Tossa Espiolets": {
-      "02/03/2026": "0 cm",
       "03/03/2026": "2 cm",
       "04/03/2026": "0 cm",
-      "05/03/2026": "17 cm"
+      "05/03/2026": "17 cm",
+      "06/03/2026": "5 cm"
     },
     "La Solana": {
-      "02/03/2026": "0 cm",
       "03/03/2026": "0 cm",
       "04/03/2026": "0 cm",
-      "05/03/2026": "10 cm"
+      "05/03/2026": "10 cm",
+      "06/03/2026": "4 cm"
     },
     "Vall del Riu FEDA": {
-      "02/03/2026": "0 cm",
       "03/03/2026": "3 cm",
       "04/03/2026": "0 cm",
-      "05/03/2026": "9 cm"
+      "05/03/2026": "9 cm",
+      "06/03/2026": "5 cm"
     },
     "Envalira Antenes": {
-      "02/03/2026": "0 cm",
       "03/03/2026": "4 cm",
       "04/03/2026": "0 cm",
-      "05/03/2026": "1 cm"
+      "05/03/2026": "1 cm",
+      "06/03/2026": "13 cm"
     },
     "Les Fonts d'Arinsal": {
-      "02/03/2026": "0 cm",
       "03/03/2026": "4 cm",
       "04/03/2026": "0 cm",
-      "05/03/2026": "10 cm"
+      "05/03/2026": "10 cm",
+      "06/03/2026": "5 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
       "descripcio": "Continuaran les febles precipitacions amb fang i una cota de neu al voltant dels 2000 m, que humidificaran el mantell en totes les orientacions, per sota d´aquesta cota; mentre que per sobre es podran formar febles acumulacions d’uns 5 cm en aquest sector. En altura, el vent podrà transportar la poca neu disponible i formar petites acumulacions irregulars.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_06032026160008.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_07032026160008.jpg"
     },
     "Comapedrosa": {
       "descripcio": "L´accés des d´Arinsal està quedant cada vegada amb menys neu, i la pluja prevista encara enretirarà més la línia de neu contínua. Mentre durin les precipitacions la mala visibilitat fa desaconsellar les excursions al Parc, però un cop hagin finalitzat, es podran fer nombroses excursions, sempre mantenint una elecció acurada de l´itinerari.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_06032026160008.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_07032026160008.jpg"
     },
     "Madriu-Perafita-Claror": {
-      "descripcio": "El mantell és en general prim i irregular, amb millor continuïtat de neu als vessants nord i obacs. H estat el sector més afectat per les precipitacions del dijous, tot i que en alguns indrets elevats el vent ha deixat la neu vella al descobert. Fins dissabte continuarà essent el sector amb més precipitacions i, per tant, on preveiem la major activitat.",
+      "descripcio": "El mantell és en general prim i irregular, amb millor continuïtat de neu als vessants nord i obacs. Ha estat el sector més afectat per les precipitacions, tot i que en alguns indrets elevats el vent ha deixat la neu vella al descobert. Fins dissabte continuarà essent el sector amb més precipitacions i, per tant, on preveiem la major activitat.",
       "mapa_url": null
     }
   },
-  "estabilitat_text": "Amb la intensificació de la precipitació, per sota dels 2200 m aproximadament són d'esperar allaus de neu humida. Aquestes poden desencadenar-se de manera natural i assolir mida mitjana. A més, són d'esperar allaus de lliscament basal en qualsevol moment. A cotes altes :. El vent del sud-est transportarà la neu recent. Amb la neu recent i el vent les plaques de vent augmentaran de mida lleugerament. A més són possibles algunes allaus de placa humida de mida petita. Aquests indrets són parcialment coberts de neu recent i difícils de reconèixer. Els indrets perillosos són difícils de reconèixer amb mala visibilitat.",
-  "qualitat_neu_text": "Caurà pluja fins a cotes altes especialment als al sud-est. Cauran localment fins a 15 cm de neu per sobre dels 2000 m aproximadament. El refredament nocturn serà reduït. Els gruixos de neu varien molt per sobre dels 2100 m aproximadament per la influència del vent. Evitar les zones amb esquerdes de lliscament basal. Dissabte :. El temps serà parcialment assolellat."
+  "estabilitat_text": "Amb la humidificació, per sota dels 2000 m aproximadament són d'esperar allaus de neu humida. Aquestes poden desencadenar-se de manera natural i assolir mida mitjana. A més, són d'esperar allaus de lliscament basal en qualsevol moment. A cotes altes :. El vent del sud-est transportarà la neu recent. Amb la neu recent i el vent les plaques de vent augmentaran de mida lleugerament. A més són possibles algunes allaus de placa humida de mida petita. Aquests indrets són parcialment coberts de neu recent i difícils de reconèixer. Els indrets perillosos són difícils de reconèixer amb mala visibilitat.",
+  "qualitat_neu_text": "Els gruixos de neu varien molt per sobre dels 2100 m aproximadament per la influència del vent. Evitar les zones amb esquerdes de lliscament basal. El temps serà parcialment assolellat. En alguns sectors durant la tarda cauran localment fins a 5 cm de neu per sobre dels 1800 m aproximadament. A cotes baixes :. La superfície del mantell de neu es regelarà tot just i s'estovarà ràpidament. El perill d'allaus romandrà invariable."
 }

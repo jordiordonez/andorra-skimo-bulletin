@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2026-03-25T16:10:27.169609",
+  "timestamp_scraping": "2026-03-26T16:12:02.077072",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "25/03/2026 16:35",
-    "valid_fins": "26/03/2026",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1553.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_25032026163548.jpg"
+    "data_elaboracio": "26/03/2026 16:00",
+    "valid_fins": "27/03/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1555.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_26032026160010.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -14,7 +14,7 @@
         "capes febles persistents"
       ],
       "orientacions": [
-        "E+SE+S",
+        "ALL_DIRECTIONS",
         "NW+N+NE"
       ],
       "mides_allaus": [
@@ -29,7 +29,7 @@
         "altitud_critica": "2400m"
       },
       "nivell_perill": 2,
-      "tendencia": "igual"
+      "tendencia": "puja"
     },
     "zona_centre": {
       "problemes": [
@@ -37,7 +37,7 @@
         "capes febles persistents"
       ],
       "orientacions": [
-        "E+SE+S",
+        "ALL_DIRECTIONS",
         "NW+N+NE"
       ],
       "mides_allaus": [
@@ -52,7 +52,7 @@
         "altitud_critica": "2400m"
       },
       "nivell_perill": 2,
-      "tendencia": "igual"
+      "tendencia": "puja"
     },
     "zona_sud": {
       "problemes": [
@@ -60,7 +60,7 @@
         "capes febles persistents"
       ],
       "orientacions": [
-        "E+SE+S",
+        "ALL_DIRECTIONS",
         "NW+N+NE"
       ],
       "mides_allaus": [
@@ -75,7 +75,7 @@
         "altitud_critica": "2400m"
       },
       "nivell_perill": 2,
-      "tendencia": "igual"
+      "tendencia": "puja"
     }
   },
   "gruixos_mantell": {
@@ -124,104 +124,110 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "21/03/2026": "0 cm",
       "22/03/2026": "0 cm",
       "23/03/2026": "0 cm",
-      "24/03/2026": "0 cm"
+      "24/03/2026": "0 cm",
+      "25/03/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "21/03/2026": "0 cm",
       "22/03/2026": "0 cm",
       "23/03/2026": "0 cm",
-      "24/03/2026": "0 cm"
+      "24/03/2026": "0 cm",
+      "25/03/2026": "0 cm"
     },
     "Ransol - FEDA": {
-      "21/03/2026": "0 cm",
       "22/03/2026": "2 cm",
       "23/03/2026": "0 cm",
-      "24/03/2026": "0 cm"
+      "24/03/2026": "0 cm",
+      "25/03/2026": "0 cm"
     },
     "Fontverd": {
-      "21/03/2026": "0 cm",
       "22/03/2026": "0 cm",
       "23/03/2026": "0 cm",
-      "24/03/2026": "0 cm"
+      "24/03/2026": "0 cm",
+      "25/03/2026": "0 cm"
     },
     "Bony de les Neres": {
-      "21/03/2026": "0 cm",
       "22/03/2026": "3 cm",
       "23/03/2026": "0 cm",
-      "24/03/2026": "0 cm"
+      "24/03/2026": "0 cm",
+      "25/03/2026": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "21/03/2026": "0 cm",
       "22/03/2026": "7 cm",
       "23/03/2026": "0 cm",
-      "24/03/2026": "0 cm"
+      "24/03/2026": "0 cm",
+      "25/03/2026": "0 cm"
     },
     "Caborreu": {
-      "21/03/2026": "0 cm",
       "22/03/2026": "0 cm",
       "23/03/2026": "0 cm",
-      "24/03/2026": "0 cm"
+      "24/03/2026": "0 cm",
+      "25/03/2026": "0 cm"
     },
     "Sorteny": {
-      "21/03/2026": "0 cm",
       "22/03/2026": "4 cm",
       "23/03/2026": "0 cm",
-      "24/03/2026": "0 cm"
+      "24/03/2026": "0 cm",
+      "25/03/2026": "2 cm"
+    },
+    "Coll Pa": {
+      "22/03/2026": "0 cm",
+      "23/03/2026": "0 cm",
+      "24/03/2026": "0 cm",
+      "25/03/2026": "4 cm"
     },
     "Perafita": {
-      "21/03/2026": "0 cm",
       "22/03/2026": "7 cm",
       "23/03/2026": "0 cm",
-      "24/03/2026": "0 cm"
+      "24/03/2026": "0 cm",
+      "25/03/2026": "0 cm"
     },
     "Tossa Espiolets": {
-      "21/03/2026": "0 cm",
       "22/03/2026": "3 cm",
       "23/03/2026": "0 cm",
-      "24/03/2026": "0 cm"
+      "24/03/2026": "0 cm",
+      "25/03/2026": "0 cm"
     },
     "La Solana": {
-      "21/03/2026": "0 cm",
       "22/03/2026": "10 cm",
       "23/03/2026": "0 cm",
-      "24/03/2026": "0 cm"
+      "24/03/2026": "0 cm",
+      "25/03/2026": "2 cm"
     },
     "Vall del Riu FEDA": {
-      "21/03/2026": "0 cm",
       "22/03/2026": "5 cm",
       "23/03/2026": "0 cm",
-      "24/03/2026": "0 cm"
+      "24/03/2026": "0 cm",
+      "25/03/2026": "2 cm"
     },
     "Envalira Antenes": {
-      "21/03/2026": "0 cm",
       "22/03/2026": "6 cm",
       "23/03/2026": "0 cm",
-      "24/03/2026": "0 cm"
+      "24/03/2026": "0 cm",
+      "25/03/2026": "0 cm"
     },
     "Les Fonts d'Arinsal": {
-      "21/03/2026": "0 cm",
       "22/03/2026": "7 cm",
       "23/03/2026": "0 cm",
-      "24/03/2026": "0 cm"
+      "24/03/2026": "0 cm",
+      "25/03/2026": "1 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
-      "descripcio": "El vent de nord canviarà l´escenari de perill i la gestió que n´haurem de fer. Es crearan noves plaques als vessants est i sud que haurem d´evitar. A més, als vessants nord encara hi ha capes febles que poden desencadenar plaques i que ens han de fer mantenir la prudència amb la distància de seguretat.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_25032026163548.jpg"
+      "descripcio": "El vent de nord ha canviat l´escenari de perill i la gestió que n´hem de fer. S´han creat noves plaques a prop del límit del bosc degut al vent turbulent i poden continuar creixent durant les properes hores. A més, als vessants nord encara hi ha capes febles que poden desencadenar plaques i que ens han de fer mantenir la prudència amb la distància de seguretat. A partir de dissabte a la tarda tindrem un retorn del temps plenament hivernal.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_26032026160010.jpg"
     },
     "Comapedrosa": {
-      "descripcio": "El vent afectarà tot el país i les plaques es formaran sobretot en altura i als vessants est i sud. Podrem distingir la neu vella de la nova pel color, i la neu vella serà més dura i regelada.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_25032026163548.jpg"
+      "descripcio": "El vent ha afectat tot el país i les plaques s´han format sobretot en altura i al límit del bosc degut al vent turbulent. Podrem distingir la neu vella de la nova pel color, i la neu vella serà més dura i regelada.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_26032026160010.jpg"
     },
     "Madriu-Perafita-Claror": {
-      "descripcio": "Haurem d´evitar les acumulacions de neu ventada, per tant, serà més segur circular per la neu vella una mica més fosca i gelada que no pas per la neu nova. El fred dels propers dies gelarà la neu a cotes baixes i mitges.",
+      "descripcio": "Haurem d´evitar les acumulacions de neu ventada, per tant, serà més segur circular per la neu vella una mica més fosca i gelada que no pas per la neu nova. El fred dels propers dies, amb ambient hivernal a partir de dissabte, gelarà la neu a cotes baixes i mitges.",
       "mapa_url": null
     }
   },
-  "estabilitat_text": "El vent del nord transportarà la neu recent i la neu vella. Als vessants prop de les carenes orientats a est, sud-est i sud a partir de la segona meitat de la nit les plaques de vent augmentaran de mida. Les plaques de vent noves poden ser desencadenades fàcilment i assolir mida mitjana. Encara als vessants inclinats orientats a nord-oest , nord i nord-est a la part superior del mantell de neu hi ha capes febles pronunciades. A més del perill de ser enterrat per una allau, cal tenir en compte el perill de ser arrossegat cap a una trampa del terreny.",
-  "qualitat_neu_text": "Fins al divendres el vent serà localment de moderat a fort. El mantell de neu esdevindrà cada cop més extremadament variable en pocs metres de manera generalitzada. A causa de la crosta dura hi ha el perill de relliscar i caure als vessants inclinats. Prop de les carenes els gruixos de neu varien molt per la influència del vent."
+  "estabilitat_text": "El vent del nord ha transportat la neu recent i, en part, també la neu vella. En el transcurs de la jornada les plaques de vent augmentaran de mida addicionalment. Els indrets perillosos es troben en totes les orientacions prop del límit del bosc. Les plaques de vent poden ser desencadenades fàcilment i assolir mida mitjana. Encara als vessants inclinats orientats a nord-oest, nord i nord-est a la part superior del mantell de neu hi ha capes febles pronunciades. A més del perill de ser enterrat per una allau, cal tenir en compte el perill de ser arrossegat cap a una trampa del terreny. Es recomana mantenir la distància entre els components.",
+  "qualitat_neu_text": "El vent serà localment de moderat a fort. El mantell de neu esdevindrà cada cop més extremadament variable en pocs metres de manera generalitzada. A causa de la crosta dura hi ha el perill de relliscar i caure als vessants inclinats. Prop de les carenes els gruixos de neu varien molt per la influència del vent."
 }

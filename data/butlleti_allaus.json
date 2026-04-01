@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2026-03-31T16:05:34.252991",
+  "timestamp_scraping": "2026-04-01T16:06:24.071970",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "31/03/2026 16:00",
-    "valid_fins": "01/04/2026",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1563.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_31032026160012.jpg"
+    "data_elaboracio": "01/04/2026 16:00",
+    "valid_fins": "02/04/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1567.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_01042026160009.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -23,8 +23,8 @@
         "Espontani",
         "Feble"
       ],
-      "nivell_perill": 3,
-      "tendencia": "igual"
+      "nivell_perill": 4,
+      "tendencia": "baixa"
     },
     "zona_centre": {
       "problemes": [
@@ -42,7 +42,7 @@
         "Feble"
       ],
       "nivell_perill": 3,
-      "tendencia": "igual"
+      "tendencia": "baixa"
     },
     "zona_sud": {
       "problemes": [
@@ -60,7 +60,7 @@
         "Feble"
       ],
       "nivell_perill": 3,
-      "tendencia": "igual"
+      "tendencia": "baixa"
     }
   },
   "gruixos_mantell": {
@@ -109,116 +109,110 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "27/03/2026": "0 cm",
       "28/03/2026": "0 cm",
       "29/03/2026": "0 cm",
-      "30/03/2026": "0 cm"
+      "30/03/2026": "0 cm",
+      "31/03/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "27/03/2026": "0 cm",
       "28/03/2026": "7 cm",
       "29/03/2026": "0 cm",
-      "30/03/2026": "0 cm"
+      "30/03/2026": "0 cm",
+      "31/03/2026": "0 cm"
     },
     "Ransol - FEDA": {
-      "27/03/2026": "0 cm",
       "28/03/2026": "18 cm",
       "29/03/2026": "0 cm",
-      "30/03/2026": "3 cm"
+      "30/03/2026": "3 cm",
+      "31/03/2026": "6 cm"
     },
     "Fontverd": {
-      "27/03/2026": "0 cm",
       "28/03/2026": "17 cm",
       "29/03/2026": "0 cm",
-      "30/03/2026": "0 cm"
+      "30/03/2026": "0 cm",
+      "31/03/2026": "0 cm"
     },
     "Setúria": {
-      "27/03/2026": "0 cm",
       "28/03/2026": "21 cm",
       "29/03/2026": "0 cm",
-      "30/03/2026": "2 cm"
+      "30/03/2026": "2 cm",
+      "31/03/2026": "95 cm"
     },
     "Coll Ordino": {
-      "27/03/2026": "0 cm",
       "28/03/2026": "25 cm",
       "29/03/2026": "0 cm",
-      "30/03/2026": "0 cm"
+      "30/03/2026": "0 cm",
+      "31/03/2026": "4 cm"
     },
     "Bony de les Neres": {
-      "27/03/2026": "0 cm",
       "28/03/2026": "20 cm",
       "29/03/2026": "0 cm",
-      "30/03/2026": "0 cm"
+      "30/03/2026": "0 cm",
+      "31/03/2026": "3 cm"
     },
     "Grau Roig - FEDA": {
-      "27/03/2026": "0 cm",
       "28/03/2026": "16 cm",
       "29/03/2026": "0 cm",
-      "30/03/2026": "1 cm"
+      "30/03/2026": "1 cm",
+      "31/03/2026": "7 cm"
     },
     "Caborreu": {
-      "27/03/2026": "0 cm",
       "28/03/2026": "23 cm",
       "29/03/2026": "0 cm",
-      "30/03/2026": "5 cm"
-    },
-    "Sorteny": {
-      "27/03/2026": "0 cm",
-      "28/03/2026": "16 cm",
-      "29/03/2026": "15 cm",
-      "30/03/2026": "7 cm"
+      "30/03/2026": "5 cm",
+      "31/03/2026": "1 cm"
     },
     "Coll Pa": {
-      "27/03/2026": "6 cm",
       "28/03/2026": "21 cm",
       "29/03/2026": "0 cm",
-      "30/03/2026": "3 cm"
+      "30/03/2026": "3 cm",
+      "31/03/2026": "7 cm"
     },
     "Perafita": {
-      "27/03/2026": "0 cm",
       "28/03/2026": "0 cm",
       "29/03/2026": "0 cm",
-      "30/03/2026": "0 cm"
+      "30/03/2026": "0 cm",
+      "31/03/2026": "6 cm"
     },
     "Tossa Espiolets": {
-      "27/03/2026": "0 cm",
       "28/03/2026": "34 cm",
       "29/03/2026": "0 cm",
-      "30/03/2026": "4 cm"
+      "30/03/2026": "4 cm",
+      "31/03/2026": "0 cm"
     },
     "La Solana": {
-      "27/03/2026": "1 cm",
       "28/03/2026": "30 cm",
       "29/03/2026": "9 cm",
-      "30/03/2026": "6 cm"
+      "30/03/2026": "6 cm",
+      "31/03/2026": "11 cm"
     },
     "Vall del Riu FEDA": {
-      "27/03/2026": "0 cm",
       "28/03/2026": "10 cm",
       "29/03/2026": "0 cm",
-      "30/03/2026": "1 cm"
+      "30/03/2026": "1 cm",
+      "31/03/2026": "5 cm"
     },
     "Envalira Antenes": {
-      "27/03/2026": "0 cm",
       "28/03/2026": "27 cm",
       "29/03/2026": "11 cm",
-      "30/03/2026": "2 cm"
+      "30/03/2026": "2 cm",
+      "31/03/2026": "0 cm"
     },
     "Les Fonts d'Arinsal": {
-      "27/03/2026": "0 cm",
       "28/03/2026": "4 cm",
       "29/03/2026": "0 cm",
-      "30/03/2026": "7 cm"
+      "30/03/2026": "7 cm",
+      "31/03/2026": "1 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
-      "descripcio": "El vent ha modelat la neu recent i ho continuarà fent durant les properes hores. A causa de les nevades successives que sobretot afectaran el nord d´Andorra i del vent que encara bufarà fort en altura, s´aconsella no sortir del límit del bosc. A més, les condicions de vent i neu generaran torb i mala visibilitat.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_31032026160012.jpg"
+      "descripcio": "El vent ha modelat la neu recent i ho continuarà fent durant les properes hores. A causa de les nevades successives que sobretot afectaran el nord d´Andorra i del vent que encara bufarà fort en altura, es desaconsellen les activitats a la muntanya. A més, les condicions de vent i neu generaran torb i mala visibilitat.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_01042026160009.jpg"
     },
     "Comapedrosa": {
       "descripcio": "Es preveu que el vent encara sigui intens en altura durant els propers dies i es continuïn formant plaques de vent, ocultes sota la neu recent de dimecres i difícilment identificables. La situació és desfavorable per a les excursions.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_31032026160012.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_01042026160009.jpg"
     },
     "Madriu-Perafita-Claror": {
       "descripcio": "La neu recent recula ràpid de les cotes baixes de la vall, però a cotes altes l´ambient encara és hivernal. El vent i la mala visibilitat ens han de fer renunciar a arribar a les collades més altes. Haurem de circular amb molta precaució, mantenint la distància de seguretat.",

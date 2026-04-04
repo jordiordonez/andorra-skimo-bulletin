@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2026-04-03T15:38:49.045470",
+  "timestamp_scraping": "2026-04-04T15:32:29.123264",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "03/04/2026 16:00",
-    "valid_fins": "04/04/2026",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1576.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_03042026160009.jpg"
+    "data_elaboracio": "04/04/2026 16:00",
+    "valid_fins": "05/04/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1577.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_04042026160010.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -24,6 +24,11 @@
         "Feble",
         "Espontani"
       ],
+      "nivells_perill": {
+        "alt_altitud": 3,
+        "baix_altitud": 2,
+        "altitud_critica": "2000m"
+      },
       "nivell_perill": 3,
       "tendencia": "igual"
     },
@@ -43,7 +48,7 @@
         "Feble",
         "Espontani"
       ],
-      "nivell_perill": 3,
+      "nivell_perill": 2,
       "tendencia": "igual"
     },
     "zona_sud": {
@@ -62,7 +67,7 @@
         "Feble",
         "Espontani"
       ],
-      "nivell_perill": 3,
+      "nivell_perill": 2,
       "tendencia": "igual"
     }
   },
@@ -112,110 +117,110 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "30/03/2026": "0 cm",
       "31/03/2026": "0 cm",
       "01/04/2026": "0 cm",
-      "02/04/2026": "0 cm"
+      "02/04/2026": "0 cm",
+      "03/04/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "30/03/2026": "0 cm",
       "31/03/2026": "0 cm",
       "01/04/2026": "7 cm",
-      "02/04/2026": "0 cm"
+      "02/04/2026": "0 cm",
+      "03/04/2026": "0 cm"
     },
     "Ransol - FEDA": {
-      "30/03/2026": "3 cm",
       "31/03/2026": "6 cm",
       "01/04/2026": "20 cm",
-      "02/04/2026": "3 cm"
+      "02/04/2026": "3 cm",
+      "03/04/2026": "0 cm"
     },
     "Fontverd": {
-      "30/03/2026": "0 cm",
       "31/03/2026": "0 cm",
       "01/04/2026": "27 cm",
-      "02/04/2026": "0 cm"
+      "02/04/2026": "0 cm",
+      "03/04/2026": "0 cm"
     },
     "Setúria": {
-      "30/03/2026": "2 cm",
       "31/03/2026": "0 cm",
       "01/04/2026": "12 cm",
-      "02/04/2026": "4 cm"
+      "02/04/2026": "4 cm",
+      "03/04/2026": "0 cm"
     },
     "Coll Ordino": {
-      "30/03/2026": "0 cm",
       "31/03/2026": "4 cm",
       "01/04/2026": "18 cm",
-      "02/04/2026": "0 cm"
+      "02/04/2026": "0 cm",
+      "03/04/2026": "0 cm"
     },
     "Bony de les Neres": {
-      "30/03/2026": "0 cm",
       "31/03/2026": "3 cm",
       "01/04/2026": "22 cm",
-      "02/04/2026": "0 cm"
+      "02/04/2026": "0 cm",
+      "03/04/2026": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "30/03/2026": "1 cm",
       "31/03/2026": "7 cm",
       "01/04/2026": "34 cm",
-      "02/04/2026": "0 cm"
+      "02/04/2026": "0 cm",
+      "03/04/2026": "0 cm"
     },
     "Caborreu": {
-      "30/03/2026": "5 cm",
       "31/03/2026": "1 cm",
       "01/04/2026": "21 cm",
-      "02/04/2026": "1 cm"
+      "02/04/2026": "1 cm",
+      "03/04/2026": "0 cm"
     },
     "Coll Pa": {
-      "30/03/2026": "3 cm",
       "31/03/2026": "7 cm",
       "01/04/2026": "8 cm",
-      "02/04/2026": "7 cm"
+      "02/04/2026": "7 cm",
+      "03/04/2026": "0 cm"
     },
     "Perafita": {
-      "30/03/2026": "0 cm",
       "31/03/2026": "6 cm",
       "01/04/2026": "17 cm",
-      "02/04/2026": "30 cm"
+      "02/04/2026": "30 cm",
+      "03/04/2026": "0 cm"
     },
     "Tossa Espiolets": {
-      "30/03/2026": "4 cm",
       "31/03/2026": "0 cm",
       "01/04/2026": "12 cm",
-      "02/04/2026": "27 cm"
+      "02/04/2026": "27 cm",
+      "03/04/2026": "0 cm"
     },
     "La Solana": {
-      "30/03/2026": "6 cm",
       "31/03/2026": "11 cm",
       "01/04/2026": "44 cm",
-      "02/04/2026": "4 cm"
+      "02/04/2026": "4 cm",
+      "03/04/2026": "0 cm"
     },
     "Vall del Riu FEDA": {
-      "30/03/2026": "1 cm",
       "31/03/2026": "5 cm",
       "01/04/2026": "48 cm",
-      "02/04/2026": "13 cm"
+      "02/04/2026": "13 cm",
+      "03/04/2026": "0 cm"
     },
     "Les Fonts d'Arinsal": {
-      "30/03/2026": "7 cm",
       "31/03/2026": "1 cm",
       "01/04/2026": "22 cm",
-      "02/04/2026": "0 cm"
+      "02/04/2026": "0 cm",
+      "03/04/2026": "0 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
       "descripcio": "A causa de les nevades successives que sobretot han afectat el nord d´Andorra trobem condicions hivernals. A l´interior del bosc la possibilitat de desencadenament d´allaus és baixa, però a les parets verticals dels circs podem desencadenar allaus de placa. Haurem de fer una elecció acurada de l´itinerari.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_03042026160009.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_04042026160010.jpg"
     },
     "Comapedrosa": {
-      "descripcio": "A la part superficial dem mantell trobem plaques de vent, ocultes sota la neu recent de mitja setmana i difícilment identificables. Atès que bona part del terreny del Parc és complex o exigent, les condicions són desfavorables per les excursions amb esquís i raquetes de neu.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_03042026160009.jpg"
+      "descripcio": "A la part superficial dem mantell trobem plaques de vent, ocultes sota la neu recent de mitja setmana i difícilment identificables. Atès que bona part del terreny del Parc és complex o exigent, les condicions són delicades per les excursions amb esquís i raquetes de neu.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_04042026160010.jpg"
     },
     "Madriu-Perafita-Claror": {
       "descripcio": "La neu ha tornat a totes les cotes de la vall, però recularà ràpid de les cotes baixes. A cotes altes l´ambient encara és hivernal. Haurem de circular amb molta precaució, mantenint la distància de seguretat.",
       "mapa_url": null
     }
   },
-  "estabilitat_text": "El vent amb ratxes fortes ha transportat intensament la neu recent i la neu vella. Les zones de sortida han estat novament carregades. La neu recent abundant i les plaques de vent poden fàcilment desencadenar-se de manera natural o accidental. Les allaus són com a mínim de mida mitjana. Els indrets perillosos són força freqüents i difícils de reconèixer. A conseqüència de l'augment de la temperatura diürna i la radiació solar, en el transcurs de la jornada són possibles purgues, fins i tot de mida mitjana. Les excursions de muntanya i les activitats forapista requereixen molta experiència en l'avaluació del perill d'allaus i una curosa sel·lecció de l'itinerari.",
-  "qualitat_neu_text": "Des del dimarts ha caigut molta neu sobretot als al nord. Les noves acumulacions de neu ventada descansen a sobre de capes toves. El mantell de neu roman extremadament variable en pocs metres de manera generalitzada. Prop de les carenes els gruixos de neu varien molt per la influència del vent. Amb la pujada de temperatures la radiació solar, durant els propers dies el mantell de neu s'assentarà."
+  "estabilitat_text": "La neu recent abundant i les plaques de vent poden fàcilment desencadenar-se de manera natural o accidental. Les allaus són sovint de mida mitjana. Els indrets perillosos són força freqüents i difícils de reconèixer. A conseqüència de l'augment de la temperatura diürna i la radiació solar, en el transcurs de la jornada són possibles allaus de neu seca i humida, fins i tot de mida mitjana. Les excursions de muntanya i les activitats forapista requereixen experiència en l'avaluació del perill d'allaus i precaució.",
+  "qualitat_neu_text": "Les noves acumulacions de neu ventada descansen a sobre de capes toves. El mantell de neu roman extremadament variable en pocs metres de manera generalitzada. Prop de les carenes els gruixos de neu varien molt per la influència del vent. El temps serà assolellat. Amb la pujada de temperatures la radiació solar, durant els propers dies el mantell de neu s'assentarà."
 }

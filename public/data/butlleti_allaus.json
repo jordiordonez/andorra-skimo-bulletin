@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2026-04-07T16:10:28.717804",
+  "timestamp_scraping": "2026-04-08T16:15:14.959996",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "07/04/2026 16:00",
-    "valid_fins": "08/04/2026",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1582.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_07042026160010.jpg"
+    "data_elaboracio": "08/04/2026 16:00",
+    "valid_fins": "09/04/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1584.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_08042026160009.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -113,110 +113,128 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "03/04/2026": "0 cm",
       "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
-      "06/04/2026": "0 cm"
+      "06/04/2026": "0 cm",
+      "07/04/2026": "0 cm"
+    },
+    "Aixàs": {
+      "04/04/2026": "0 cm",
+      "05/04/2026": "0 cm",
+      "06/04/2026": "0 cm",
+      "07/04/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "03/04/2026": "0 cm",
       "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
-      "06/04/2026": "0 cm"
+      "06/04/2026": "0 cm",
+      "07/04/2026": "0 cm"
     },
     "Ransol - FEDA": {
-      "03/04/2026": "0 cm",
       "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
-      "06/04/2026": "0 cm"
+      "06/04/2026": "0 cm",
+      "07/04/2026": "0 cm"
     },
     "Fontverd": {
-      "03/04/2026": "0 cm",
       "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
-      "06/04/2026": "0 cm"
+      "06/04/2026": "0 cm",
+      "07/04/2026": "0 cm"
     },
     "Setúria": {
-      "03/04/2026": "0 cm",
       "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
-      "06/04/2026": "0 cm"
+      "06/04/2026": "0 cm",
+      "07/04/2026": "0 cm"
     },
     "Coll Ordino": {
-      "03/04/2026": "0 cm",
       "04/04/2026": "0 cm",
-      "05/04/2026": "72 cm",
-      "06/04/2026": "0 cm"
+      "05/04/2026": "0 cm",
+      "06/04/2026": "0 cm",
+      "07/04/2026": "0 cm"
     },
     "Bony de les Neres": {
-      "03/04/2026": "0 cm",
       "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
-      "06/04/2026": "0 cm"
+      "06/04/2026": "0 cm",
+      "07/04/2026": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "03/04/2026": "0 cm",
       "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
-      "06/04/2026": "0 cm"
+      "06/04/2026": "0 cm",
+      "07/04/2026": "0 cm"
     },
     "Caborreu": {
-      "03/04/2026": "0 cm",
       "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
-      "06/04/2026": "0 cm"
+      "06/04/2026": "0 cm",
+      "07/04/2026": "3 cm"
+    },
+    "Sorteny": {
+      "04/04/2026": "0 cm",
+      "05/04/2026": "0 cm",
+      "06/04/2026": "0 cm",
+      "07/04/2026": "0 cm"
     },
     "Coll Pa": {
-      "03/04/2026": "0 cm",
       "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
-      "06/04/2026": "0 cm"
+      "06/04/2026": "0 cm",
+      "07/04/2026": "0 cm"
     },
     "Perafita": {
-      "03/04/2026": "0 cm",
       "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
-      "06/04/2026": "0 cm"
+      "06/04/2026": "0 cm",
+      "07/04/2026": "0 cm"
     },
     "Tossa Espiolets": {
-      "03/04/2026": "0 cm",
       "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
-      "06/04/2026": "0 cm"
+      "06/04/2026": "0 cm",
+      "07/04/2026": "0 cm"
     },
     "La Solana": {
-      "03/04/2026": "0 cm",
       "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
-      "06/04/2026": "0 cm"
+      "06/04/2026": "0 cm",
+      "07/04/2026": "0 cm"
     },
     "Vall del Riu FEDA": {
-      "03/04/2026": "0 cm",
       "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
-      "06/04/2026": "0 cm"
+      "06/04/2026": "0 cm",
+      "07/04/2026": "0 cm"
+    },
+    "Envalira Antenes": {
+      "04/04/2026": "0 cm",
+      "05/04/2026": "0 cm",
+      "06/04/2026": "0 cm",
+      "07/04/2026": "0 cm"
     },
     "Les Fonts d'Arinsal": {
-      "03/04/2026": "0 cm",
       "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
-      "06/04/2026": "0 cm"
+      "06/04/2026": "0 cm",
+      "07/04/2026": "0 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
       "descripcio": "Als vessants sud han tornat a quedar al descobert les estries de la percolació de l´aigua, fet que ens dona indicis de l´estabilitat. Al matí, però, la neu dura ens ha de fer extremar les precaucions per no relliscar. Als vessants nord, identificarem les acumulacions de neu ventada pel seu color. Sempre serà més segur, quant a estabilitat d´allaus, circular per la neu dura.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_07042026160010.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_08042026160009.jpg"
     },
     "Comapedrosa": {
       "descripcio": "Encara es poden fer nombroses excursions amb esquí de muntanya, però les parts baixes d´Arinsal no tenen neu. O bé ens haurem d´aproximar esquiant o bé hi haurem d´accedir per Soulcem o l´Angonella. Haurem d´accedir-hi aviat al matí, ja que hem de tenir temps suficient per tornar quan la neu encara no hagi transformat excessivament.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_07042026160010.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_08042026160009.jpg"
     },
     "Madriu-Perafita-Claror": {
-      "descripcio": "Les condicions són primaverals, però als vessants nord més inclinats i obacs encara poden trobar alguna placa de neu seca que haurem d´evitar",
+      "descripcio": "Les condicions són primaverals, però als vessants nord més inclinats i obacs encara poden trobar alguna placa de neu seca que haurem d´evitar.",
       "mapa_url": null
     }
   },
-  "estabilitat_text": "Amb l'augment de la temperatura diurna i la radiació solar, la probabilitat de desencadenament d'allaus humides augmentarà progressivament als vessants assolellats. A més, són possibles algunes allaus de lliscament basal. Als vessants obacs, són encara possibles allaus de placa seca. Les allaus són sovint de mida mitjana i   poden ser desencadenades per fortes sobrecàrregues.",
-  "qualitat_neu_text": "El temps serà assolellat. La superfície del mantell de neu es regelarà per formar una crosta portant i s'estovarà al llarg del dia. El mantell de neu roman extremadament variable en pocs metres de manera generalitzada. Prop de les carenes els gruixos de neu varien molt per la influència del vent. En alguns sectors encara hi ha molta neu. A causa de la superfície dura del mantell de neu hi ha el perill de relliscar i caure fins i tot en vessants moderadament inclinats. Les excursions de muntanya han de començar i acabar d'hora."
+  "estabilitat_text": "Després d'una nit serena, al matí predominen en molts sectors condicions d'allaus favorables. Amb l'augment de la temperatura diurna i la radiació solar, la probabilitat de desencadenament d'allaus humides augmentarà progressivament als vessants assolellats. A més, són possibles algunes allaus de lliscament basal. Als vessants obacs, són encara possibles allaus de placa seca. Les allaus són sovint de mida mitjana i   poden ser desencadenades per fortes sobrecàrregues.",
+  "qualitat_neu_text": "El temps serà assolellat. La superfície del mantell de neu es regelarà per formar una crosta portant i s'estovarà al llarg del dia. El mantell de neu roman extremadament variable en pocs metres de manera generalitzada. Prop de les carenes els gruixos de neu varien molt per la influència del vent. A causa de la superfície dura del mantell de neu hi ha el perill de relliscar i caure fins i tot en vessants moderadament inclinats. Les excursions de muntanya han de començar i acabar d'hora."
 }

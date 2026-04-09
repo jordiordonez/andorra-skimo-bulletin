@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2026-04-08T16:15:14.959996",
+  "timestamp_scraping": "2026-04-09T16:18:07.312269",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "08/04/2026 16:00",
-    "valid_fins": "09/04/2026",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1584.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_08042026160009.jpg"
+    "data_elaboracio": "09/04/2026 16:00",
+    "valid_fins": "10/04/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1585.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_09042026160009.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -14,7 +14,7 @@
         "capes febles persistents"
       ],
       "orientacions": [
-        "E+SE+S+SW+W",
+        "SE+S+SW+W",
         "NW+N+NE"
       ],
       "mides_allaus": [
@@ -34,7 +34,7 @@
         "capes febles persistents"
       ],
       "orientacions": [
-        "E+SE+S+SW+W",
+        "SE+S+SW+W",
         "NW+N+NE"
       ],
       "mides_allaus": [
@@ -53,7 +53,7 @@
         "capes febles persistents"
       ],
       "orientacions": [
-        "E+SE+S+SW+W",
+        "SE+S+SW+W",
         "NW+N+NE"
       ],
       "mides_allaus": [
@@ -70,42 +70,42 @@
   "gruixos_mantell": {
     "nord": {
       "N": {
-        "altitud_mantell": "1300 m",
-        "gruix_1500m": "20 cm",
-        "gruix_2000m": "180 cm",
+        "altitud_mantell": "1600 m",
+        "gruix_1500m": "0 cm",
+        "gruix_2000m": "150 cm",
         "gruix_2500m": "250 cm"
       },
       "S": {
-        "altitud_mantell": "1300 m",
-        "gruix_1500m": "10 cm",
-        "gruix_2000m": "150 cm",
-        "gruix_2500m": "200 cm"
+        "altitud_mantell": "1800 m",
+        "gruix_1500m": "0 cm",
+        "gruix_2000m": "100 cm",
+        "gruix_2500m": "180 cm"
       }
     },
     "centre": {
       "N": {
-        "altitud_mantell": "1300 m",
-        "gruix_1500m": "10 cm",
-        "gruix_2000m": "150 cm",
-        "gruix_2500m": "200 cm"
-      },
-      "S": {
-        "altitud_mantell": "1500 m",
-        "gruix_1500m": "5 cm",
-        "gruix_2000m": "100 cm",
-        "gruix_2500m": "150 cm"
-      }
-    },
-    "sud": {
-      "N": {
-        "altitud_mantell": "1300 m",
-        "gruix_1500m": "10 cm",
+        "altitud_mantell": "1600 m",
+        "gruix_1500m": "0 cm",
         "gruix_2000m": "120 cm",
         "gruix_2500m": "160 cm"
       },
       "S": {
-        "altitud_mantell": "1500 m",
-        "gruix_1500m": "5 cm",
+        "altitud_mantell": "1800 m",
+        "gruix_1500m": "0 cm",
+        "gruix_2000m": "60 cm",
+        "gruix_2500m": "120 cm"
+      }
+    },
+    "sud": {
+      "N": {
+        "altitud_mantell": "1600 m",
+        "gruix_1500m": "0 cm",
+        "gruix_2000m": "120 cm",
+        "gruix_2500m": "160 cm"
+      },
+      "S": {
+        "altitud_mantell": "1800 m",
+        "gruix_1500m": "0 cm",
         "gruix_2000m": "60 cm",
         "gruix_2500m": "120 cm"
       }
@@ -113,128 +113,128 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
       "06/04/2026": "0 cm",
-      "07/04/2026": "0 cm"
+      "07/04/2026": "0 cm",
+      "08/04/2026": "0 cm"
     },
     "Aixàs": {
-      "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
       "06/04/2026": "0 cm",
-      "07/04/2026": "0 cm"
+      "07/04/2026": "0 cm",
+      "08/04/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
       "06/04/2026": "0 cm",
-      "07/04/2026": "0 cm"
+      "07/04/2026": "0 cm",
+      "08/04/2026": "0 cm"
     },
     "Ransol - FEDA": {
-      "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
       "06/04/2026": "0 cm",
-      "07/04/2026": "0 cm"
+      "07/04/2026": "0 cm",
+      "08/04/2026": "0 cm"
     },
     "Fontverd": {
-      "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
       "06/04/2026": "0 cm",
-      "07/04/2026": "0 cm"
+      "07/04/2026": "0 cm",
+      "08/04/2026": "0 cm"
     },
     "Setúria": {
-      "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
       "06/04/2026": "0 cm",
-      "07/04/2026": "0 cm"
+      "07/04/2026": "0 cm",
+      "08/04/2026": "0 cm"
     },
     "Coll Ordino": {
-      "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
       "06/04/2026": "0 cm",
-      "07/04/2026": "0 cm"
+      "07/04/2026": "0 cm",
+      "08/04/2026": "0 cm"
     },
     "Bony de les Neres": {
-      "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
       "06/04/2026": "0 cm",
-      "07/04/2026": "0 cm"
+      "07/04/2026": "0 cm",
+      "08/04/2026": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
       "06/04/2026": "0 cm",
-      "07/04/2026": "0 cm"
+      "07/04/2026": "0 cm",
+      "08/04/2026": "0 cm"
     },
     "Caborreu": {
-      "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
       "06/04/2026": "0 cm",
-      "07/04/2026": "3 cm"
+      "07/04/2026": "0 cm",
+      "08/04/2026": "0 cm"
     },
     "Sorteny": {
-      "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
       "06/04/2026": "0 cm",
-      "07/04/2026": "0 cm"
+      "07/04/2026": "0 cm",
+      "08/04/2026": "0 cm"
     },
     "Coll Pa": {
-      "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
       "06/04/2026": "0 cm",
-      "07/04/2026": "0 cm"
+      "07/04/2026": "0 cm",
+      "08/04/2026": "0 cm"
     },
     "Perafita": {
-      "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
       "06/04/2026": "0 cm",
-      "07/04/2026": "0 cm"
+      "07/04/2026": "0 cm",
+      "08/04/2026": "0 cm"
     },
     "Tossa Espiolets": {
-      "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
       "06/04/2026": "0 cm",
-      "07/04/2026": "0 cm"
+      "07/04/2026": "0 cm",
+      "08/04/2026": "0 cm"
     },
     "La Solana": {
-      "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
       "06/04/2026": "0 cm",
-      "07/04/2026": "0 cm"
+      "07/04/2026": "0 cm",
+      "08/04/2026": "0 cm"
     },
     "Vall del Riu FEDA": {
-      "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
       "06/04/2026": "0 cm",
-      "07/04/2026": "0 cm"
+      "07/04/2026": "0 cm",
+      "08/04/2026": "0 cm"
     },
     "Envalira Antenes": {
-      "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
       "06/04/2026": "0 cm",
-      "07/04/2026": "0 cm"
+      "07/04/2026": "0 cm",
+      "08/04/2026": "0 cm"
     },
     "Les Fonts d'Arinsal": {
-      "04/04/2026": "0 cm",
       "05/04/2026": "0 cm",
       "06/04/2026": "0 cm",
-      "07/04/2026": "0 cm"
+      "07/04/2026": "0 cm",
+      "08/04/2026": "0 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
       "descripcio": "Als vessants sud han tornat a quedar al descobert les estries de la percolació de l´aigua, fet que ens dona indicis de l´estabilitat. Al matí, però, la neu dura ens ha de fer extremar les precaucions per no relliscar. Als vessants nord, identificarem les acumulacions de neu ventada pel seu color. Sempre serà més segur, quant a estabilitat d´allaus, circular per la neu dura.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_08042026160009.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_09042026160009.jpg"
     },
     "Comapedrosa": {
       "descripcio": "Encara es poden fer nombroses excursions amb esquí de muntanya, però les parts baixes d´Arinsal no tenen neu. O bé ens haurem d´aproximar esquiant o bé hi haurem d´accedir per Soulcem o l´Angonella. Haurem d´accedir-hi aviat al matí, ja que hem de tenir temps suficient per tornar quan la neu encara no hagi transformat excessivament.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_08042026160009.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_09042026160009.jpg"
     },
     "Madriu-Perafita-Claror": {
       "descripcio": "Les condicions són primaverals, però als vessants nord més inclinats i obacs encara poden trobar alguna placa de neu seca que haurem d´evitar.",
       "mapa_url": null
     }
   },
-  "estabilitat_text": "Després d'una nit serena, al matí predominen en molts sectors condicions d'allaus favorables. Amb l'augment de la temperatura diurna i la radiació solar, la probabilitat de desencadenament d'allaus humides augmentarà progressivament als vessants assolellats. A més, són possibles algunes allaus de lliscament basal. Als vessants obacs, són encara possibles allaus de placa seca. Les allaus són sovint de mida mitjana i   poden ser desencadenades per fortes sobrecàrregues.",
-  "qualitat_neu_text": "El temps serà assolellat. La superfície del mantell de neu es regelarà per formar una crosta portant i s'estovarà al llarg del dia. El mantell de neu roman extremadament variable en pocs metres de manera generalitzada. Prop de les carenes els gruixos de neu varien molt per la influència del vent. A causa de la superfície dura del mantell de neu hi ha el perill de relliscar i caure fins i tot en vessants moderadament inclinats. Les excursions de muntanya han de començar i acabar d'hora."
+  "estabilitat_text": "Després d'una nit serena, al matí predominen en molts sectors condicions d'allaus favorables. Amb l'augment de la temperatura diurna i la radiació solar, la probabilitat de desencadenament d'allaus humides augmentarà progressivament als vessants assolellats. A més, són possibles algunes allaus de lliscament basal. Als vessants obacs molt inclinats a la part superior del mantell de neu hi ha capes febles de cristalls facetats. Les allaus de neu seca poden desencadenar-se a les capes prop de la superfície del mantell de neu principalment per sobrecàrregues fortes. Les allaus en aquests sectors són de manera aïllada de mida mitjana.",
+  "qualitat_neu_text": "El temps serà assolellat. La superfície del mantell de neu es regelarà per formar una crosta portant i s'estovarà al llarg del dia. El mantell de neu roman extremadament variable en pocs metres de manera generalitzada. Prop de les carenes els gruixos de neu varien molt per la influència del vent. A causa de la superfície dura del mantell de neu hi ha el perill de relliscar i caure fins i tot en vessants moderadament inclinats. Les excursions de muntanya han de començar i acabar d'hora. Les condicions per les excursions són primaverals."
 }

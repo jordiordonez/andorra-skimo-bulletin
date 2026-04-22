@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2026-04-21T16:10:27.679527",
+  "timestamp_scraping": "2026-04-22T16:08:46.644382",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "21/04/2026 16:00",
-    "valid_fins": "22/04/2026",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1612.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_21042026160010.jpg"
+    "data_elaboracio": "22/04/2026 16:00",
+    "valid_fins": "23/04/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1613.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_22042026160009.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -103,122 +103,122 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "17/04/2026": "0 cm",
       "18/04/2026": "0 cm",
       "19/04/2026": "0 cm",
-      "20/04/2026": "0 cm"
+      "20/04/2026": "0 cm",
+      "21/04/2026": "0 cm"
     },
     "Aixàs": {
-      "17/04/2026": "0 cm",
       "18/04/2026": "0 cm",
       "19/04/2026": "0 cm",
-      "20/04/2026": "0 cm"
+      "20/04/2026": "0 cm",
+      "21/04/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "17/04/2026": "0 cm",
       "18/04/2026": "0 cm",
       "19/04/2026": "0 cm",
-      "20/04/2026": "0 cm"
+      "20/04/2026": "0 cm",
+      "21/04/2026": "0 cm"
     },
     "Ransol - FEDA": {
-      "17/04/2026": "0 cm",
       "18/04/2026": "0 cm",
       "19/04/2026": "0 cm",
-      "20/04/2026": "0 cm"
+      "20/04/2026": "0 cm",
+      "21/04/2026": "0 cm"
     },
     "Fontverd": {
-      "17/04/2026": "0 cm",
       "18/04/2026": "0 cm",
       "19/04/2026": "0 cm",
-      "20/04/2026": "0 cm"
+      "20/04/2026": "0 cm",
+      "21/04/2026": "1 cm"
     },
     "Setúria": {
-      "17/04/2026": "0 cm",
       "18/04/2026": "0 cm",
       "19/04/2026": "0 cm",
-      "20/04/2026": "0 cm"
+      "20/04/2026": "0 cm",
+      "21/04/2026": "2 cm"
     },
     "Coll Ordino": {
-      "17/04/2026": "0 cm",
       "18/04/2026": "0 cm",
       "19/04/2026": "0 cm",
-      "20/04/2026": "0 cm"
+      "20/04/2026": "0 cm",
+      "21/04/2026": "0 cm"
     },
     "Bony de les Neres": {
-      "17/04/2026": "0 cm",
       "18/04/2026": "0 cm",
       "19/04/2026": "0 cm",
-      "20/04/2026": "0 cm"
+      "20/04/2026": "0 cm",
+      "21/04/2026": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "17/04/2026": "0 cm",
       "18/04/2026": "0 cm",
       "19/04/2026": "0 cm",
-      "20/04/2026": "0 cm"
+      "20/04/2026": "0 cm",
+      "21/04/2026": "0 cm"
     },
     "Caborreu": {
-      "17/04/2026": "0 cm",
       "18/04/2026": "0 cm",
       "19/04/2026": "0 cm",
-      "20/04/2026": "0 cm"
+      "20/04/2026": "0 cm",
+      "21/04/2026": "0 cm"
     },
     "Sorteny": {
-      "17/04/2026": "0 cm",
       "18/04/2026": "0 cm",
       "19/04/2026": "0 cm",
-      "20/04/2026": "0 cm"
+      "20/04/2026": "0 cm",
+      "21/04/2026": "0 cm"
     },
     "Coll Pa": {
-      "17/04/2026": "0 cm",
       "18/04/2026": "0 cm",
       "19/04/2026": "0 cm",
-      "20/04/2026": "0 cm"
+      "20/04/2026": "0 cm",
+      "21/04/2026": "1 cm"
     },
     "Perafita": {
-      "17/04/2026": "0 cm",
       "18/04/2026": "0 cm",
       "19/04/2026": "0 cm",
-      "20/04/2026": "0 cm"
+      "20/04/2026": "0 cm",
+      "21/04/2026": "0 cm"
     },
     "Tossa Espiolets": {
-      "17/04/2026": "0 cm",
       "18/04/2026": "0 cm",
       "19/04/2026": "0 cm",
-      "20/04/2026": "0 cm"
+      "20/04/2026": "0 cm",
+      "21/04/2026": "0 cm"
     },
     "La Solana": {
-      "17/04/2026": "0 cm",
       "18/04/2026": "0 cm",
       "19/04/2026": "0 cm",
-      "20/04/2026": "0 cm"
+      "20/04/2026": "0 cm",
+      "21/04/2026": "0 cm"
     },
     "Vall del Riu FEDA": {
-      "17/04/2026": "0 cm",
       "18/04/2026": "0 cm",
       "19/04/2026": "0 cm",
-      "20/04/2026": "0 cm"
+      "20/04/2026": "0 cm",
+      "21/04/2026": "0 cm"
     },
     "Envalira Antenes": {
-      "17/04/2026": "0 cm",
       "18/04/2026": "0 cm",
       "19/04/2026": "0 cm",
-      "20/04/2026": "0 cm"
+      "20/04/2026": "0 cm",
+      "21/04/2026": "0 cm"
     },
     "Les Fonts d'Arinsal": {
-      "17/04/2026": "0 cm",
       "18/04/2026": "0 cm",
       "19/04/2026": "0 cm",
-      "20/04/2026": "0 cm"
+      "20/04/2026": "0 cm",
+      "21/04/2026": "0 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
-      "descripcio": "El feble regel de les darreres nits i les pluges de les tardes han deixat un mantell nival més precari que dies anteriors. El regel no és tant bo ni efectiu, per tant la circulació per la neu que no ha estat compactada al llarg de la temporada és més difícil.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_21042026160010.jpg"
+      "descripcio": "El feble regel de les darreres nits i les pluges de les tardes han deixat un mantell nival més precari que la setmana passada. El regel no és tant bo ni efectiu, per tant la circulació per la neu que no ha estat compactada al llarg de la temporada és més difícil.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_22042026160009.jpg"
     },
     "Comapedrosa": {
-      "descripcio": "La neu és més humida que en dies anteriors. Atenció als ponts de gel a sobre dels torrents, ja que es veuran debilitats per l´augment de temperatures i l´augment del cabal dels rius.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_21042026160010.jpg"
+      "descripcio": "La neu és més humida que la setmana passada. Atenció als ponts de gel a sobre dels torrents, ja que es veuran debilitats per l´augment de temperatures i l´augment del cabal dels rius.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_22042026160009.jpg"
     },
     "Madriu-Perafita-Claror": {
       "descripcio": "La penetració de la humitat afavorirà un cicle d´allaus naturals de neu humida i lliscaments basals. A partir de l´Estall Serrer en avall, ja no queda neu contínua.",

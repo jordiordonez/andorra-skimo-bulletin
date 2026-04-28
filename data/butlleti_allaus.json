@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2026-04-27T16:26:24.137796",
+  "timestamp_scraping": "2026-04-28T16:51:42.240054",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "27/04/2026 16:00",
-    "valid_fins": "28/04/2026",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1622.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_27042026160010.jpg"
+    "data_elaboracio": "28/04/2026 16:00",
+    "valid_fins": "29/04/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1625.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_28042026160009.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -13,7 +13,7 @@
         "neu humida"
       ],
       "orientacions": [
-        "ALL_DIRECTIONS"
+        "NW+N+NE+E"
       ],
       "mides_allaus": [
         2
@@ -29,7 +29,7 @@
         "neu humida"
       ],
       "orientacions": [
-        "ALL_DIRECTIONS"
+        "NW+N+NE+E"
       ],
       "mides_allaus": [
         2
@@ -45,7 +45,7 @@
         "neu humida"
       ],
       "orientacions": [
-        "ALL_DIRECTIONS"
+        "NW+N+NE+E"
       ],
       "mides_allaus": [
         2
@@ -103,128 +103,128 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "23/04/2026": "0 cm",
       "24/04/2026": "0 cm",
       "25/04/2026": "0 cm",
-      "26/04/2026": "0 cm"
+      "26/04/2026": "0 cm",
+      "27/04/2026": "0 cm"
     },
     "Aixàs": {
-      "23/04/2026": "0 cm",
       "24/04/2026": "0 cm",
       "25/04/2026": "0 cm",
-      "26/04/2026": "0 cm"
+      "26/04/2026": "0 cm",
+      "27/04/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "23/04/2026": "0 cm",
       "24/04/2026": "0 cm",
       "25/04/2026": "0 cm",
-      "26/04/2026": "0 cm"
+      "26/04/2026": "0 cm",
+      "27/04/2026": "0 cm"
     },
     "Ransol - FEDA": {
-      "23/04/2026": "0 cm",
       "24/04/2026": "0 cm",
       "25/04/2026": "0 cm",
-      "26/04/2026": "0 cm"
+      "26/04/2026": "0 cm",
+      "27/04/2026": "0 cm"
     },
     "Fontverd": {
-      "23/04/2026": "0 cm",
       "24/04/2026": "0 cm",
       "25/04/2026": "0 cm",
-      "26/04/2026": "0 cm"
+      "26/04/2026": "0 cm",
+      "27/04/2026": "0 cm"
     },
     "Setúria": {
-      "23/04/2026": "0 cm",
       "24/04/2026": "0 cm",
       "25/04/2026": "0 cm",
-      "26/04/2026": "0 cm"
+      "26/04/2026": "0 cm",
+      "27/04/2026": "3 cm"
     },
     "Coll Ordino": {
-      "23/04/2026": "0 cm",
       "24/04/2026": "0 cm",
       "25/04/2026": "0 cm",
-      "26/04/2026": "0 cm"
+      "26/04/2026": "0 cm",
+      "27/04/2026": "0 cm"
     },
     "Bony de les Neres": {
-      "23/04/2026": "0 cm",
       "24/04/2026": "0 cm",
       "25/04/2026": "0 cm",
-      "26/04/2026": "0 cm"
+      "26/04/2026": "0 cm",
+      "27/04/2026": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "23/04/2026": "0 cm",
       "24/04/2026": "0 cm",
       "25/04/2026": "0 cm",
-      "26/04/2026": "0 cm"
+      "26/04/2026": "0 cm",
+      "27/04/2026": "0 cm"
     },
     "Caborreu": {
-      "23/04/2026": "0 cm",
       "24/04/2026": "0 cm",
       "25/04/2026": "0 cm",
-      "26/04/2026": "0 cm"
+      "26/04/2026": "0 cm",
+      "27/04/2026": "0 cm"
     },
     "Sorteny": {
-      "23/04/2026": "0 cm",
       "24/04/2026": "0 cm",
       "25/04/2026": "0 cm",
-      "26/04/2026": "0 cm"
+      "26/04/2026": "0 cm",
+      "27/04/2026": "0 cm"
     },
     "Coll Pa": {
-      "23/04/2026": "0 cm",
       "24/04/2026": "0 cm",
       "25/04/2026": "0 cm",
-      "26/04/2026": "0 cm"
+      "26/04/2026": "0 cm",
+      "27/04/2026": "0 cm"
     },
     "Perafita": {
-      "23/04/2026": "0 cm",
       "24/04/2026": "0 cm",
       "25/04/2026": "0 cm",
-      "26/04/2026": "0 cm"
+      "26/04/2026": "0 cm",
+      "27/04/2026": "0 cm"
     },
     "Tossa Espiolets": {
-      "23/04/2026": "0 cm",
       "24/04/2026": "0 cm",
       "25/04/2026": "0 cm",
-      "26/04/2026": "0 cm"
+      "26/04/2026": "0 cm",
+      "27/04/2026": "0 cm"
     },
     "La Solana": {
-      "23/04/2026": "0 cm",
       "24/04/2026": "0 cm",
       "25/04/2026": "0 cm",
-      "26/04/2026": "0 cm"
+      "26/04/2026": "0 cm",
+      "27/04/2026": "0 cm"
     },
     "Vall del Riu FEDA": {
-      "23/04/2026": "0 cm",
       "24/04/2026": "0 cm",
       "25/04/2026": "0 cm",
-      "26/04/2026": "0 cm"
+      "26/04/2026": "0 cm",
+      "27/04/2026": "0 cm"
     },
     "Envalira Antenes": {
-      "23/04/2026": "0 cm",
       "24/04/2026": "0 cm",
       "25/04/2026": "0 cm",
-      "26/04/2026": "0 cm"
+      "26/04/2026": "0 cm",
+      "27/04/2026": "0 cm"
     },
     "Les Fonts d'Arinsal": {
-      "23/04/2026": "0 cm",
       "24/04/2026": "0 cm",
       "25/04/2026": "0 cm",
-      "26/04/2026": "0 cm"
+      "26/04/2026": "0 cm",
+      "27/04/2026": "0 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
-      "descripcio": "El mantell nival esdevé cada cop més precari. El sol dels matins i les precipitacions de les tardes estan humidificant el mantell, i el regel nocturn no és bo ni efectiu, per tant la circulació per la neu que no ha estat compactada al llarg de la temporada és més difícil.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_27042026160010.jpg"
+      "descripcio": "El mantell nival esdevé cada cop més precari. El regel nocturn no és bo ni efectiu, per tant la circulació per la neu que no ha estat compactada al llarg de la temporada és més difícil.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_28042026160009.jpg"
     },
     "Comapedrosa": {
       "descripcio": "La neu és més humida que la setmana passada. Atenció als ponts de gel a sobre dels torrents, ja que es veuran debilitats per l´augment del cabal dels rius i la debilitació del mantell nival.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_27042026160010.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_28042026160009.jpg"
     },
     "Madriu-Perafita-Claror": {
       "descripcio": "La humitat està assolint les capes més profundes del mantell afavorint un cicle d´allaus naturals de neu humida i lliscaments basals. A partir de l´Estall Serrer en avall, ja no queda neu contínua.",
       "mapa_url": null
     }
   },
-  "estabilitat_text": "Les condicions són primaverals. Amb la penetració de la humitat són encara possibles allaus de neu humida i molt humida de mida mitjana. A més, són possibles allaus de lliscament basal en qualsevol moment. Precaució a les zones amb esquerdes de lliscament basal. En totes les orientacions, en el transcurs de la jornada el perill d'allaus de neu molt humida i de lliscament basal augmentarà sense pujar de grau. El perill d'allaus romandrà invariable. Els desencadenaments naturals d'allaus i les observacions sobre el terreny confirmen l'estructura feble del mantell de neu.",
-  "qualitat_neu_text": "El mantell de neu és humit de manera generalitzada. El refredament nocturn serà en molts sectors molt limitat. Al matí les condicions de temps causaran una progressiva humidificació del mantell de neu. A partir de migdia la pluja causarà en alguns casos una pèrdua de la resistència a l'interior del mantell de neu. Evitar les zones amb esquerdes de lliscament basal. Les excursions de muntanya han de començar i acabar molt d'hora."
+  "estabilitat_text": "Les condicions són primaverals. Amb la penetració de la humitat són encara possibles allaus de neu humida i molt humida de mida mitjana. Precaució a les zones amb esquerdes de lliscament basal. A més, són possibles allaus de lliscament basal en qualsevol moment. Precaució sobretot en el cas de desencadenaments originats en zones de sortida encara no completament purgades. En totes les orientacions, en el transcurs de la jornada el perill d'allaus de neu molt humida i de lliscament basal augmentarà sense pujar de grau. El perill d'allaus romandrà invariable. Els desencadenaments naturals d'allaus i les observacions sobre el terreny confirmen l'estructura feble del mantell de neu.",
+  "qualitat_neu_text": "El mantell de neu és humit de manera generalitzada. El refredament nocturn serà en molts sectors molt limitat. En el transcurs de la jornada el sol i la calor causaran una progressiva humidificació del mantell de neu. Evitar les zones amb esquerdes de lliscament basal. Les excursions de muntanya han de començar i acabar molt d'hora."
 }

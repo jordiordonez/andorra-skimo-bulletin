@@ -1,62 +1,68 @@
 {
-  "timestamp_scraping": "2026-05-13T17:16:18.024612",
+  "timestamp_scraping": "2026-05-14T17:00:56.649503",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "13/05/2026 16:00",
-    "valid_fins": "14/05/2026",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1649.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_13052026160008.jpg"
+    "data_elaboracio": "14/05/2026 16:00",
+    "valid_fins": "15/05/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1653.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_14052026160008.jpg"
   },
   "zones": {
     "zona_nord": {
       "problemes": [
-        "neu humida"
+        "neu ventada"
       ],
       "orientacions": [
+        "E+SE+S+SW",
         "ALL_DIRECTIONS"
       ],
       "mides_allaus": [
-        2,
-        1
+        1,
+        2
       ],
       "tipus_sobrecarga": [
+        "Feble",
         "Espontani"
       ],
-      "nivell_perill": 1,
+      "nivell_perill": 2,
       "tendencia": "igual"
     },
     "zona_centre": {
       "problemes": [
-        "neu humida"
+        "neu ventada"
       ],
       "orientacions": [
+        "E+SE+S+SW",
         "ALL_DIRECTIONS"
       ],
       "mides_allaus": [
-        2,
-        1
+        1,
+        2
       ],
       "tipus_sobrecarga": [
+        "Feble",
         "Espontani"
       ],
-      "nivell_perill": 1,
+      "nivell_perill": 2,
       "tendencia": "igual"
     },
     "zona_sud": {
       "problemes": [
-        "neu humida"
+        "neu ventada"
       ],
       "orientacions": [
+        "E+SE+S+SW",
         "ALL_DIRECTIONS"
       ],
       "mides_allaus": [
-        2,
-        1
+        1,
+        2
       ],
       "tipus_sobrecarga": [
+        "Feble",
         "Espontani"
       ],
-      "nivell_perill": 1,
+      "nivell_perill": 2,
       "tendencia": "igual"
     }
   },
@@ -106,128 +112,128 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "09/05/2026": "0 cm",
       "10/05/2026": "0 cm",
       "11/05/2026": "0 cm",
-      "12/05/2026": "0 cm"
+      "12/05/2026": "0 cm",
+      "13/05/2026": "0 cm"
     },
     "Aixàs": {
-      "09/05/2026": "0 cm",
       "10/05/2026": "0 cm",
       "11/05/2026": "0 cm",
-      "12/05/2026": "0 cm"
+      "12/05/2026": "0 cm",
+      "13/05/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "09/05/2026": "0 cm",
       "10/05/2026": "0 cm",
       "11/05/2026": "0 cm",
-      "12/05/2026": "0 cm"
+      "12/05/2026": "0 cm",
+      "13/05/2026": "0 cm"
     },
     "Ransol - FEDA": {
-      "09/05/2026": "0 cm",
       "10/05/2026": "0 cm",
       "11/05/2026": "0 cm",
-      "12/05/2026": "0 cm"
+      "12/05/2026": "0 cm",
+      "13/05/2026": "0 cm"
     },
     "Fontverd": {
-      "09/05/2026": "0 cm",
       "10/05/2026": "0 cm",
       "11/05/2026": "0 cm",
-      "12/05/2026": "0 cm"
+      "12/05/2026": "0 cm",
+      "13/05/2026": "0 cm"
     },
     "Setúria": {
-      "09/05/2026": "0 cm",
       "10/05/2026": "0 cm",
       "11/05/2026": "0 cm",
-      "12/05/2026": "0 cm"
+      "12/05/2026": "0 cm",
+      "13/05/2026": "0 cm"
     },
     "Coll Ordino": {
-      "09/05/2026": "0 cm",
       "10/05/2026": "0 cm",
       "11/05/2026": "0 cm",
-      "12/05/2026": "0 cm"
+      "12/05/2026": "0 cm",
+      "13/05/2026": "0 cm"
     },
     "Bony de les Neres": {
-      "09/05/2026": "0 cm",
       "10/05/2026": "0 cm",
       "11/05/2026": "0 cm",
-      "12/05/2026": "0 cm"
+      "12/05/2026": "0 cm",
+      "13/05/2026": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "09/05/2026": "0 cm",
       "10/05/2026": "0 cm",
       "11/05/2026": "0 cm",
-      "12/05/2026": "0 cm"
+      "12/05/2026": "0 cm",
+      "13/05/2026": "0 cm"
     },
     "Caborreu": {
-      "09/05/2026": "0 cm",
       "10/05/2026": "0 cm",
       "11/05/2026": "0 cm",
-      "12/05/2026": "0 cm"
+      "12/05/2026": "0 cm",
+      "13/05/2026": "0 cm"
     },
     "Sorteny": {
-      "09/05/2026": "0 cm",
       "10/05/2026": "0 cm",
       "11/05/2026": "0 cm",
-      "12/05/2026": "0 cm"
+      "12/05/2026": "0 cm",
+      "13/05/2026": "0 cm"
     },
     "Coll Pa": {
-      "09/05/2026": "0 cm",
       "10/05/2026": "1 cm",
       "11/05/2026": "0 cm",
-      "12/05/2026": "2 cm"
+      "12/05/2026": "2 cm",
+      "13/05/2026": "0 cm"
     },
     "Perafita": {
-      "09/05/2026": "0 cm",
       "10/05/2026": "3 cm",
       "11/05/2026": "0 cm",
-      "12/05/2026": "0 cm"
+      "12/05/2026": "0 cm",
+      "13/05/2026": "0 cm"
     },
     "Tossa Espiolets": {
-      "09/05/2026": "0 cm",
       "10/05/2026": "3 cm",
       "11/05/2026": "0 cm",
-      "12/05/2026": "2 cm"
+      "12/05/2026": "2 cm",
+      "13/05/2026": "0 cm"
     },
     "La Solana": {
-      "09/05/2026": "0 cm",
       "10/05/2026": "0 cm",
       "11/05/2026": "0 cm",
-      "12/05/2026": "0 cm"
+      "12/05/2026": "0 cm",
+      "13/05/2026": "0 cm"
     },
     "Vall del Riu FEDA": {
-      "09/05/2026": "0 cm",
       "10/05/2026": "1 cm",
       "11/05/2026": "0 cm",
-      "12/05/2026": "8 cm"
+      "12/05/2026": "8 cm",
+      "13/05/2026": "0 cm"
     },
     "Envalira Antenes": {
-      "09/05/2026": "0 cm",
       "10/05/2026": "7 cm",
       "11/05/2026": "0 cm",
-      "12/05/2026": "7 cm"
+      "12/05/2026": "7 cm",
+      "13/05/2026": "0 cm"
     },
     "Les Fonts d'Arinsal": {
-      "09/05/2026": "0 cm",
       "10/05/2026": "1 cm",
       "11/05/2026": "0 cm",
-      "12/05/2026": "4 cm"
+      "12/05/2026": "4 cm",
+      "13/05/2026": "0 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
-      "descripcio": "Amb el descens de les temperatures i les noves nevades, tot i que són febles, la situació ha canviat lleugerament. A sobre de la neu vella trobem una fina capa de neu recent que, tot i regelar-se, facilita tant les pujades com les baixades, però haurem de continuar portant ganivetes o grampons per pujar pels pendents més inclinats. La neu encara és contínua als vessants nord de les valls de Ransol, Sorteny i Rialb, tot i que haurem de fer algunes aproximacions a peu.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_13052026160008.jpg"
+      "descripcio": "Amb el descens de les temperatures i les noves nevades, tot i que són febles, la situació ha canviat lleugerament. A sobre de la neu vella es formaran fines plaques de neu ventada, d´un espessor que facilitarà les pujades i baixades, però haurem de continuar portant ganivetes o grampons per pujar pels pendents més inclinats. La neu encara és contínua als vessants nord de les valls de Ransol, Sorteny i Rialb, tot i que haurem de fer algunes aproximacions a peu.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_14052026160008.jpg"
     },
     "Comapedrosa": {
-      "descripcio": "La neu nova que hi ha en superfície, tot i ser més nova, també està regelada i es poden desprendre algunes purgues de neu humida als vessants més inclinats al migdia. En general, trobarem neu contínua per sobre del Pla de l´Estany i del refugi del Comapedrosa. Els gruixos de neu són els habituals per l´època de l´any, amb nombrosos recorreguts que encara es poden fer amb esquí de muntanya entre Andorra l´Arièja i Catalunya.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_13052026160009.jpg"
+      "descripcio": "En general, trobarem neu contínua per sobre del Pla de l´Estany i del refugi del Comapedrosa. Els gruixos de neu són els habituals per l´època de l´any, amb nombrosos recorreguts que encara es poden fer amb esquí de muntanya entre Andorra l´Arièja i Catalunya.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_14052026160008.jpg"
     },
     "Madriu-Perafita-Claror": {
       "descripcio": "Els accessos a la Vall des de Montmalús continuen ben nevats i amb unes condicions similars arreu. Encara hi ha neu als vessants sud d´Engaït, Pics Negres d´Envalira i l´Illa que permeten connectar amb el Madriu, Grau Roig i el Pas de la Casa.",
       "mapa_url": null
     }
   },
-  "estabilitat_text": "Les condicions d'allaus romanen generalment favorables. Amb el refredament, el perill disminuirà lleugerament al grau 1 \"feble\". Poden desencadenar-se allaus de lliscament basal a qualsevol hora del dia o de la nit. També en el transcurs de la jornada, són possibles de manera aïllada purgues de neu humida de mida petita. Això es dona especialment en el cas de zones de sortida molt inclinades.",
-  "qualitat_neu_text": "La neu recent reposa a sobre d'una crosta gelada. A causa de la crosta dura hi ha el perill de relliscar i caure als vessants inclinats. Amb la radiació solar, el mantell de neu s'ha consolidat. Precaució a les zones amb esquerdes de lliscament basal. En cotes altes i a l'alta muntanya la quantitat de neu és molt variable a escala local. Divendres : caurà neu fins a cotes mitges sobretot als al nord."
+  "estabilitat_text": "Les condicions d'allaus romanen generalment favorables. En el transcurs de la jornada, amb la neu recent i el vent moderat, es formaran plaques de vent de mida petita als vessants prop de les carenes orientats a nord-est , est i sud. Aquestes són sovint de mida petita i de manera aïllada fàcils de desencadenar. A més, són possibles allaus de lliscament basal en qualsevol moment. Això es dona especialment en el cas de zones de sortida molt inclinades.",
+  "qualitat_neu_text": "Divendres caurà neu fins a cotes mitges sobretot al nord. El vent moderat transportarà la neu recent. La neu recent reposa a sobre d'una crosta gelada. A causa de la crosta dura hi ha el perill de relliscar i caure als vessants inclinats. Precaució a les zones amb esquerdes de lliscament basal. En cotes altes i a l'alta muntanya la quantitat de neu és molt variable a escala local."
 }

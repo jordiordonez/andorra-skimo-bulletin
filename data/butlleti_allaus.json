@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2026-05-18T17:29:24.624369",
+  "timestamp_scraping": "2026-05-19T17:37:45.171965",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "18/05/2026 16:00",
-    "valid_fins": "19/05/2026",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1658.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_18052026160006.jpg"
+    "data_elaboracio": "19/05/2026 16:00",
+    "valid_fins": "20/05/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1659.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_19052026160008.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -103,128 +103,128 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "14/05/2026": "0 cm",
       "15/05/2026": "0 cm",
       "16/05/2026": "0 cm",
-      "17/05/2026": "0 cm"
+      "17/05/2026": "0 cm",
+      "18/05/2026": "0 cm"
     },
     "Aixàs": {
-      "14/05/2026": "2 cm",
       "15/05/2026": "0 cm",
       "16/05/2026": "0 cm",
-      "17/05/2026": "0 cm"
+      "17/05/2026": "0 cm",
+      "18/05/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "14/05/2026": "0 cm",
       "15/05/2026": "0 cm",
       "16/05/2026": "0 cm",
-      "17/05/2026": "0 cm"
+      "17/05/2026": "0 cm",
+      "18/05/2026": "0 cm"
     },
     "Ransol - FEDA": {
-      "14/05/2026": "0 cm",
       "15/05/2026": "0 cm",
       "16/05/2026": "0 cm",
-      "17/05/2026": "0 cm"
+      "17/05/2026": "0 cm",
+      "18/05/2026": "0 cm"
     },
     "Fontverd": {
-      "14/05/2026": "0 cm",
       "15/05/2026": "1 cm",
       "16/05/2026": "0 cm",
-      "17/05/2026": "0 cm"
+      "17/05/2026": "0 cm",
+      "18/05/2026": "0 cm"
     },
     "Setúria": {
-      "14/05/2026": "0 cm",
       "15/05/2026": "0 cm",
       "16/05/2026": "0 cm",
-      "17/05/2026": "0 cm"
+      "17/05/2026": "0 cm",
+      "18/05/2026": "0 cm"
     },
     "Coll Ordino": {
-      "14/05/2026": "0 cm",
       "15/05/2026": "0 cm",
       "16/05/2026": "0 cm",
-      "17/05/2026": "0 cm"
+      "17/05/2026": "0 cm",
+      "18/05/2026": "0 cm"
     },
     "Bony de les Neres": {
-      "14/05/2026": "1 cm",
       "15/05/2026": "0 cm",
       "16/05/2026": "0 cm",
-      "17/05/2026": "0 cm"
+      "17/05/2026": "0 cm",
+      "18/05/2026": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "14/05/2026": "0 cm",
       "15/05/2026": "0 cm",
       "16/05/2026": "0 cm",
-      "17/05/2026": "0 cm"
+      "17/05/2026": "0 cm",
+      "18/05/2026": "0 cm"
     },
     "Caborreu": {
-      "14/05/2026": "0 cm",
       "15/05/2026": "0 cm",
       "16/05/2026": "0 cm",
-      "17/05/2026": "0 cm"
+      "17/05/2026": "0 cm",
+      "18/05/2026": "0 cm"
     },
     "Sorteny": {
-      "14/05/2026": "4 cm",
       "15/05/2026": "4 cm",
       "16/05/2026": "1 cm",
-      "17/05/2026": "3 cm"
+      "17/05/2026": "3 cm",
+      "18/05/2026": "0 cm"
     },
     "Coll Pa": {
-      "14/05/2026": "1 cm",
       "15/05/2026": "0 cm",
       "16/05/2026": "0 cm",
-      "17/05/2026": "1 cm"
+      "17/05/2026": "1 cm",
+      "18/05/2026": "0 cm"
     },
     "Perafita": {
-      "14/05/2026": "1 cm",
       "15/05/2026": "0 cm",
       "16/05/2026": "0 cm",
-      "17/05/2026": "0 cm"
+      "17/05/2026": "0 cm",
+      "18/05/2026": "0 cm"
     },
     "Tossa Espiolets": {
-      "14/05/2026": "3 cm",
       "15/05/2026": "0 cm",
       "16/05/2026": "0 cm",
-      "17/05/2026": "0 cm"
+      "17/05/2026": "0 cm",
+      "18/05/2026": "0 cm"
     },
     "La Solana": {
-      "14/05/2026": "0 cm",
       "15/05/2026": "2 cm",
       "16/05/2026": "0 cm",
-      "17/05/2026": "0 cm"
+      "17/05/2026": "0 cm",
+      "18/05/2026": "0 cm"
     },
     "Vall del Riu FEDA": {
-      "14/05/2026": "2 cm",
       "15/05/2026": "2 cm",
       "16/05/2026": "0 cm",
-      "17/05/2026": "0 cm"
+      "17/05/2026": "0 cm",
+      "18/05/2026": "0 cm"
     },
     "Envalira Antenes": {
-      "14/05/2026": "9 cm",
       "15/05/2026": "2 cm",
       "16/05/2026": "0 cm",
-      "17/05/2026": "3 cm"
+      "17/05/2026": "3 cm",
+      "18/05/2026": "0 cm"
     },
     "Les Fonts d'Arinsal": {
-      "14/05/2026": "0 cm",
       "15/05/2026": "5 cm",
       "16/05/2026": "2 cm",
-      "17/05/2026": "0 cm"
+      "17/05/2026": "0 cm",
+      "18/05/2026": "0 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
-      "descripcio": "Les noves nevades, han deixat fines plaques de neu ventada, sobre la neu vella, d´un espessor que facilita les pujades però encara dificulta les baixades, ja que és una neu humida. La neu encara és contínua als vessants nord de les valls de Ransol, Sorteny i Rialb, tot i que haurem de fer algunes aproximacions a peu.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_18052026160006.jpg"
+      "descripcio": "Les noves nevades, han deixat fines plaques de neu ventada, sobre la neu vella, d´un espessor que facilita les pujades però encara dificulta les baixades, ja que és una neu humida o encrostada. La neu encara és contínua als vessants nord de les valls de Ransol, Sorteny i Rialb, tot i que haurem de fer algunes aproximacions a peu.",
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_19052026160008.jpg"
     },
     "Comapedrosa": {
       "descripcio": "En general, trobarem neu contínua per sobre del Pla de l´Estany i del refugi del Comapedrosa. Els gruixos de neu són els habituals per l´època de l´any, amb nombrosos recorreguts que encara es poden fer amb esquí de muntanya entre Andorra l´Arièja i Catalunya. Si esperem a trepitjar la neu nova a que hagi regelat, amb nits serenes a final de setmana, serà més agradable esquiar-hi.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_18052026160006.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_19052026160009.jpg"
     },
     "Madriu-Perafita-Claror": {
       "descripcio": "L´accés a la Vall des de Grau Roig encara es pot fer esquiant per les pistes d´esquí. arreu. Encara hi ha neu als vessants sud d´Engaït, Pics Negres d´Envalira i l´Illa que permeten connectar amb el Madriu, Grau Roig i el Pas de la Casa.",
       "mapa_url": null
     }
   },
-  "estabilitat_text": "Amb l'augment de la temperatura diürna i la radiació solar, en el transcurs de la jornada el perill de purgues de neu humida augmentarà progressivament. Aquestes són de mida petita i fàcils de desencadenar. A més, són possibles allaus de lliscament basal en qualsevol moment. Això es dona especialment en el cas de zones de sortida molt inclinades.",
-  "qualitat_neu_text": "La neu recent reposa a sobre d'una crosta gelada. Amb la pujada de temperatures i la radiació solar, el mantell de neu es consolidarà. Durant la tarda la pluja causarà en alguns casos un lleuger debilitament del mantell de neu. Precaució a les zones amb esquerdes de lliscament basal. En cotes altes i a l'alta muntanya la quantitat de neu és molt variable a escala local."
+  "estabilitat_text": "Amb l'augment de la temperatura diürna i la radiació solar, en el transcurs de la jornada el perill de purgues de neu humida augmentarà progressivament. Aquestes són de mida petita i fàcils de desencadenar. Això es dona especialment en vessants molt inclinats i a la base de parets rocoses. A més, són possibles allaus de lliscament basal. Això s'aplica principalment en el cas de zones de sortida molt inclinades.",
+  "qualitat_neu_text": "La neu recent reposa a sobre d'una crosta gelada. Amb la pujada de temperatures i la radiació solar, el mantell de neu es consolidarà. Precaució a les zones amb esquerdes de lliscament basal. En cotes altes i a l'alta muntanya la quantitat de neu és molt variable a escala local."
 }

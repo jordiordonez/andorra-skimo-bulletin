@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2026-05-23T16:01:37.343971",
+  "timestamp_scraping": "2026-05-24T16:00:49.000232",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "23/05/2026 16:00",
-    "valid_fins": "24/05/2026",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1662.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_23052026160007.jpg"
+    "data_elaboracio": "24/05/2026 16:00",
+    "valid_fins": "26/05/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1663.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_24052026160010.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -21,39 +21,31 @@
       "tipus_sobrecarga": [
         "Espontani"
       ],
-      "nivell_perill": 2,
+      "nivell_perill": 1,
       "tendencia": "igual"
     },
     "zona_centre": {
-      "problemes": [
-        "neu humida"
-      ],
+      "problemes": [],
       "orientacions": [
         "ALL_DIRECTIONS"
       ],
-      "mides_allaus": [
-        1
-      ],
+      "mides_allaus": [],
       "tipus_sobrecarga": [
         "Espontani"
       ],
-      "nivell_perill": 2,
+      "nivell_perill": 1,
       "tendencia": "igual"
     },
     "zona_sud": {
-      "problemes": [
-        "neu humida"
-      ],
+      "problemes": [],
       "orientacions": [
         "ALL_DIRECTIONS"
       ],
-      "mides_allaus": [
-        1
-      ],
+      "mides_allaus": [],
       "tipus_sobrecarga": [
         "Espontani"
       ],
-      "nivell_perill": 2,
+      "nivell_perill": 1,
       "tendencia": "igual"
     }
   },
@@ -103,128 +95,128 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "19/05/2026": "0 cm",
       "20/05/2026": "0 cm",
       "21/05/2026": "0 cm",
-      "22/05/2026": "0 cm"
+      "22/05/2026": "0 cm",
+      "23/05/2026": "0 cm"
     },
     "Aixàs": {
-      "19/05/2026": "0 cm",
       "20/05/2026": "0 cm",
       "21/05/2026": "0 cm",
-      "22/05/2026": "0 cm"
+      "22/05/2026": "0 cm",
+      "23/05/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "19/05/2026": "0 cm",
       "20/05/2026": "0 cm",
       "21/05/2026": "0 cm",
-      "22/05/2026": "3 cm"
+      "22/05/2026": "0 cm",
+      "23/05/2026": "5 cm"
     },
     "Ransol - FEDA": {
-      "19/05/2026": "0 cm",
       "20/05/2026": "0 cm",
-      "21/05/2026": "1 cm",
-      "22/05/2026": "0 cm"
+      "21/05/2026": "0 cm",
+      "22/05/2026": "0 cm",
+      "23/05/2026": "0 cm"
     },
     "Fontverd": {
-      "19/05/2026": "0 cm",
       "20/05/2026": "0 cm",
       "21/05/2026": "0 cm",
-      "22/05/2026": "2 cm"
+      "22/05/2026": "0 cm",
+      "23/05/2026": "0 cm"
     },
     "Setúria": {
-      "19/05/2026": "0 cm",
       "20/05/2026": "0 cm",
-      "21/05/2026": "5 cm",
-      "22/05/2026": "0 cm"
+      "21/05/2026": "0 cm",
+      "22/05/2026": "0 cm",
+      "23/05/2026": "4 cm"
     },
     "Coll Ordino": {
-      "19/05/2026": "0 cm",
       "20/05/2026": "0 cm",
       "21/05/2026": "0 cm",
-      "22/05/2026": "50 cm"
+      "22/05/2026": "0 cm",
+      "23/05/2026": "0 cm"
     },
     "Bony de les Neres": {
-      "19/05/2026": "0 cm",
       "20/05/2026": "0 cm",
       "21/05/2026": "0 cm",
-      "22/05/2026": "0 cm"
+      "22/05/2026": "0 cm",
+      "23/05/2026": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "19/05/2026": "0 cm",
       "20/05/2026": "0 cm",
       "21/05/2026": "0 cm",
-      "22/05/2026": "0 cm"
+      "22/05/2026": "0 cm",
+      "23/05/2026": "0 cm"
     },
     "Caborreu": {
-      "19/05/2026": "0 cm",
       "20/05/2026": "0 cm",
       "21/05/2026": "0 cm",
-      "22/05/2026": "0 cm"
+      "22/05/2026": "0 cm",
+      "23/05/2026": "0 cm"
     },
     "Sorteny": {
-      "19/05/2026": "0 cm",
       "20/05/2026": "0 cm",
       "21/05/2026": "0 cm",
-      "22/05/2026": "0 cm"
+      "22/05/2026": "0 cm",
+      "23/05/2026": "0 cm"
     },
     "Coll Pa": {
-      "19/05/2026": "0 cm",
       "20/05/2026": "0 cm",
       "21/05/2026": "0 cm",
-      "22/05/2026": "1 cm"
+      "22/05/2026": "0 cm",
+      "23/05/2026": "0 cm"
     },
     "Perafita": {
-      "19/05/2026": "0 cm",
       "20/05/2026": "0 cm",
       "21/05/2026": "0 cm",
-      "22/05/2026": "0 cm"
+      "22/05/2026": "0 cm",
+      "23/05/2026": "1 cm"
     },
     "Tossa Espiolets": {
-      "19/05/2026": "0 cm",
       "20/05/2026": "0 cm",
       "21/05/2026": "0 cm",
-      "22/05/2026": "0 cm"
+      "22/05/2026": "0 cm",
+      "23/05/2026": "0 cm"
     },
     "La Solana": {
-      "19/05/2026": "0 cm",
       "20/05/2026": "0 cm",
       "21/05/2026": "0 cm",
-      "22/05/2026": "0 cm"
+      "22/05/2026": "0 cm",
+      "23/05/2026": "0 cm"
     },
     "Vall del Riu FEDA": {
-      "19/05/2026": "0 cm",
       "20/05/2026": "0 cm",
       "21/05/2026": "0 cm",
-      "22/05/2026": "0 cm"
+      "22/05/2026": "0 cm",
+      "23/05/2026": "0 cm"
     },
     "Envalira Antenes": {
-      "19/05/2026": "2 cm",
       "20/05/2026": "2 cm",
       "21/05/2026": "0 cm",
-      "22/05/2026": "1 cm"
+      "22/05/2026": "0 cm",
+      "23/05/2026": "2 cm"
     },
     "Les Fonts d'Arinsal": {
-      "19/05/2026": "0 cm",
       "20/05/2026": "2 cm",
-      "21/05/2026": "1 cm",
-      "22/05/2026": "0 cm"
+      "21/05/2026": "0 cm",
+      "22/05/2026": "0 cm",
+      "23/05/2026": "0 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
       "descripcio": "La neu nova ja s´ha humitejat i regelat a tots els vessants i altures. Encara trobem neu contínua als vessants nord de les valls de Ransol, Sorteny i Rialb, tot i que haurem de fer aproximacions a peu.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_23052026160007.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_24052026160010.jpg"
     },
     "Comapedrosa": {
       "descripcio": "En general, trobarem neu contínua per sobre del Pla de l´Estany i del refugi del Comapedrosa. Els gruixos de neu són els habituals per l´època de l´any, amb nombrosos recorreguts que encara es poden fer amb esquí de muntanya entre Andorra l´Arièja i Catalunya.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_23052026160007.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_24052026160010.jpg"
     },
     "Madriu-Perafita-Claror": {
       "descripcio": "L´accés a la Vall des de Grau Roig encara es pot fer esquiant per les pistes d´esquí, tot i que amb algunes aproximacions a peu. Encara hi ha neu als vessants sud d´Engaït, Pics Negres d´Envalira i l´Illa que permeten connectar amb el Madriu, Grau Roig i el Pas de la Casa.",
       "mapa_url": null
     }
   },
-  "estabilitat_text": "Amb l'augment de la temperatura diürna i la radiació solar, en el transcurs de la jornada el perill d'allaus de neu humida augmentarà progressivament al grau 2 (moderat). Això es dona especialment en vessants molt inclinats i a la base de parets rocoses. A més, són possibles allaus de lliscament basal. Això s'aplica principalment en el cas de zones de sortida molt inclinades.",
-  "qualitat_neu_text": "La neu recent reposa a sobre d'una crosta gelada. La superfície del mantell de neu es regelarà per formar una crosta portant i s'estovarà més d'hora que el dia abans. Precaució a les zones amb esquerdes de lliscament basal. En cotes altes i a l'alta muntanya la quantitat de neu és molt variable a escala local. El temps serà molt calorós."
+  "estabilitat_text": "Després d'una nit serena, al matí predominen més aviat condicions favorables en general, a partir d'aleshores augmentarà el perill d’allaus de neu molt humida. Poden desencadenar-se algunes allaus de lliscament basal també durant la nit o al matí. Això s'aplica principalment en el cas de zones de sortida molt inclinades.",
+  "qualitat_neu_text": "La superfície del mantell de neu es regelarà per formar una crosta portant i s'estovarà més d'hora que el dia abans. Precaució a les zones amb esquerdes de lliscament basal. En cotes altes i a l'alta muntanya la quantitat de neu és molt variable a escala local. El temps serà molt calorós."
 }

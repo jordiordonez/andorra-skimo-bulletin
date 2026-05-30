@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2026-05-29T18:12:14.936883",
+  "timestamp_scraping": "2026-05-30T16:04:47.034623",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "29/05/2026 16:00",
+    "data_elaboracio": "30/05/2026 16:00",
     "valid_fins": "01/06/2026",
     "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1669.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_29052026160012.jpg"
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_30052026160008.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -93,122 +93,122 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "25/05/2026": "0 cm",
       "26/05/2026": "0 cm",
       "27/05/2026": "0 cm",
-      "28/05/2026": "0 cm"
+      "28/05/2026": "0 cm",
+      "29/05/2026": "0 cm"
     },
     "Aixàs": {
-      "25/05/2026": "0 cm",
       "26/05/2026": "0 cm",
       "27/05/2026": "0 cm",
-      "28/05/2026": "0 cm"
+      "28/05/2026": "0 cm",
+      "29/05/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "25/05/2026": "0 cm",
       "26/05/2026": "0 cm",
       "27/05/2026": "0 cm",
-      "28/05/2026": "0 cm"
+      "28/05/2026": "0 cm",
+      "29/05/2026": "0 cm"
     },
     "Ransol - FEDA": {
-      "25/05/2026": "0 cm",
       "26/05/2026": "0 cm",
       "27/05/2026": "0 cm",
-      "28/05/2026": "0 cm"
+      "28/05/2026": "0 cm",
+      "29/05/2026": "0 cm"
     },
     "Fontverd": {
-      "25/05/2026": "0 cm",
       "26/05/2026": "0 cm",
       "27/05/2026": "0 cm",
-      "28/05/2026": "0 cm"
+      "28/05/2026": "0 cm",
+      "29/05/2026": "0 cm"
     },
     "Setúria": {
-      "25/05/2026": "0 cm",
       "26/05/2026": "0 cm",
       "27/05/2026": "0 cm",
-      "28/05/2026": "0 cm"
+      "28/05/2026": "0 cm",
+      "29/05/2026": "24 cm"
     },
     "Coll Ordino": {
-      "25/05/2026": "0 cm",
       "26/05/2026": "0 cm",
       "27/05/2026": "0 cm",
-      "28/05/2026": "0 cm"
+      "28/05/2026": "0 cm",
+      "29/05/2026": "0 cm"
     },
     "Bony de les Neres": {
-      "25/05/2026": "0 cm",
       "26/05/2026": "0 cm",
       "27/05/2026": "0 cm",
-      "28/05/2026": "0 cm"
+      "28/05/2026": "0 cm",
+      "29/05/2026": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "25/05/2026": "0 cm",
       "26/05/2026": "0 cm",
       "27/05/2026": "0 cm",
-      "28/05/2026": "0 cm"
+      "28/05/2026": "0 cm",
+      "29/05/2026": "0 cm"
     },
     "Caborreu": {
-      "25/05/2026": "0 cm",
       "26/05/2026": "0 cm",
       "27/05/2026": "0 cm",
-      "28/05/2026": "0 cm"
+      "28/05/2026": "0 cm",
+      "29/05/2026": "5 cm"
     },
     "Sorteny": {
-      "25/05/2026": "0 cm",
       "26/05/2026": "0 cm",
       "27/05/2026": "0 cm",
-      "28/05/2026": "0 cm"
+      "28/05/2026": "0 cm",
+      "29/05/2026": "0 cm"
     },
     "Coll Pa": {
-      "25/05/2026": "0 cm",
       "26/05/2026": "0 cm",
       "27/05/2026": "0 cm",
-      "28/05/2026": "0 cm"
+      "28/05/2026": "0 cm",
+      "29/05/2026": "0 cm"
     },
     "Perafita": {
-      "25/05/2026": "0 cm",
       "26/05/2026": "0 cm",
       "27/05/2026": "0 cm",
-      "28/05/2026": "0 cm"
+      "28/05/2026": "0 cm",
+      "29/05/2026": "1 cm"
     },
     "Tossa Espiolets": {
-      "25/05/2026": "0 cm",
       "26/05/2026": "0 cm",
       "27/05/2026": "0 cm",
-      "28/05/2026": "0 cm"
+      "28/05/2026": "0 cm",
+      "29/05/2026": "0 cm"
     },
     "La Solana": {
-      "25/05/2026": "0 cm",
       "26/05/2026": "0 cm",
       "27/05/2026": "0 cm",
-      "28/05/2026": "0 cm"
+      "28/05/2026": "0 cm",
+      "29/05/2026": "0 cm"
     },
     "Vall del Riu FEDA": {
-      "25/05/2026": "0 cm",
       "26/05/2026": "0 cm",
       "27/05/2026": "0 cm",
-      "28/05/2026": "0 cm"
+      "28/05/2026": "0 cm",
+      "29/05/2026": "0 cm"
     },
     "Envalira Antenes": {
-      "25/05/2026": "0 cm",
       "26/05/2026": "0 cm",
       "27/05/2026": "0 cm",
-      "28/05/2026": "0 cm"
+      "28/05/2026": "0 cm",
+      "29/05/2026": "0 cm"
     },
     "Les Fonts d'Arinsal": {
-      "25/05/2026": "0 cm",
       "26/05/2026": "0 cm",
       "27/05/2026": "0 cm",
-      "28/05/2026": "0 cm"
+      "28/05/2026": "0 cm",
+      "29/05/2026": "1 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
       "descripcio": "A les valls de Ransol i Sorteny només són esquiables algunes canals aïllades de les parets dels circs. Es poden pujar amb grampons i baixar esquiant, ja que són estretes. Tot i així, encara queden nombroses congestes que creuen els camins i haurem de vigilar les relliscades que poden conduir-nos cap als rius.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_29052026160012.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_30052026160008.jpg"
     },
     "Comapedrosa": {
       "descripcio": "Algunes cornises que queden a les crestes del Medacorba encara poden desprendre´s per la calor extrema. Els recorreguts d´esquí de muntanya són escassos, amb aproximacions a peu i discontinuïtats. Els ponts de neu i gel que encara cobreixen alguns trams de rius i torrents estan debilitats i els haurem de creuar amb precaució.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_29052026160012.jpg"
+      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_30052026160008.jpg"
     },
     "Madriu-Perafita-Claror": {
       "descripcio": "La nes és cada vegada més discontínua, amb la possibilitat de fer esquiant només algunes canals dels circs orientats a nord.",

@@ -1,49 +1,41 @@
 {
-  "timestamp_scraping": "2026-06-02T18:38:59.119445",
+  "timestamp_scraping": "2026-06-03T18:43:34.165614",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "02/06/2026 16:00",
-    "valid_fins": "03/06/2026",
-    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1673.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_02062026160007.jpg"
+    "data_elaboracio": "03/06/2026 16:00",
+    "valid_fins": "01/12/2026",
+    "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1674.pdf",
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_03062026160007.jpg"
   },
   "zones": {
     "zona_nord": {
       "problemes": [],
       "orientacions": [
-        "ALL_DIRECTIONS"
+        "NONE"
       ],
-      "mides_allaus": [
-        1
-      ],
-      "tipus_sobrecarga": [
-        "Espontani"
-      ],
-      "nivell_perill": 1,
+      "mides_allaus": [],
+      "tipus_sobrecarga": [],
+      "nivell_perill": 0,
       "tendencia": "igual"
     },
     "zona_centre": {
       "problemes": [],
       "orientacions": [
-        "ALL_DIRECTIONS"
+        "NONE"
       ],
       "mides_allaus": [],
-      "tipus_sobrecarga": [
-        "Espontani"
-      ],
-      "nivell_perill": 1,
+      "tipus_sobrecarga": [],
+      "nivell_perill": 0,
       "tendencia": "igual"
     },
     "zona_sud": {
       "problemes": [],
       "orientacions": [
-        "ALL_DIRECTIONS"
+        "NONE"
       ],
       "mides_allaus": [],
-      "tipus_sobrecarga": [
-        "Espontani"
-      ],
-      "nivell_perill": 1,
+      "tipus_sobrecarga": [],
+      "nivell_perill": 0,
       "tendencia": "igual"
     }
   },
@@ -93,128 +85,120 @@
   },
   "neu_nova": {
     "FEDA (Central)": {
-      "29/05/2026": "0 cm",
       "30/05/2026": "0 cm",
       "31/05/2026": "0 cm",
-      "01/06/2026": "0 cm"
+      "01/06/2026": "0 cm",
+      "02/06/2026": "0 cm"
     },
     "Aixàs": {
-      "29/05/2026": "0 cm",
       "30/05/2026": "0 cm",
       "31/05/2026": "0 cm",
-      "01/06/2026": "0 cm"
+      "01/06/2026": "0 cm",
+      "02/06/2026": "0 cm"
     },
     "Engolasters - FEDA": {
-      "29/05/2026": "0 cm",
       "30/05/2026": "0 cm",
       "31/05/2026": "0 cm",
-      "01/06/2026": "0 cm"
+      "01/06/2026": "0 cm",
+      "02/06/2026": "0 cm"
     },
     "Ransol - FEDA": {
-      "29/05/2026": "0 cm",
       "30/05/2026": "0 cm",
       "31/05/2026": "0 cm",
-      "01/06/2026": "0 cm"
+      "01/06/2026": "0 cm",
+      "02/06/2026": "0 cm"
     },
     "Fontverd": {
-      "29/05/2026": "0 cm",
       "30/05/2026": "0 cm",
       "31/05/2026": "0 cm",
-      "01/06/2026": "0 cm"
+      "01/06/2026": "0 cm",
+      "02/06/2026": "0 cm"
     },
     "Setúria": {
-      "29/05/2026": "0 cm",
       "30/05/2026": "0 cm",
       "31/05/2026": "0 cm",
-      "01/06/2026": "0 cm"
+      "01/06/2026": "0 cm",
+      "02/06/2026": "0 cm"
     },
     "Coll Ordino": {
-      "29/05/2026": "0 cm",
       "30/05/2026": "0 cm",
       "31/05/2026": "0 cm",
-      "01/06/2026": "0 cm"
+      "01/06/2026": "0 cm",
+      "02/06/2026": "0 cm"
     },
     "Bony de les Neres": {
-      "29/05/2026": "0 cm",
       "30/05/2026": "0 cm",
       "31/05/2026": "0 cm",
-      "01/06/2026": "0 cm"
+      "01/06/2026": "0 cm",
+      "02/06/2026": "0 cm"
     },
     "Grau Roig - FEDA": {
-      "29/05/2026": "0 cm",
       "30/05/2026": "0 cm",
       "31/05/2026": "0 cm",
-      "01/06/2026": "0 cm"
+      "01/06/2026": "0 cm",
+      "02/06/2026": "0 cm"
     },
     "Caborreu": {
-      "29/05/2026": "0 cm",
       "30/05/2026": "0 cm",
       "31/05/2026": "0 cm",
-      "01/06/2026": "0 cm"
+      "01/06/2026": "0 cm",
+      "02/06/2026": "0 cm"
     },
     "Sorteny": {
-      "29/05/2026": "0 cm",
       "30/05/2026": "0 cm",
       "31/05/2026": "0 cm",
-      "01/06/2026": "0 cm"
+      "01/06/2026": "0 cm",
+      "02/06/2026": "0 cm"
     },
     "Coll Pa": {
-      "29/05/2026": "0 cm",
       "30/05/2026": "0 cm",
       "31/05/2026": "0 cm",
-      "01/06/2026": "0 cm"
+      "01/06/2026": "0 cm",
+      "02/06/2026": "0 cm"
     },
     "Perafita": {
-      "29/05/2026": "0 cm",
       "30/05/2026": "0 cm",
       "31/05/2026": "0 cm",
-      "01/06/2026": "0 cm"
+      "01/06/2026": "0 cm",
+      "02/06/2026": "0 cm"
     },
     "Tossa Espiolets": {
-      "29/05/2026": "0 cm",
       "30/05/2026": "0 cm",
       "31/05/2026": "0 cm",
-      "01/06/2026": "0 cm"
+      "01/06/2026": "0 cm",
+      "02/06/2026": "0 cm"
     },
     "La Solana": {
-      "29/05/2026": "0 cm",
       "30/05/2026": "0 cm",
       "31/05/2026": "0 cm",
-      "01/06/2026": "0 cm"
+      "01/06/2026": "0 cm",
+      "02/06/2026": "0 cm"
     },
     "Vall del Riu FEDA": {
-      "29/05/2026": "0 cm",
       "30/05/2026": "0 cm",
       "31/05/2026": "0 cm",
-      "01/06/2026": "0 cm"
+      "01/06/2026": "0 cm",
+      "02/06/2026": "0 cm"
     },
     "Envalira Antenes": {
-      "29/05/2026": "0 cm",
       "30/05/2026": "0 cm",
       "31/05/2026": "0 cm",
-      "01/06/2026": "0 cm"
+      "01/06/2026": "0 cm",
+      "02/06/2026": "0 cm"
     },
     "Les Fonts d'Arinsal": {
-      "29/05/2026": "0 cm",
       "30/05/2026": "0 cm",
       "31/05/2026": "0 cm",
-      "01/06/2026": "0 cm"
+      "01/06/2026": "0 cm",
+      "02/06/2026": "0 cm"
     }
   },
   "espais_protegits": {
     "Sorteny": {
-      "descripcio": "A les valls de Ransol i Sorteny només són esquiables algunes canals aïllades de les parets dels circs. Es poden pujar amb grampons i baixar esquiant, ja que són estretes. Tot i així, encara queden nombroses congestes que creuen els camins i haurem de vigilar les relliscades que poden conduir-nos cap als rius.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_sorteny_02062026160007.jpg"
-    },
-    "Comapedrosa": {
-      "descripcio": "Algunes cornises que queden a les crestes del Medacorba encara poden desprendre´s per la calor extrema. Els recorreguts d´esquí de muntanya són escassos, amb aproximacions a peu i discontinuïtats. Els ponts de neu i gel que encara cobreixen alguns trams de rius i torrents estan debilitats i els haurem de creuar amb precaució.",
-      "mapa_url": "https://www.meteo.ad/Images/ico-neu/mapes/mapa_comapedrosa_02062026160007.jpg"
-    },
-    "Madriu-Perafita-Claror": {
-      "descripcio": "La nes és cada vegada més discontínua, amb la possibilitat de fer esquiant només algunes canals dels circs orientats a nord.",
+      "descripcio": "Aquest butlletí ha estat elaborat amb col·laboració amb Météo France i elaborat seguint les normes i recomanacions de l’European Avalanche Warning Services, del qual el Servei meteorològic Nacional n’és membre.",
       "mapa_url": null
     }
   },
-  "estabilitat_text": "Aquest és el darrer butlletí de perill d’allaus de l’hivern 2025/26. La publicació regular de butlletins d’allaus amb mapa del perill d’allaus es reprendrà a principis de desembre, segons la situació de neu.\r Després d'una nit serena, al matí predominen més aviat condicions favorables en general, a partir d'aleshores són d'esperar allaus de neu molt humida i de lliscament basal. Poden desencadenar-se algunes allaus de lliscament basal també durant la nit o al matí. Això s'aplica principalment en el cas de zones de sortida molt inclinades.",
-  "qualitat_neu_text": "La superfície del mantell de neu es regelarà per formar una crosta portant i s'estovarà ràpidament. Precaució a les zones amb esquerdes de lliscament basal. Hi ha poca neu. En cotes altes i a l'alta muntanya la quantitat de neu és molt variable a escala local. El temps serà calorós."
+  "estabilitat_text": "La publicació regular de butlletins d’allaus amb mapa del perill d’allaus es reprendrà a principis de desembre, segons la situació de neu.",
+  "qualitat_neu_text": ""
 }

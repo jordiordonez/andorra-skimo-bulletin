@@ -1,5 +1,5 @@
 {
-  "timestamp_scraping": "2026-06-06T16:05:37.066670",
+  "timestamp_scraping": "2026-06-08T17:53:26.525786",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
     "data_elaboracio": "04/06/2026 16:00",
@@ -83,122 +83,8 @@
       }
     }
   },
-  "neu_nova": {
-    "FEDA (Central)": {
-      "02/06/2026": "0 cm",
-      "03/06/2026": "0 cm",
-      "04/06/2026": "0 cm",
-      "05/06/2026": "0 cm"
-    },
-    "Aixàs": {
-      "02/06/2026": "0 cm",
-      "03/06/2026": "2 cm",
-      "04/06/2026": "1 cm",
-      "05/06/2026": "0 cm"
-    },
-    "Engolasters - FEDA": {
-      "02/06/2026": "0 cm",
-      "03/06/2026": "0 cm",
-      "04/06/2026": "1 cm",
-      "05/06/2026": "8 cm"
-    },
-    "Ransol - FEDA": {
-      "02/06/2026": "0 cm",
-      "03/06/2026": "1 cm",
-      "04/06/2026": "0 cm",
-      "05/06/2026": "0 cm"
-    },
-    "Fontverd": {
-      "02/06/2026": "0 cm",
-      "03/06/2026": "2 cm",
-      "04/06/2026": "0 cm",
-      "05/06/2026": "2 cm"
-    },
-    "Setúria": {
-      "02/06/2026": "0 cm",
-      "03/06/2026": "0 cm",
-      "04/06/2026": "0 cm",
-      "05/06/2026": "6 cm"
-    },
-    "Coll Ordino": {
-      "02/06/2026": "0 cm",
-      "03/06/2026": "5 cm",
-      "04/06/2026": "0 cm",
-      "05/06/2026": "1 cm"
-    },
-    "Bony de les Neres": {
-      "02/06/2026": "0 cm",
-      "03/06/2026": "0 cm",
-      "04/06/2026": "0 cm",
-      "05/06/2026": "0 cm"
-    },
-    "Grau Roig - FEDA": {
-      "02/06/2026": "0 cm",
-      "03/06/2026": "1 cm",
-      "04/06/2026": "0 cm",
-      "05/06/2026": "0 cm"
-    },
-    "Caborreu": {
-      "02/06/2026": "0 cm",
-      "03/06/2026": "4 cm",
-      "04/06/2026": "0 cm",
-      "05/06/2026": "0 cm"
-    },
-    "Sorteny": {
-      "02/06/2026": "0 cm",
-      "03/06/2026": "0 cm",
-      "04/06/2026": "0 cm",
-      "05/06/2026": "0 cm"
-    },
-    "Coll Pa": {
-      "02/06/2026": "0 cm",
-      "03/06/2026": "0 cm",
-      "04/06/2026": "0 cm",
-      "05/06/2026": "0 cm"
-    },
-    "Perafita": {
-      "02/06/2026": "0 cm",
-      "03/06/2026": "0 cm",
-      "04/06/2026": "0 cm",
-      "05/06/2026": "0 cm"
-    },
-    "Tossa Espiolets": {
-      "02/06/2026": "0 cm",
-      "03/06/2026": "0 cm",
-      "04/06/2026": "0 cm",
-      "05/06/2026": "0 cm"
-    },
-    "La Solana": {
-      "02/06/2026": "0 cm",
-      "03/06/2026": "0 cm",
-      "04/06/2026": "0 cm",
-      "05/06/2026": "0 cm"
-    },
-    "Vall del Riu FEDA": {
-      "02/06/2026": "0 cm",
-      "03/06/2026": "1 cm",
-      "04/06/2026": "0 cm",
-      "05/06/2026": "1 cm"
-    },
-    "Envalira Antenes": {
-      "02/06/2026": "0 cm",
-      "03/06/2026": "0 cm",
-      "04/06/2026": "0 cm",
-      "05/06/2026": "12 cm"
-    },
-    "Les Fonts d'Arinsal": {
-      "02/06/2026": "0 cm",
-      "03/06/2026": "0 cm",
-      "04/06/2026": "0 cm",
-      "05/06/2026": "0 cm"
-    }
-  },
-  "espais_protegits": {
-    "Sorteny": {
-      "descripcio": "Aquest butlletí ha estat elaborat amb col·laboració amb Météo France i elaborat seguint les normes i recomanacions de l’European Avalanche Warning Services, del qual el Servei meteorològic Nacional n’és membre.",
-      "mapa_url": null
-    }
-  },
+  "neu_nova": {},
+  "espais_protegits": {},
   "estabilitat_text": "La publicació regular de butlletins d’allaus amb mapa del perill d’allaus es reprendrà a principis de desembre, segons la situació de neu.",
   "qualitat_neu_text": ""
 }

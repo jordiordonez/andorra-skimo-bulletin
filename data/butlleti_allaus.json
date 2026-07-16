@@ -1,11 +1,11 @@
 {
-  "timestamp_scraping": "2026-07-15T16:21:31.153104",
+  "timestamp_scraping": "2026-07-16T16:16:44.976365",
   "url": "https://www.meteo.ad/estatneu",
   "metadata": {
-    "data_elaboracio": "04/06/2026 16:00",
+    "data_elaboracio": "16/07/2026 13:56",
     "valid_fins": "01/12/2026",
     "pdf_url": "https://www.meteo.adhttps://www.meteo.ad/uploads/neu/estatNeu1675.pdf",
-    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_04062026160007.jpg"
+    "mapa_url": "https://www.meteo.ad/images/ico-neu/mapes/mapa_general_16072026135622.jpg"
   },
   "zones": {
     "zona_nord": {
@@ -42,44 +42,44 @@
   "gruixos_mantell": {
     "nord": {
       "N": {
-        "altitud_mantell": "2100 m",
+        "altitud_mantell": "2900 m",
         "gruix_1500m": "0 cm",
         "gruix_2000m": "0 cm",
-        "gruix_2500m": "100 cm"
+        "gruix_2500m": "0 cm"
       },
       "S": {
-        "altitud_mantell": "2400 m",
+        "altitud_mantell": "2900 m",
         "gruix_1500m": "0 cm",
         "gruix_2000m": "0 cm",
-        "gruix_2500m": "80 cm"
+        "gruix_2500m": "0 cm"
       }
     },
     "centre": {
       "N": {
-        "altitud_mantell": "2100 m",
+        "altitud_mantell": "2900 m",
         "gruix_1500m": "0 cm",
         "gruix_2000m": "0 cm",
-        "gruix_2500m": "100 cm"
+        "gruix_2500m": "0 cm"
       },
       "S": {
-        "altitud_mantell": "2400 m",
+        "altitud_mantell": "2900 m",
         "gruix_1500m": "0 cm",
         "gruix_2000m": "0 cm",
-        "gruix_2500m": "70 cm"
+        "gruix_2500m": "0 cm"
       }
     },
     "sud": {
       "N": {
-        "altitud_mantell": "2100 m",
+        "altitud_mantell": "2900 m",
         "gruix_1500m": "0 cm",
         "gruix_2000m": "0 cm",
-        "gruix_2500m": "100 cm"
+        "gruix_2500m": "0 cm"
       },
       "S": {
-        "altitud_mantell": "2400 m",
+        "altitud_mantell": "2900 m",
         "gruix_1500m": "0 cm",
         "gruix_2000m": "0 cm",
-        "gruix_2500m": "70 cm"
+        "gruix_2500m": "0 cm"
       }
     }
   },
